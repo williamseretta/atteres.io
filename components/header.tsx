@@ -16,7 +16,7 @@ export function Header() {
             <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-primary text-primary-foreground">
               <TrendingUp className="w-5 h-5" />
             </div>
-            <span className="font-semibold text-lg text-foreground">atteres.io</span>
+            <span className="font-semibold text-lg text-foreground">TraderMind</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-6">

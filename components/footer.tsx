@@ -10,7 +10,7 @@ export function Footer() {
             <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-primary text-primary-foreground">
               <TrendingUp className="w-4 h-4" />
             </div>
-            <span className="font-semibold text-foreground">atteres.io</span>
+            <span className="font-semibold text-foreground">TraderMind</span>
           </Link>
           
           <p className="text-sm text-muted-foreground max-w-md mb-6">
@@ -41,7 +41,7 @@ export function Footer() {
             <p className="mb-2">
               Trading involves substantial risk of loss. This is not financial advice.
             </p>
-            <p>© {new Date().getFullYear()} atteres.io. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} TraderMind. All rights reserved.</p>
           </div>
         </div>
       </div>
