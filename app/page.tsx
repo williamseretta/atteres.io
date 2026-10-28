@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { Header } from "@/components/header"
 import { Hero } from "@/components/hero"
 import { PsychologySection } from "@/components/psychology-section"
@@ -12,6 +13,16 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <Hero />
+        <section className="px-6 py-8">
+          <div className="mx-auto max-w-6xl">
+            <Link
+              href="/golf"
+              className="inline-flex items-center rounded-full bg-blue-600 px-5 py-3 font-semibold text-white transition hover:bg-blue-500"
+            >
+              Golf Performance & Bag History →
+            </Link>
+          </div>
+        </section>
         <PsychologySection />
         <DailyTip />
         <EducationSection />
