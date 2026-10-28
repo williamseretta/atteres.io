@@ -10,6 +10,24 @@ const clubs = [
   { club: "3-hybrid", shots: 8, carry: 207 },
 ]
 
+const bag = [
+  { club: "Driver", model: "TaylorMade M5", loft: "10.5°", measured: null },
+  { club: "3-wood", model: "TaylorMade M6 Titanium", loft: "15°", measured: null },
+  { club: "5-wood", model: "TaylorMade M6 Titanium", loft: "19°", measured: null },
+  { club: "3-hybrid", model: "TaylorMade M6 Rescue", loft: "", measured: 207 },
+  { club: "4-hybrid", model: "TaylorMade M6 Rescue", loft: "", measured: 208 },
+  { club: "5-iron", model: "TaylorMade SIM", loft: "", measured: 183 },
+  { club: "6-iron", model: "TaylorMade SIM", loft: "", measured: 181 },
+  { club: "7-iron", model: "TaylorMade SIM", loft: "", measured: 151 },
+  { club: "8-iron", model: "TaylorMade SIM", loft: "", measured: 145 },
+  { club: "9-iron", model: "TaylorMade SIM", loft: "", measured: 129 },
+  { club: "Pitching wedge", model: "TaylorMade SIM", loft: "", measured: 121 },
+  { club: "10-iron / Approach", model: "TaylorMade SIM", loft: "", measured: 108 },
+  { club: "Wedge", model: "TaylorMade Hi-Toe", loft: "52°", measured: null },
+  { club: "Wedge", model: "TaylorMade Milled Grind", loft: "56°", measured: null },
+  { club: "Wedge", model: "TaylorMade Hi-Toe", loft: "60°", measured: null },
+]
+
 const hybrid3 = [
   { carry: 219, total: 247, speed: 141, launch: 12, apex: 66 },
   { carry: 201, total: 224, speed: 139, launch: 8, apex: 60 },
@@ -33,35 +51,19 @@ export default function GolfPage() {
         <h2>Measured average flat carry</h2>
         <div style={{display:"grid",gap:12,marginTop:20}}>
           {[...clubs].reverse().map(c => <div key={c.club} style={{display:"grid",gridTemplateColumns:"120px 1fr 80px",gap:12,alignItems:"center"}}>
-            <strong>{c.club}</strong>
-            <div style={{background:"rgba(127,127,127,.15)",borderRadius:99,overflow:"hidden",height:28}}><div style={{width:`${c.carry/max*100}%`,height:"100%",background:"currentColor",opacity:.75}} /></div>
-            <span><b>{c.carry}</b> yd</span>
+            <strong>{c.club}</strong><div style={{background:"rgba(127,127,127,.15)",borderRadius:99,overflow:"hidden",height:28}}><div style={{width:`${c.carry/max*100}%`,height:"100%",background:"currentColor",opacity:.75}} /></div><span><b>{c.carry}</b> yd</span>
           </div>)}
         </div>
       </section>
 
-      <section style={{marginTop:56,overflowX:"auto"}}>
-        <h2>Bag gapping</h2>
-        <table style={{width:"100%",borderCollapse:"collapse",fontSize:17}}><thead><tr><th align="left">Club</th><th>Shots</th><th>Avg carry</th><th>Gap</th></tr></thead><tbody>
-          {clubs.map((c,i)=><tr key={c.club} style={{borderTop:"1px solid rgba(127,127,127,.25)"}}><td style={{padding:"14px 4px"}}>{c.club}</td><td align="center">{c.shots}</td><td align="center"><b>{c.carry} yd</b></td><td align="center">{i ? `${c.carry-clubs[i-1].carry > 0 ? "+" : ""}${c.carry-clubs[i-1].carry}` : "—"}</td></tr>)}
-        </tbody></table>
-      </section>
+      <section style={{marginTop:56,overflowX:"auto"}}><h2>Bag gapping</h2><table style={{width:"100%",borderCollapse:"collapse",fontSize:17}}><thead><tr><th align="left">Club</th><th>Shots</th><th>Avg carry</th><th>Gap</th></tr></thead><tbody>{clubs.map((c,i)=><tr key={c.club} style={{borderTop:"1px solid rgba(127,127,127,.25)"}}><td style={{padding:"14px 4px"}}>{c.club}</td><td align="center">{c.shots}</td><td align="center"><b>{c.carry} yd</b></td><td align="center">{i ? `${c.carry-clubs[i-1].carry > 0 ? "+" : ""}${c.carry-clubs[i-1].carry}` : "—"}</td></tr>)}</tbody></table></section>
 
-      <section style={{marginTop:56}}>
-        <h2>3-hybrid individual shots</h2>
-        <p style={{opacity:.7}}>Individual values transcribed from the Toptracer screens supplied for this session.</p>
-        <div style={{overflowX:"auto"}}><table style={{width:"100%",borderCollapse:"collapse"}}><thead><tr><th>Carry</th><th>Total</th><th>Ball speed</th><th>Launch</th><th>Apex</th></tr></thead><tbody>
-          {hybrid3.map((s,i)=><tr key={i} style={{borderTop:"1px solid rgba(127,127,127,.25)"}}><td align="center">{s.carry} yd</td><td align="center">{s.total} yd</td><td align="center">{s.speed} mph</td><td align="center">{s.launch}°</td><td align="center">{s.apex} ft</td></tr>)}
-        </tbody></table></div>
-      </section>
+      <section style={{marginTop:56,overflowX:"auto"}}><h2>Current bag</h2><p style={{opacity:.7}}>Previously identified club inventory. A dash means no reliable measured carry has been saved yet.</p><table style={{width:"100%",borderCollapse:"collapse"}}><thead><tr><th align="left">Club</th><th align="left">Model</th><th>Loft</th><th>Measured carry</th></tr></thead><tbody>{bag.map((c,i)=><tr key={`${c.club}-${i}`} style={{borderTop:"1px solid rgba(127,127,127,.25)"}}><td style={{padding:"13px 4px"}}><b>{c.club}</b></td><td>{c.model}</td><td align="center">{c.loft || "—"}</td><td align="center">{c.measured ? `${c.measured} yd` : "—"}</td></tr>)}</tbody></table></section>
 
-      <section style={{marginTop:56,padding:24,border:"1px solid rgba(127,127,127,.3)",borderRadius:20}}>
-        <h2 style={{marginTop:0}}>What the data says</h2>
-        <p><b>Top-end overlap:</b> 4-hybrid averages 208 yd and 3-hybrid 207 yd, so they currently occupy essentially the same distance window.</p>
-        <p><b>Iron gaps:</b> 7i → 6i jumps 30 yd, while 6i → 5i is only 2 yd. These are the clearest areas to retest.</p>
-        <p><b>Speed:</b> the recorded 3-hybrid shots reached 142 mph ball speed and 222 yd carry. Improving strike and launch consistency is likely more valuable than simply swinging harder.</p>
-      </section>
-      <p style={{marginTop:40,opacity:.5}}>Source: Toptracer screenshots supplied by William. Session averages are displayed as measured; individual-shot data is added where clearly readable.</p>
+      <section style={{marginTop:56}}><h2>3-hybrid individual shots</h2><p style={{opacity:.7}}>Readable individual values retained from the supplied Toptracer screens. Unreadable values are not invented.</p><div style={{overflowX:"auto"}}><table style={{width:"100%",borderCollapse:"collapse"}}><thead><tr><th>Carry</th><th>Total</th><th>Ball speed</th><th>Launch</th><th>Apex</th></tr></thead><tbody>{hybrid3.map((s,i)=><tr key={i} style={{borderTop:"1px solid rgba(127,127,127,.25)"}}><td align="center">{s.carry} yd</td><td align="center">{s.total} yd</td><td align="center">{s.speed} mph</td><td align="center">{s.launch}°</td><td align="center">{s.apex} ft</td></tr>)}</tbody></table></div></section>
+
+      <section style={{marginTop:56,padding:24,border:"1px solid rgba(127,127,127,.3)",borderRadius:20}}><h2 style={{marginTop:0}}>What the data says</h2><p><b>Top-end overlap:</b> 4-hybrid averages 208 yd and 3-hybrid 207 yd, so they currently occupy essentially the same distance window.</p><p><b>Iron gaps:</b> 7i → 6i jumps 30 yd, while 6i → 5i is only 2 yd. These are the clearest areas to retest.</p><p><b>Speed:</b> recorded 3-hybrid shots reached 142 mph ball speed and 222 yd carry. Strike and launch consistency are useful metrics to track as the dataset grows.</p></section>
+      <p style={{marginTop:40,opacity:.5}}>Data retained from prior golf inventory and Toptracer screenshots. Measured values are shown only where they were previously recorded clearly.</p>
     </main>
   )
 }
