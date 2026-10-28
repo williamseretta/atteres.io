@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  async redirects() {
+    return [{ source: "/", has: [{ type: "host", value: "golf.atteres.io" }], destination: "/golf", permanent: false }];
+  },
   async rewrites() {
     return { beforeFiles: [
-      { source: "/", has: [{ type: "host", value: "golf.atteres.io" }], destination: "/golf/index.html" },
       { source: "/golf", destination: "/golf/index.html" },
     ] };
   },
