@@ -1,42 +1,38 @@
-const clubs = [
-  { club: "10i / Approach", shots: 6, carry: 108 }, { club: "PW", shots: 5, carry: 121 },
-  { club: "9i", shots: 7, carry: 129 }, { club: "8i", shots: 7, carry: 145 },
-  { club: "7i", shots: 7, carry: 151 }, { club: "6i", shots: 9, carry: 181 },
-  { club: "5i", shots: 6, carry: 183 }, { club: "4H", shots: 7, carry: 208 },
-  { club: "3H", shots: 8, carry: 207 },
+const clubs=[
+ {club:"10i / Approach",shots:6,carry:108},{club:"PW",shots:5,carry:121},{club:"9i",shots:7,carry:129},{club:"8i",shots:7,carry:145},{club:"7i",shots:7,carry:151},{club:"6i",shots:9,carry:181},{club:"5i",shots:6,carry:183},{club:"4H",shots:7,carry:208},{club:"3H",shots:8,carry:207},
 ]
-const bag = [
-  ["Driver","TaylorMade M5","10.5°"],["3W","TaylorMade M6 Titanium","15°"],["5W","TaylorMade M6 Titanium","19°"],
-  ["3H","TaylorMade M6 Rescue",""],["4H","TaylorMade M6 Rescue",""],
-  ["5i–Approach","TaylorMade irons","model identification varies in prior photos",""],
-  ["Wedge","TaylorMade Hi-Toe","52°"],["Wedge","TaylorMade Milled Grind","56°"],["Wedge","TaylorMade Hi-Toe","60°"],
-  ["Putter","Nike Method Core Drone BC 002",""],["Bag","Bag Boy stand bag / IDS",""],
+const equipment=[
+ ["Driver","TaylorMade M5","10.5°","Photo/history identification"],
+ ["3W","TaylorMade M5/M6 fairway","15°","Historical identifications conflict"],
+ ["5W / fairway","TaylorMade M5/M6 fairway","19° reported","Historical identifications conflict"],
+ ["3H","TaylorMade M6 Rescue","19° reported","Measured"],["4H","TaylorMade M6 Rescue","22° reported","Measured"],
+ ["Irons","TaylorMade","4–PW / approach reported","Model identified as M5 in earlier inventory; later photos were also labeled SIM — unverified"],
+ ["Wedges","TaylorMade Hi-Toe / Milled Grind","50/52°, 56°, 60° reported","Loft/model history varies by photo identification"],
+ ["Putter","Nike Method Core Drone BC 002","—","Historical inventory"],["Bag","Bag Boy IDS stand bag","black/blue","Historical inventory"],
 ]
-const hybrid3 = [
-  [219,247,141,12,66],[201,224,139,8,60],[202,223,130,13,70],[222,241,142,11,75],[206,236,135,11,54],[207,224,134,12,75],[200,213,136,11,80]
+const hybrid3=[[219,247,141,12,66],[201,224,139,8,60],[202,223,130,13,70],[222,241,142,11,75],[206,236,135,11,54],[207,224,134,12,75],[200,213,136,11,80]]
+const hybrid4=[[196,211,138,8,67],[215,227,140,14,106],[193,227,142,4,37],[214,235,138,13,73],[217,231,140,12,88],[214,226,137,14,97],[205,222,141,7,64]]
+const iron5=[[192,204,125,17,85],[187,202,124,16,74],[202,217,129,15,83],[187,206,123,15,65],[165,174,120,16,75]]
+const driver={carry:194,total:220,speed:139,launch:13,apex:67,landing:31,curve:"7 ft right",offline:"2 yd left"}
+const profile=["Age 39","6'1\"","205 lb","Intermediate golfer","Athletic / flexible / strong","Glove size C-ML"]
+const history=[
+ ["Sep. 2026","Golf set purchased for $700."],["Sep. 2026","Earlier inventory identified M5 driver, fairway woods, M6 Rescue 3H/4H, TaylorMade irons, Hi-Toe wedges, Nike Method Core putter and Bag Boy stand bag."],
+ ["Sep. 2026","Earlier estimated private-party value for the complete group: roughly $850–$1,100, midpoint about $950."],
+ ["Oct. 2026","Worked on club cleaning, grip replacement/removal/wrapping and club-brush use."],["Oct. 28, 2026","Toptracer session captured 62 measured shots across nine clubs and established the first measured carry baseline."],
 ]
-const hybrid4 = [
-  [196,211,138,8,67],[215,227,140,14,106],[193,227,142,4,37],[214,235,138,13,73],[217,231,140,12,88],[214,226,137,14,97],[205,222,141,7,64]
-]
-const iron5 = [
-  [192,204,125,17,85],[187,202,124,16,74],[202,217,129,15,83],[187,206,123,15,65],[165,174,120,16,75]
-]
-const driverBaseline = {carry:194,total:220,speed:139,launch:13,apex:67,landing:31,curve:"7 ft right",offline:"2 yd left"}
-
-function ShotTable({title, data}:{title:string,data:number[][]}) { return <section style={{marginTop:42}}><h3>{title}</h3><div style={{overflowX:"auto"}}><table style={{width:"100%",borderCollapse:"collapse"}}><thead><tr><th>Carry</th><th>Total</th><th>Ball speed</th><th>Launch</th><th>Apex</th></tr></thead><tbody>{data.map((s,i)=><tr key={i} style={{borderTop:"1px solid rgba(127,127,127,.25)"}}>{s.map((v,j)=><td key={j} align="center" style={{padding:10}}>{v}{j<2?" yd":j===2?" mph":j===3?"°":" ft"}</td>)}</tr>)}</tbody></table></div></section> }
-
-export default function GolfPage(){
- const max=Math.max(...clubs.map(c=>c.carry)); const totalShots=clubs.reduce((n,c)=>n+c.shots,0)
- return <main style={{maxWidth:1100,margin:"0 auto",padding:"48px 20px 80px",fontFamily:"system-ui,sans-serif"}}>
-  <p style={{letterSpacing:2,textTransform:"uppercase",opacity:.6}}>atteres.io / golf</p><h1 style={{fontSize:"clamp(40px,7vw,72px)",margin:"8px 0"}}>Golf Performance</h1>
-  <p style={{fontSize:20,opacity:.7}}>Consolidated golf dataset · equipment, Toptracer sessions and individual shots</p>
-  <section style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(160px,1fr))",gap:12,marginTop:36}}>{[[totalShots,"Toptracer shots"],[9,"clubs measured"],[222,"best saved 3H carry"],[142,"peak saved hybrid speed"]].map(([v,l])=><div key={l} style={{padding:20,border:"1px solid rgba(127,127,127,.3)",borderRadius:18}}><div style={{fontSize:32,fontWeight:700}}>{v}</div><div style={{opacity:.65}}>{l}</div></div>)}</section>
-  <section style={{marginTop:50}}><h2>Carry map</h2><p style={{opacity:.65}}>Oct. 28, 2026 Toptracer session averages.</p><div style={{display:"grid",gap:12}}>{[...clubs].reverse().map(c=><div key={c.club} style={{display:"grid",gridTemplateColumns:"90px 1fr 80px",gap:12,alignItems:"center"}}><b>{c.club}</b><div style={{height:28,borderRadius:99,background:"rgba(127,127,127,.15)",overflow:"hidden"}}><div style={{height:"100%",width:`${c.carry/max*100}%`,background:"currentColor",opacity:.72}}/></div><span><b>{c.carry}</b> yd</span></div>)}</div></section>
-  <section style={{marginTop:50,overflowX:"auto"}}><h2>Gapping & sample size</h2><table style={{width:"100%",borderCollapse:"collapse"}}><thead><tr><th align="left">Club</th><th>Shots</th><th>Avg carry</th><th>Gap</th></tr></thead><tbody>{clubs.map((c,i)=><tr key={c.club} style={{borderTop:"1px solid rgba(127,127,127,.25)"}}><td style={{padding:12}}><b>{c.club}</b></td><td align="center">{c.shots}</td><td align="center">{c.carry} yd</td><td align="center">{i?`${c.carry-clubs[i-1].carry>=0?"+":""}${c.carry-clubs[i-1].carry} yd`:"—"}</td></tr>)}</tbody></table></section>
-  <section style={{marginTop:50}}><h2>Driver baseline</h2><p><b>{driverBaseline.carry} yd carry · {driverBaseline.total} yd total · {driverBaseline.speed} mph ball speed</b></p><p style={{opacity:.72}}>Launch {driverBaseline.launch}° · Apex {driverBaseline.apex} ft · Landing {driverBaseline.landing}° · Curve {driverBaseline.curve} · Offline {driverBaseline.offline}</p></section>
-  <section style={{marginTop:50}}><h2>Recovered individual shots</h2><p style={{opacity:.65}}>Only values that were readable and retained from uploaded Toptracer screens are included. Session averages above remain authoritative for the complete 62-shot session.</p><ShotTable title="3-hybrid" data={hybrid3}/><ShotTable title="4-hybrid" data={hybrid4}/><ShotTable title="5-iron" data={iron5}/></section>
-  <section style={{marginTop:50,overflowX:"auto"}}><h2>Equipment inventory</h2><table style={{width:"100%",borderCollapse:"collapse"}}><thead><tr><th align="left">Club</th><th align="left">Model</th><th align="left">Loft / note</th></tr></thead><tbody>{bag.map((b,i)=><tr key={i} style={{borderTop:"1px solid rgba(127,127,127,.25)"}}><td style={{padding:12}}><b>{b[0]}</b></td><td>{b[1]}</td><td>{b[2]||"—"}</td></tr>)}</tbody></table><p style={{opacity:.6}}>Older photo-based iron identifications conflict (M5/SIM), so the canonical dataset marks the iron model as unverified rather than inventing certainty.</p></section>
-  <section style={{marginTop:50,padding:24,border:"1px solid rgba(127,127,127,.3)",borderRadius:20}}><h2 style={{marginTop:0}}>Current findings</h2><p><b>Hybrid overlap:</b> 4H averages 208 yd versus 207 yd for 3H.</p><p><b>Largest iron gap:</b> 7i → 6i is +30 yd.</p><p><b>5i/6i overlap:</b> only +2 yd from 6i to 5i.</p><p><b>4H launch variability:</b> retained shots range from 4° to 14°, indicating substantial delivery/strike variation.</p><p><b>Next priority:</b> repeat sessions to establish stable playing carries and quantify dispersion before changing clubs based on a single session.</p></section>
-  <p style={{marginTop:42,opacity:.5}}>Canonical golf page. Raw measured values are separated from derived observations; missing or unreadable values are not fabricated.</p>
- </main>
-}
+function ShotTable({title,data}:{title:string,data:number[][]}){return <section style={{marginTop:36}}><h3>{title}</h3><div style={{overflowX:"auto"}}><table style={{width:"100%",borderCollapse:"collapse"}}><thead><tr><th>Carry</th><th>Total</th><th>Ball speed</th><th>Launch</th><th>Apex</th></tr></thead><tbody>{data.map((s,i)=><tr key={i} style={{borderTop:"1px solid rgba(127,127,127,.25)"}}>{s.map((v,j)=><td key={j} align="center" style={{padding:10}}>{v}{j<2?" yd":j===2?" mph":j===3?"°":" ft"}</td>)}</tr>)}</tbody></table></div></section>}
+export default function GolfPage(){const max=Math.max(...clubs.map(c=>c.carry));const total=clubs.reduce((n,c)=>n+c.shots,0);return <main style={{maxWidth:1120,margin:"0 auto",padding:"48px 20px 90px",fontFamily:"system-ui,sans-serif"}}>
+ <p style={{letterSpacing:2,textTransform:"uppercase",opacity:.6}}>atteres.io / golf</p><h1 style={{fontSize:"clamp(40px,7vw,72px)",margin:"8px 0"}}>Golf Performance</h1><p style={{fontSize:20,opacity:.7}}>Master dataset consolidated from prior golf chats, uploaded photos and Toptracer screens.</p>
+ <section style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(155px,1fr))",gap:12,marginTop:34}}>{[[total,"measured shots"],[9,"clubs measured"],[222,"best saved 3H carry"],[142,"peak hybrid ball speed"],["$700","set purchase"]].map(([v,l])=><div key={String(l)} style={{padding:20,border:"1px solid rgba(127,127,127,.3)",borderRadius:18}}><div style={{fontSize:30,fontWeight:750}}>{v}</div><div style={{opacity:.65}}>{l}</div></div>)}</section>
+ <section style={{marginTop:50}}><h2>Player profile</h2><div style={{display:"flex",flexWrap:"wrap",gap:9}}>{profile.map(x=><span key={x} style={{padding:"8px 12px",border:"1px solid rgba(127,127,127,.3)",borderRadius:99}}>{x}</span>)}</div></section>
+ <section style={{marginTop:50}}><h2>Measured carry map</h2><p style={{opacity:.65}}>Oct. 28, 2026 Toptracer session averages; these are the authoritative measured session averages.</p><div style={{display:"grid",gap:12}}>{[...clubs].reverse().map(c=><div key={c.club} style={{display:"grid",gridTemplateColumns:"90px 1fr 80px",gap:12,alignItems:"center"}}><b>{c.club}</b><div style={{height:28,borderRadius:99,background:"rgba(127,127,127,.15)",overflow:"hidden"}}><div style={{height:"100%",width:`${c.carry/max*100}%`,background:"currentColor",opacity:.72}}/></div><span><b>{c.carry}</b> yd</span></div>)}</div></section>
+ <section style={{marginTop:50,overflowX:"auto"}}><h2>Gapping & sample size</h2><table style={{width:"100%",borderCollapse:"collapse"}}><thead><tr><th align="left">Club</th><th>Shots</th><th>Avg flat carry</th><th>Gap</th></tr></thead><tbody>{clubs.map((c,i)=><tr key={c.club} style={{borderTop:"1px solid rgba(127,127,127,.25)"}}><td style={{padding:12}}><b>{c.club}</b></td><td align="center">{c.shots}</td><td align="center">{c.carry} yd</td><td align="center">{i?`${c.carry-clubs[i-1].carry>=0?"+":""}${c.carry-clubs[i-1].carry} yd`:"—"}</td></tr>)}</tbody></table></section>
+ <section style={{marginTop:50}}><h2>Driver baseline</h2><p><b>{driver.carry} yd carry · {driver.total} yd total · {driver.speed} mph ball speed</b></p><p style={{opacity:.72}}>Launch {driver.launch}° · Apex {driver.apex} ft · Landing {driver.landing}° · Curve {driver.curve} · Offline {driver.offline}</p></section>
+ <section style={{marginTop:50}}><h2>Recovered individual Toptracer shots</h2><p style={{opacity:.65}}>Only readable values retained from prior uploaded screens are shown. The complete session averages above are not reconstructed from these partial tables.</p><ShotTable title="3-hybrid" data={hybrid3}/><ShotTable title="4-hybrid" data={hybrid4}/><ShotTable title="5-iron" data={iron5}/></section>
+ <section style={{marginTop:50,overflowX:"auto"}}><h2>Equipment history</h2><table style={{width:"100%",borderCollapse:"collapse"}}><thead><tr><th align="left">Club</th><th align="left">Model</th><th align="left">Loft / configuration</th><th align="left">Status</th></tr></thead><tbody>{equipment.map((b,i)=><tr key={i} style={{borderTop:"1px solid rgba(127,127,127,.25)"}}><td style={{padding:12}}><b>{b[0]}</b></td><td>{b[1]}</td><td>{b[2]}</td><td>{b[3]}</td></tr>)}</tbody></table><p style={{opacity:.6}}>Historical photo identifications sometimes conflict. Conflicts are retained explicitly instead of silently selecting one identification.</p></section>
+ <section style={{marginTop:50}}><h2>Set value history</h2><p>Purchase price recorded: <b>$700</b>. An earlier photo-based valuation estimated the complete group at approximately <b>$850–$1,100</b> private-party, with a midpoint near <b>$950</b>. These are historical estimates, not current market quotes.</p></section>
+ <section style={{marginTop:50}}><h2>Golf history</h2>{history.map(([d,x])=><div key={d+x} style={{display:"grid",gridTemplateColumns:"110px 1fr",gap:16,padding:"12px 0",borderTop:"1px solid rgba(127,127,127,.2)"}}><b>{d}</b><span>{x}</span></div>)}</section>
+ <section style={{marginTop:50,padding:24,border:"1px solid rgba(127,127,127,.3)",borderRadius:20}}><h2 style={{marginTop:0}}>Performance findings</h2><p><b>Hybrid overlap:</b> 4H averages 208 yd and 3H 207 yd.</p><p><b>Largest measured gap:</b> 7i → 6i is +30 yd.</p><p><b>5i/6i overlap:</b> only +2 yd.</p><p><b>4H launch range:</b> retained shots span 4°–14°, showing substantial delivery/strike variation.</p><p><b>3H retained range:</b> 200–222 yd carry, with ball speed reaching 142 mph.</p><p><b>Data rule:</b> measured values stay separate from estimates and historical identifications. Missing screenshot values are never invented.</p></section>
+ <section style={{marginTop:50}}><h2>Maintenance & setup notes</h2><p>Prior golf chats also covered replacing/removing/wrapping grips, using a golf-club brush, cleaning the bag, towels and ball selection. Bag-cleaning guidance retained from the earlier discussion: empty/vacuum first, use mild soap and warm water, scrub gently, rinse at low pressure and air-dry open for 24–48 hours; avoid bleach, pressure washing, soaking and direct heat.</p></section>
+ <p style={{marginTop:42,opacity:.5}}>Canonical golf dataset. New sessions can be appended to this page while preserving the historical measurements above.</p>
+ </main>}
