@@ -1,0 +1,221 @@
+{
+  "date": "2026-10-28",
+  "source": "Toptracer screenshots uploaded in Golf Data/Summery",
+  "clubs": [
+    {
+      "id": "10i",
+      "name": "10-iron",
+      "carry": 108,
+      "count": 6,
+      "group": "irons",
+      "shots": []
+    },
+    {
+      "id": "PW",
+      "name": "Pitching wedge",
+      "carry": 121,
+      "count": 5,
+      "group": "wedges",
+      "shots": []
+    },
+    {
+      "id": "9i",
+      "name": "9-iron",
+      "carry": 129,
+      "count": 7,
+      "group": "irons",
+      "shots": []
+    },
+    {
+      "id": "8i",
+      "name": "8-iron",
+      "carry": 145,
+      "count": 7,
+      "group": "irons",
+      "shots": []
+    },
+    {
+      "id": "7i",
+      "name": "7-iron",
+      "carry": 151,
+      "count": 7,
+      "group": "irons",
+      "shots": []
+    },
+    {
+      "id": "6i",
+      "name": "6-iron",
+      "carry": 181,
+      "count": 9,
+      "group": "irons",
+      "shots": []
+    },
+    {
+      "id": "5i",
+      "name": "5-iron",
+      "carry": 183,
+      "count": 6,
+      "group": "irons",
+      "shots": [
+        {
+          "carry": 192,
+          "total": 204,
+          "speed": 125,
+          "launch": 17,
+          "apex": 85
+        },
+        {
+          "carry": 187,
+          "total": 206,
+          "speed": 123,
+          "launch": 15,
+          "apex": 65
+        },
+        {
+          "carry": 202,
+          "total": 217,
+          "speed": 129,
+          "launch": 15,
+          "apex": 83
+        },
+        {
+          "carry": 187,
+          "total": 202,
+          "speed": 124,
+          "launch": 16,
+          "apex": 74
+        },
+        {
+          "carry": 165,
+          "total": 174,
+          "speed": 120,
+          "launch": 16,
+          "apex": 75
+        }
+      ]
+    },
+    {
+      "id": "4HY",
+      "name": "4-hybrid",
+      "carry": 208,
+      "count": 7,
+      "group": "hybrids",
+      "shots": [
+        {
+          "carry": 196,
+          "total": 211,
+          "speed": 138,
+          "launch": 8,
+          "apex": 67
+        },
+        {
+          "carry": 215,
+          "total": 227,
+          "speed": 140,
+          "launch": 14,
+          "apex": 106
+        },
+        {
+          "carry": 193,
+          "total": 227,
+          "speed": 142,
+          "launch": 4,
+          "apex": 37
+        },
+        {
+          "carry": 214,
+          "total": 235,
+          "speed": 138,
+          "launch": 13,
+          "apex": 73
+        },
+        {
+          "carry": 217,
+          "total": 231,
+          "speed": 140,
+          "launch": 12,
+          "apex": 88
+        },
+        {
+          "carry": 214,
+          "total": 226,
+          "speed": 137,
+          "launch": 14,
+          "apex": 97
+        },
+        {
+          "carry": 205,
+          "total": 222,
+          "speed": 141,
+          "launch": 7,
+          "apex": 64
+        }
+      ]
+    },
+    {
+      "id": "3HY",
+      "name": "3-hybrid",
+      "carry": 207,
+      "count": 8,
+      "group": "hybrids",
+      "shots": [
+        {
+          "carry": 219,
+          "total": 247,
+          "speed": 141,
+          "launch": 12,
+          "apex": 66
+        },
+        {
+          "carry": 201,
+          "total": 224,
+          "speed": 139,
+          "launch": 8,
+          "apex": 60
+        },
+        {
+          "carry": 202,
+          "total": 223,
+          "speed": 130,
+          "launch": 13,
+          "apex": 70
+        },
+        {
+          "carry": 222,
+          "total": 241,
+          "speed": 142,
+          "launch": 11,
+          "apex": 75
+        },
+        {
+          "carry": 206,
+          "total": 236,
+          "speed": 135,
+          "launch": 11,
+          "apex": 54
+        },
+        {
+          "carry": 207,
+          "total": 224,
+          "speed": 134,
+          "launch": 12,
+          "apex": 75
+        },
+        {
+          "carry": 197,
+          "total": 221,
+          "speed": 138,
+          "launch": 8,
+          "apex": 52
+        },
+        {
+          "carry": 200,
+          "total": 213,
+          "speed": 136,
+          "launch": 11,
+          "apex": 80
+        }
+      ]
+    }
+  ]
+}
