@@ -20,6 +20,16 @@ function render(){
   const row=node('button','','bar-row');row.setAttribute('aria-pressed',String(c.id===selected));row.setAttribute('aria-label',`${c.name}: ${distance(c.carry)} ${unit} average carry, ${c.count} shots`);
   const track=node('span','','bar-track'),fill=node('span','','bar-fill');fill.style.setProperty('--w',`${c.carry/240*100}%`);track.append(fill);row.append(node('span',c.id,'club-label'),track,node('span',distance(c.carry),'bar-number'));row.onclick=()=>selectClub(c.id);chart.append(row);
  }
+ $('gap-carry-head').textContent=`Avg. flat carry (${unit})`;
+ $('gap-head').textContent=`Gap (${unit})`;
+ const gaps=$('gapping-rows');gaps.replaceChildren();
+ data.clubs.forEach((club,i)=>{
+  const gap=i?club.carry-data.clubs[i-1].carry:null;
+  const finding=gap===null?'Baseline':gap>20?'Large gap · retest':gap<=6?'Overlap / small gap · retest':'—';
+  const row=node('tr','',gap!==null&&(gap>20||gap<=6)?'gap-review':'');
+  for(const value of [club.id==='10i'?'10i / Approach':club.id,club.count,distance(club.carry),gap===null?'—':`${gap>=0?'+':''}${distance(gap)}`,finding])row.append(node('td',value));
+  gaps.append(row);
+ });
  const c=data.clubs.find(c=>c.id===selected);$('club-name').textContent=c.name;$('club-type').textContent=c.group==='hybrids'?'HYBRID':c.group==='wedges'?'WEDGE':'IRON';$('club-carry').textContent=distance(c.carry);$('club-unit').textContent=`${unit} average carry`;$('club-count').textContent=`${c.count} session shots`;
  const detail=$('club-detail');detail.replaceChildren();
  const grid=node('div','','club-detail-grid');
