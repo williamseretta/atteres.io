@@ -1,0 +1,455 @@
+{
+  "importedOn": "2026-10-28",
+  "coverage": {
+    "status": "Recovered accessible history; not a complete ChatGPT account export",
+    "shotRecords": 61,
+    "latestSessionShots": 62,
+    "historicalClubSummaries": 14,
+    "knownHistoricalShots": 141,
+    "missing": [
+      "One October 28 6-iron carry record.",
+      "Original image contents for historical filename-only screenshot cards could not be recovered; their names are indexed below.",
+      "A full account export is needed to certify that no inaccessible or unindexed older chat is missing."
+    ]
+  },
+  "historicalSessions": [
+    {
+      "date": "2026-10-23",
+      "club": "Driver",
+      "count": 9,
+      "carry": 212,
+      "source": "Golf Data/Summery: prior ChatGPT transcription of Toptracer session screens",
+      "verification": "Transcription; original screen unavailable"
+    },
+    {
+      "date": "2026-10-24",
+      "club": "Driver",
+      "count": 8,
+      "carry": 209,
+      "source": "Golf Data/Summery: prior ChatGPT transcription of Toptracer session screens",
+      "verification": "Transcription; original screen unavailable"
+    },
+    {
+      "date": "2026-10-21",
+      "club": "Driver",
+      "count": 15,
+      "carry": 193,
+      "source": "Golf Data/Summery: prior ChatGPT transcription of Toptracer session screens",
+      "verification": "Transcription; original screen unavailable"
+    },
+    {
+      "date": "2026-10-23",
+      "club": "5W",
+      "count": 6,
+      "carry": 198,
+      "source": "Golf Data/Summery: prior ChatGPT transcription of Toptracer session screens",
+      "verification": "Transcription; original screen unavailable"
+    },
+    {
+      "date": "2026-10-23",
+      "club": "3W",
+      "count": 8,
+      "carry": 193,
+      "source": "Golf Data/Summery: prior ChatGPT transcription of Toptracer session screens",
+      "verification": "Transcription; original screen unavailable"
+    },
+    {
+      "date": "2026-10-24",
+      "club": "4HY",
+      "count": 5,
+      "carry": 186,
+      "source": "Golf Data/Summery: prior ChatGPT transcription of Toptracer session screens",
+      "verification": "Transcription; original screen unavailable"
+    },
+    {
+      "date": "2026-10-23",
+      "club": "4HY",
+      "count": 13,
+      "carry": 181,
+      "source": "Golf Data/Summery: prior ChatGPT transcription of Toptracer session screens",
+      "verification": "Transcription; original screen unavailable"
+    },
+    {
+      "date": "2026-10-21",
+      "club": "4HY",
+      "count": 9,
+      "carry": 164,
+      "source": "Golf Data/Summery: prior ChatGPT transcription of Toptracer session screens",
+      "verification": "Transcription; original screen unavailable"
+    },
+    {
+      "date": "2026-10-23",
+      "club": "7i",
+      "count": 12,
+      "carry": 142,
+      "source": "Golf Data/Summery: prior ChatGPT transcription of Toptracer session screens",
+      "verification": "Transcription; original screen unavailable"
+    },
+    {
+      "date": "2026-10-24",
+      "club": "7i",
+      "count": 6,
+      "carry": 138,
+      "source": "Golf Data/Summery: prior ChatGPT transcription of Toptracer session screens",
+      "verification": "Transcription; original screen unavailable"
+    },
+    {
+      "date": "2026-10-24",
+      "club": "8i",
+      "count": 11,
+      "carry": 142,
+      "source": "Golf Data/Summery: prior ChatGPT transcription of Toptracer session screens",
+      "verification": "Transcription; original screen unavailable"
+    },
+    {
+      "date": "2026-10-21",
+      "club": "8i",
+      "count": 16,
+      "carry": 126,
+      "source": "Golf Data/Summery: prior ChatGPT transcription of Toptracer session screens",
+      "verification": "Transcription; original screen unavailable"
+    },
+    {
+      "date": "2026-10-24",
+      "club": "9i",
+      "count": 11,
+      "carry": 126,
+      "source": "Golf Data/Summery: prior ChatGPT transcription of Toptracer session screens",
+      "verification": "Transcription; original screen unavailable"
+    },
+    {
+      "date": "2026-10-21",
+      "club": "Lob wedge (52\u00b0 reported)",
+      "count": 12,
+      "carry": 94,
+      "source": "Golf Data/Summery: prior ChatGPT transcription of Toptracer session screens",
+      "verification": "Transcription; original screen unavailable"
+    }
+  ],
+  "partialSessionObservations": [
+    {
+      "date": "2026-10-21",
+      "club": "3HY",
+      "carry": 135,
+      "count": null,
+      "source": "Golf Data/Summery narrative; sample count not recorded"
+    }
+  ],
+  "driverBaseline": {
+    "kind": "Historical My Bag / multi-session baseline; not an individual shot or a dated session",
+    "carry": 194,
+    "total": 220,
+    "speed": 139,
+    "launch": 13,
+    "apex": 67,
+    "landing": 31,
+    "hang": 5.3,
+    "curveFt": 7,
+    "offlineYd": -2,
+    "source": "Golf Data/Summery driver baseline transcription"
+  },
+  "performanceHistory": [
+    {
+      "metric": "Longest shot",
+      "value": 297,
+      "unit": "yd",
+      "qualifier": "Approximate prior-chat record; carry versus total was not specified"
+    },
+    {
+      "metric": "Fastest ball speed",
+      "value": 156,
+      "unit": "mph",
+      "qualifier": "Approximate prior-chat record"
+    }
+  ],
+  "equipment": [
+    {
+      "item": "Driver",
+      "model": "TaylorMade M5 / SIM identification conflict",
+      "loft": "10.5\u00b0",
+      "shaft": "Tensei CK graphite reported",
+      "notes": "September identified M5; October initially identified SIM, later M5. Preserve as a photo-identification conflict."
+    },
+    {
+      "item": "3-wood",
+      "model": "TaylorMade M5 Titanium / M6 identification conflict",
+      "loft": "15\u00b0",
+      "shaft": "Tensei CK graphite reported",
+      "notes": "Both model labels appear in older photo interpretations."
+    },
+    {
+      "item": "5-wood",
+      "model": "TaylorMade M5 Titanium / M6 identification conflict",
+      "loft": "19\u00b0 reported",
+      "shaft": "Tensei CK graphite reported",
+      "notes": "The second fairway wood was initially listed with unknown loft."
+    },
+    {
+      "item": "3-hybrid",
+      "model": "TaylorMade M6 Rescue / M5 Rescue identification conflict",
+      "loft": "19\u00b0 reported",
+      "shaft": "Fujikura ATMOS graphite reported",
+      "notes": "Toptracer club label 3HY is a separate measurement label, not proof of a head model."
+    },
+    {
+      "item": "4-hybrid",
+      "model": "TaylorMade M6 Rescue / SIM Max identification conflict",
+      "loft": "22\u00b0 reported",
+      "shaft": "Graphite",
+      "notes": "Older October inventory also mentions a 25\u00b0 hybrid; its relationship to this club is unconfirmed."
+    },
+    {
+      "item": "Additional hybrid",
+      "model": "TaylorMade SIM Max reported",
+      "loft": "25\u00b0 reported",
+      "shaft": "Graphite",
+      "notes": "Appears in October photo inventory. Not assigned a measured carry."
+    },
+    {
+      "item": "Iron set",
+      "model": "TaylorMade M5 / SIM / SIM2 Max identification conflict",
+      "loft": "5, 6, 7, 8, 9, PW, A",
+      "shaft": "KBS MAX 85 Regular / REAX 85 / High Rev 2.0 115 g appear in earlier interpretations",
+      "notes": "Seven-club 5\u2013A set was reported. Shaft model-to-club pairing needs confirmation; do not infer multiple separate sets."
+    },
+    {
+      "item": "Wedge",
+      "model": "TaylorMade Hi-Toe / Milled Grind",
+      "loft": "50\u00b0/9\u00b0 or 52\u00b0/9\u00b0 reported",
+      "shaft": "Not confirmed",
+      "notes": "Loft identification conflicts between September and October."
+    },
+    {
+      "item": "Wedge",
+      "model": "TaylorMade Hi-Toe / Milled Grind",
+      "loft": "56\u00b0; bounce 10\u00b0 or 12\u00b0 reported",
+      "shaft": "Not confirmed",
+      "notes": "Bounce differs in historical interpretations."
+    },
+    {
+      "item": "Wedge",
+      "model": "TaylorMade Hi-Toe / Milled Grind",
+      "loft": "60\u00b0/10\u00b0 reported",
+      "shaft": "Not confirmed",
+      "notes": "Older photo inventory."
+    },
+    {
+      "item": "Putter",
+      "model": "Nike Method Core Drone BC 002",
+      "loft": "Not recorded",
+      "shaft": "Steel",
+      "notes": "Mallet shape, blue insert; model recorded from the uploaded sole image."
+    },
+    {
+      "item": "Golf bag",
+      "model": "Bag Boy IDS",
+      "loft": "Black / blue",
+      "shaft": "Not applicable",
+      "notes": "Individual dividers, stand/legs, storage pockets, straps, rain hood and headcovers recorded in earlier chats."
+    },
+    {
+      "item": "Glove",
+      "model": "Nike",
+      "loft": "C-S photographed; C-ML also reported historically",
+      "shaft": "Not applicable",
+      "notes": "Keep both sizing records rather than assuming they describe the same glove."
+    },
+    {
+      "item": "Club brush",
+      "model": "Grooveit Wet Club Scrub",
+      "loft": "Water reservoir / magnetic attachment",
+      "shaft": "Not applicable",
+      "notes": "Photographed in Using A Golf Club Brush, October 11."
+    },
+    {
+      "item": "Grips",
+      "model": "Lamkin and Golf Pride",
+      "loft": "Mixed collection",
+      "shaft": "Not applicable",
+      "notes": "Newer gray / black Lamkin and Golf Pride grips recorded alongside worn Golf Pride grips with red caps."
+    },
+    {
+      "item": "Balls & accessories",
+      "model": "Mixed brands; exact quantities unrecorded",
+      "loft": "Balls, boxed balls, headcovers, rain hood, towels",
+      "shaft": "Not applicable",
+      "notes": "Older inventory mentioned Titleist NXT Tour, TaylorMade, Bridgestone and Callaway. Premium model identification was conditional, not confirmed."
+    }
+  ],
+  "historicalIronLofts": {
+    "status": "Specifications quoted in prior M5 inventory, not verified measurements of these clubs",
+    "values": {
+      "5i": 22.5,
+      "6i": 26,
+      "7i": 30,
+      "8i": 34.5,
+      "9i": 39.5,
+      "PW": 45,
+      "AW": 50
+    }
+  },
+  "purchaseHistory": [
+    {
+      "date": "2026-09-10",
+      "type": "Recorded purchase",
+      "amount": 700,
+      "currency": "USD",
+      "notes": "Photographed collection, bag and accessories; recovered from earlier golf inventory history."
+    },
+    {
+      "date": "2026-09",
+      "type": "Historical used-value estimate",
+      "low": 850,
+      "high": 1100,
+      "currency": "USD",
+      "notes": "Prior estimate, not a current market quote."
+    },
+    {
+      "date": "2026-09",
+      "type": "Historical individual-sale estimate",
+      "low": 1015,
+      "high": 1405,
+      "currency": "USD",
+      "notes": "Earlier estimate changed as additional photos were interpreted."
+    },
+    {
+      "date": "2026-09-10",
+      "type": "Historical original-new equivalent estimate",
+      "low": 3700,
+      "high": 4200,
+      "currency": "USD",
+      "notes": "Approximate launch-price reconstruction in Identify TaylorMade M5; not present resale value."
+    }
+  ],
+  "maintenance": [
+    {
+      "topic": "Grips",
+      "recorded": "October 6 and October 26, 2026",
+      "notes": "Asked about replacement and overgrip tape. Photos showed new replacement Golf Pride grips beside worn grips. Completion of replacement was not confirmed."
+    },
+    {
+      "topic": "Headcovers",
+      "recorded": "September 6, 2026",
+      "notes": "Synthetic M5/M6 covers: prior chat discussed mild soap, damp microfiber, gentle brushing and air drying."
+    },
+    {
+      "topic": "Bag cleaning",
+      "recorded": "Earlier golf chats",
+      "notes": "Recorded plan: empty and vacuum; mild soap and warm water; gentle scrub; low-pressure rinse and open air drying. No completion date recorded."
+    },
+    {
+      "topic": "Club brush",
+      "recorded": "October 11, 2026",
+      "notes": "Water-reservoir Grooveit brush identified and use discussed."
+    },
+    {
+      "topic": "Balls",
+      "recorded": "September inventory",
+      "notes": "Mixed ball collection and condition-based sorting discussed; quantities and exact premium models not confirmed."
+    }
+  ],
+  "estimateHistory": [
+    {
+      "label": "Prior working carry ranges before October 28 retest",
+      "kind": "Earlier ChatGPT estimates, not measurements",
+      "values": {
+        "Driver": "200\u2013210 yd",
+        "3W": "165\u2013190 yd",
+        "5W": "185\u2013200 yd",
+        "3HY": "145\u2013165 yd",
+        "4HY": "175\u2013185 yd",
+        "6i": "145\u2013150 yd",
+        "7i": "140\u2013150 yd",
+        "8i": "130\u2013140 yd",
+        "9i": "125\u2013130 yd",
+        "PW": "105\u2013115 yd",
+        "52\u00b0": "90\u2013100 yd",
+        "56\u00b0": "80\u201390 yd",
+        "60\u00b0": "65\u201380 yd"
+      }
+    },
+    {
+      "label": "Superseded partial October 28 readings",
+      "kind": "Earlier transcription conflicts; excluded from shot totals",
+      "notes": "Early four-shot reads included 7i carry 153, PW carry 121 and AW carry 108 as fourth rows. Later full-sequence transcriptions instead list 151, 127 and 112. Latest full-sequence carries are used without attaching uncertain metrics from the earlier conflicting row."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Golf Data/Summery",
+      "scope": "Dated session summaries, full carry sequences, driver baseline, original hybrid images and equipment history"
+    },
+    {
+      "title": "Identify TaylorMade M5",
+      "scope": "September bag inventory, purchase context, historical pricing and accessories"
+    },
+    {
+      "title": "Identify TaylorMade Clubs",
+      "scope": "September inventory, shafts, bag identification and historical valuations"
+    },
+    {
+      "title": "Replace Golf Grips",
+      "scope": "October 6 and October 26 grip discussions"
+    },
+    {
+      "title": "Glove size explanation",
+      "scope": "October 25 photographed Nike glove size"
+    },
+    {
+      "title": "Using A Golf Club Brush",
+      "scope": "October 11 brush identification"
+    }
+  ],
+  "unrecoveredAttachmentReferences": [
+    "Screenshot 2026-10-26 at 1.16.17\u202fAM.png",
+    "Screenshot 2026-10-26 at 1.16.29\u202fAM.png",
+    "Screenshot 2026-10-26 at 1.16.43\u202fAM.png",
+    "Screenshot 2026-10-26 at 1.16.52\u202fAM.png",
+    "Screenshot 2026-10-26 at 1.17.10\u202fAM.png",
+    "Screenshot 2026-10-26 at 1.17.23\u202fAM.png",
+    "Screenshot 2026-10-26 at 1.17.37\u202fAM.png",
+    "Screenshot 2026-10-26 at 1.17.46\u202fAM.png",
+    "Screenshot 2026-10-26 at 1.17.55\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.45.38\u202fAM(1).png",
+    "Screenshot 2026-10-26 at 12.45.38\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.46.05\u202fAM(1).png",
+    "Screenshot 2026-10-26 at 12.46.05\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.46.16\u202fAM(1).png",
+    "Screenshot 2026-10-26 at 12.46.16\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.46.26\u202fAM(1).png",
+    "Screenshot 2026-10-26 at 12.46.26\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.46.37\u202fAM(1).png",
+    "Screenshot 2026-10-26 at 12.46.37\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.46.47\u202fAM(1).png",
+    "Screenshot 2026-10-26 at 12.46.47\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.46.57\u202fAM(1).png",
+    "Screenshot 2026-10-26 at 12.46.57\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.47.23\u202fAM(1).png",
+    "Screenshot 2026-10-26 at 12.47.23\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.49.54\u202fAM 2.png",
+    "Screenshot 2026-10-26 at 12.50.09\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.50.19\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.50.30\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.50.40\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.50.52\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.51.03\u202fAM(1).png",
+    "Screenshot 2026-10-26 at 12.51.03\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.51.53\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.52.05\u202fAM(1).png",
+    "Screenshot 2026-10-26 at 12.52.05\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.52.54\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.53.10\u202fAM(1).png",
+    "Screenshot 2026-10-26 at 12.53.10\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.53.21\u202fAM(1).png",
+    "Screenshot 2026-10-26 at 12.53.21\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.53.33\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.55.10\u202fAM.png",
+    "Screenshot 2026-10-26 at 12.55.24\u202fAM.png"
+  ],
+  "importNotes": [
+    "Repeated screenshot filenames with (1) suffixes are retained as references, not counted as additional shots.",
+    "All October 28 club counts are taken from the displayed Toptracer summary, not recomputed from partial shot details.",
+    "Carry-only rows have null fields for unavailable metrics.",
+    "Historical club/session summaries are not individual shot records and must not be added to the individual-shot total."
+  ]
+}
