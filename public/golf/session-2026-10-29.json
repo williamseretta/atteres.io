@@ -1,0 +1,179 @@
+{
+  "date": "2026-10-29",
+  "kind": "ranges",
+  "source": "Previously recovered October 29 Toptracer screenshot ranges",
+  "coverageNote": "Visible ranges only. Complete shot sequences, session averages, and shot counts are not established.",
+  "clubs": [
+    {
+      "id": "Driver",
+      "name": "Driver",
+      "group": "woods",
+      "carryRange": [
+        200,
+        230
+      ],
+      "totalRange": [
+        235,
+        269
+      ],
+      "speedLabel": "up to 145",
+      "approximate": false,
+      "note": "269 total",
+      "shots": [],
+      "count": null,
+      "carry": null
+    },
+    {
+      "id": "3W",
+      "name": "3W",
+      "group": "woods",
+      "carryRange": [
+        205,
+        230
+      ],
+      "totalRange": [
+        217,
+        266
+      ],
+      "speedLabel": "up to 146",
+      "approximate": false,
+      "note": "230 carry / 266 total",
+      "shots": [],
+      "count": null,
+      "carry": null
+    },
+    {
+      "id": "5W",
+      "name": "5W",
+      "group": "woods",
+      "carryRange": [
+        191,
+        217
+      ],
+      "totalRange": [
+        195,
+        240
+      ],
+      "speedLabel": "129–140",
+      "approximate": false,
+      "note": "217 carry / 233 total",
+      "shots": [],
+      "count": null,
+      "carry": null
+    },
+    {
+      "id": "4HY",
+      "name": "4H",
+      "group": "hybrids",
+      "carryRange": [
+        182,
+        210
+      ],
+      "totalRange": [
+        190,
+        229
+      ],
+      "speedLabel": "122–138",
+      "approximate": false,
+      "note": "210 carry / 226 total",
+      "shots": [],
+      "count": null,
+      "carry": null
+    },
+    {
+      "id": "7i",
+      "name": "7i",
+      "group": "irons",
+      "carryRange": [
+        150,
+        184
+      ],
+      "totalRange": [
+        158,
+        192
+      ],
+      "speedLabel": "up to 125",
+      "approximate": true,
+      "note": "184 carry / 192 total",
+      "shots": [],
+      "count": null,
+      "carry": null
+    },
+    {
+      "id": "8i",
+      "name": "8i",
+      "group": "irons",
+      "carryRange": [
+        135,
+        158
+      ],
+      "totalRange": [
+        139,
+        164
+      ],
+      "speedLabel": "99–113",
+      "approximate": false,
+      "note": "158 carry / 164 total",
+      "shots": [],
+      "count": null,
+      "carry": null
+    },
+    {
+      "id": "9i",
+      "name": "9i",
+      "group": "irons",
+      "carryRange": [
+        116,
+        149
+      ],
+      "totalRange": [
+        120,
+        151
+      ],
+      "speedLabel": "89–110",
+      "approximate": false,
+      "note": "149 carry / 151 total",
+      "shots": [],
+      "count": null,
+      "carry": null
+    },
+    {
+      "id": "10i",
+      "name": "10i / Approach",
+      "group": "wedges",
+      "carryRange": [
+        97,
+        113
+      ],
+      "totalRange": [
+        99,
+        115
+      ],
+      "speedLabel": "78–88",
+      "approximate": false,
+      "note": "tight 103–106 carry cluster",
+      "shots": [],
+      "count": null,
+      "carry": null
+    },
+    {
+      "id": "LW",
+      "name": "LW",
+      "group": "wedges",
+      "carryRange": [
+        68,
+        107
+      ],
+      "totalRange": [
+        69,
+        108
+      ],
+      "speedLabel": "64–84",
+      "approximate": false,
+      "note": "32–46° visible launch window",
+      "shots": [],
+      "count": null,
+      "carry": null
+    }
+  ]
+}
