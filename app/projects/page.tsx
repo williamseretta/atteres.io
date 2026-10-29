@@ -1,0 +1,3 @@
+import styles from '../home.module.css'
+export const metadata={title:'Projects — Atteres'}
+export default function Projects(){return <div className={styles.home}><header className={styles.header}><a className={styles.wordmark} href="/">atteres.</a><a href="/">← Home</a></header><main className={styles.simple}><p className={styles.eyebrow}>WORK & EXPLORATION</p><h1>Projects.</h1><p>A few things taking shape.</p><div className={styles.list}><a href="https://golf.atteres.io/golf">Atteres Golf <span>↗</span></a><a href="https://jaybrandriet.atteres.io/">Jay Brandriet Archive <span>↗</span></a><a href="/daytrade">Daytrade <span>↗</span></a></div></main></div>}

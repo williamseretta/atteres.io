@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'TraderMind | Day Trading Psychology & Education',
-  description: 'Master the mental game of day trading. Educational resources focused on psychology, discipline, and sustainable growth.',
+  title: 'Atteres — William Baird Seretta',
+  description: 'Golf, markets, ideas, and projects. A personal home for William Baird Seretta.',
   generator: 'v0.app',
   icons: {
     icon: [
