@@ -1,1 +1,10 @@
-#import-summary{color:#adc1cd;font-size:13px}.import-controls{display:flex;gap:20px;flex-wrap:wrap;margin-bottom:25px}.import-controls label{display:grid;gap:7px;font-size:12px}.import-controls select{padding:10px;border:1px solid #42545e;border-radius:7px;background:#20313c;color:#fff}.import-actions{display:flex;gap:18px;flex-wrap:wrap;font-size:12px;margin:20px 0}.carry-chart .club-label{min-width:100px;font-size:11px}.shot-panel .table-scroll{max-height:580px;overflow:auto}.shot-panel thead{position:sticky;top:0;background:#192a34}.import-notice{padding:17px;background:#203641;border-radius:9px;font-size:12px;line-height:1.7}.stat-grid strong{font-variant-numeric:tabular-nums}
+#import-summary{color:#adc1cd;font-size:13px}.import-controls{display:flex;gap:20px;flex-wrap:wrap;margin-bottom:25px}.import-controls label{display:grid;gap:7px;font-size:12px}.import-controls select{padding:10px;border:1px solid #42545e;border-radius:7px;background:#20313c;color:#fff}.import-actions{display:flex;gap:18px;flex-wrap:wrap;font-size:12px;margin:20px 0}.shot-panel .table-scroll{max-height:580px;overflow:auto}.shot-panel thead{position:sticky;top:0;background:#192a34}.import-notice{padding:17px;background:#203641;border-radius:9px;font-size:12px;line-height:1.7}.stat-grid strong{font-variant-numeric:tabular-nums}
+
+/* Reserve real grid space for club names so labels never overlap carry bars. */
+.carry-chart{gap:6px;min-height:0}
+.carry-chart .bar-row{grid-template-columns:minmax(120px,160px) minmax(0,1fr) 64px;gap:16px;min-height:42px;padding:7px 10px;align-items:center}
+.carry-chart .club-label{width:auto!important;min-width:0;font-size:12px;line-height:1.4;white-space:normal;overflow-wrap:break-word}
+.carry-chart .bar-track{min-width:0;width:100%}
+.carry-chart .bar-row>span:last-child{text-align:right;white-space:nowrap;font-size:12px;font-variant-numeric:tabular-nums}
+@media(max-width:600px){.carry-chart .bar-row{grid-template-columns:104px minmax(0,1fr) 48px;gap:10px;min-height:44px;padding:7px 4px}.carry-chart .club-label{font-size:11px}.carry-chart .bar-row>span:last-child{font-size:11px}}
+@media(max-width:360px){.carry-chart .bar-row{grid-template-columns:88px minmax(0,1fr) 42px;gap:7px}}
