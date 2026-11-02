@@ -18,14 +18,14 @@ const oct29=[
 const equipment=[['Driver','TaylorMade M5','10.5°'],['3W','TaylorMade M5/M6 Titanium','15°'],['5W','TaylorMade M5/M6 Titanium','19°'],['3H','TaylorMade M6 Rescue','19°'],['4H','TaylorMade M6 Rescue','22°'],['Irons','TaylorMade M5 / SIM identification conflict','4i–PW + approach'],['Wedges','TaylorMade Hi-Toe / Milled Grind','50° / 56° / 60°'],['Putter','Nike Method Core Drone BC 002','Mallet']]
 const blue='#3b82f6',border='#262b33',muted='#9299a6',panel='#101318',soft='#151922'
 const card={padding:20,border:`1px solid ${border}`,borderRadius:16,background:panel}
-const tabs=['Shot data','Overview','Bag','Sessions','Analysis'] as const
+const tabs=['Overview','Bag','Sessions','Analysis'] as const
 type Tab=typeof tabs[number]
 
 function Panel({title,children,sub}:{title:string,children:React.ReactNode,sub?:string}){return <section style={{...card}}><h3 style={{margin:'0 0 5px',fontSize:19}}>{title}</h3>{sub&&<p style={{margin:'0 0 18px',color:muted,fontSize:13,lineHeight:1.45}}>{sub}</p>}{children}</section>}
 function EmptyViz({children}:{children:React.ReactNode}){return <div style={{minHeight:190,border:`1px dashed ${border}`,borderRadius:12,display:'grid',placeItems:'center',padding:24,textAlign:'center',color:muted,background:'#0b0d11'}}>{children}</div>}
 
 export default function GolfPage(){
- const [tab,setTab]=useState<Tab>('Shot data'); const [day,setDay]=useState<'2026-10-29'|'2026-10-28'>('2026-10-29'); const [club,setClub]=useState('7i'); const [showShots,setShowShots]=useState(false)
+ const [tab,setTab]=useState<Tab>('Overview'); const [day,setDay]=useState<'2026-10-29'|'2026-10-28'>('2026-10-29'); const [club,setClub]=useState('7i'); const [showShots,setShowShots]=useState(false)
  const total=oct28.reduce((n,c)=>n+c.shots,0), max=Math.max(...oct28.map(c=>c.carry))
  const gaps=useMemo(()=>oct28.map((c,i)=>({...c,gap:i?c.carry-oct28[i-1].carry:null})),[])
  const selected=oct29.find(x=>x.club===club) || oct29[4]
@@ -34,8 +34,6 @@ export default function GolfPage(){
   <h1 style={{fontSize:'clamp(40px,7vw,72px)',lineHeight:1,margin:'10px 0 16px',letterSpacing:'-.045em',fontWeight:800}}>Golf Performance <span style={{color:blue}}>&</span> Data</h1>
   <p style={{fontSize:19,color:muted,maxWidth:850,lineHeight:1.6}}>A personal Toptracer analytics dashboard for distance, gapping, dispersion, shot shape, trajectory and progress over time.</p>
   <nav style={{display:'flex',gap:8,flexWrap:'wrap',margin:'28px 0 30px'}}>{tabs.map(t=><button key={t} onClick={()=>setTab(t)} style={{border:`1px solid ${tab===t?blue:border}`,background:tab===t?'#102344':panel,color:tab===t?'#fff':'#b7bdc8',padding:'10px 16px',borderRadius:999,fontWeight:750,cursor:'pointer'}}>{t}</button>)}</nav>
-
-  {tab==='Shot data'&&<section aria-label="Imported SwingSync shot data"><p style={{color:muted,lineHeight:1.5}}>November 1 export · 1,183 shots across 19 dates · August 31–October 29, 2026. Includes corrected 5 Wood labels. Use the filters below to explore every imported session.</p><iframe title="SwingSync shot analytics" src="/golf/index.html" style={{width:'100%',height:'min(1800px,85vh)',minHeight:700,border:`1px solid ${border}`,borderRadius:16,background:panel}}/><p><a href="/golf/index.html" style={{color:blue}}>Open full shot analytics</a> · <a href="/golf/swingsync-shots.csv" style={{color:blue}}>Download source CSV</a></p></section>}
 
   {tab==='Overview'&&<div style={{display:'grid',gap:18}}>
    <section style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(160px,1fr))',gap:10}}>{[['74.6','Golf Index'],['269 yd','best visible total'],['146 mph','peak visible speed'],[total,'Oct. 28 measured shots']].map(([v,l])=><div key={String(l)} style={card}><div style={{fontSize:30,fontWeight:800,color:blue}}>{v}</div><div style={{color:muted,fontSize:14,marginTop:3}}>{l}</div></div>)}</section>
