@@ -3,8 +3,8 @@ import styles from './home.module.css'
 export const metadata: Metadata = {title:'Atteres — William Baird Seretta',description:'Golf, daytrade, The Manic Moose, and projects. A home for the things I’m into.'}
 const destinations = [
   {number:'01',title:'Golf',description:'The game. The gear. The next round.',href:'/golf',icon:'⚑'},
-  {number:'02',title:'Daytrade',description:'Markets, mindset, and discipline.',href:'/daytrade',icon:'↗'},
-  {number:'03',title:'The Manic Moose',description:'A space for ideas and expression.',href:'/manic-moose',icon:'moose'},
+  {number:'02',title:'Daytrade',description:'Markets, mindset, and discipline.',href:'https://daytrade.atteres.io/',icon:'↗'},
+  {number:'03',title:'The Manic Moose',description:'A space for ideas and expression.',href:'https://themanicmoose.atteres.io/',icon:'moose'},
   {number:'04',title:'Projects',description:'Things I’m building and exploring.',href:'/projects',icon:'+'},
 ]
 export default function Home(){return <div className={styles.home}>
