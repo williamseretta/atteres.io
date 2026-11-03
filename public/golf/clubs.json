@@ -1,0 +1,25 @@
+{
+  "updatedOn": "2026-11-02",
+  "source": "User-confirmed wedge lofts",
+  "wedges": [
+    {
+      "id": "wedge-52",
+      "name": "52\u00b0 wedge",
+      "loftDegrees": 52,
+      "shotLabel": null
+    },
+    {
+      "id": "wedge-56",
+      "name": "56\u00b0 wedge",
+      "loftDegrees": 56,
+      "shotLabel": null
+    },
+    {
+      "id": "wedge-60",
+      "name": "60\u00b0 wedge",
+      "loftDegrees": 60,
+      "shotLabel": null
+    }
+  ],
+  "shotMappingNote": "Historical Lob Wedge shots have no recorded loft and are not assigned to an individual wedge."
+}
