@@ -31,3 +31,5 @@ main select,.import-controls select,.trace-panel select,#visual-shot-chart #heat
 #visual-shot-chart #heatmap-explorer .hm-frame{max-width:760px}
 @media(max-width:1000px){#visual-shot-chart #heatmap-explorer .an-controls{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:600px){#visual-shot-chart #heatmap-explorer .an-controls{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+#visual-shot-chart .trace-controls>label[hidden]{display:none!important}
