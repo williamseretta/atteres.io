@@ -22,3 +22,12 @@ main input[type=number],main input[type=date],main input[type=text]{border:1px s
 /* Compact selectors and equal-height overview cards. */
 main select,.import-controls select,.trace-panel select,#visual-shot-chart #heatmap-explorer .an-controls select,.an-controls select,.an-inspector select{min-height:34px;padding:6px 30px 6px 10px;font-size:12px;border-radius:8px;background-size:14px;background-position:right 9px center}
 .practice-overview{align-items:stretch}.practice-overview>#heatmap-explorer,.practice-overview>#analysis-compare{align-self:stretch;margin:0;box-sizing:border-box}.practice-overview #heatmap-explorer .an-controls{gap:8px}.practice-overview .an-controls label{font-size:11px;gap:5px}
+
+/* Heatmap exploration is part of Range View. */
+.practice-overview{grid-template-columns:minmax(0,1fr)}
+#visual-shot-chart>#heatmap-explorer{margin:24px 0;padding:22px 0 0;background:transparent;border:0;border-top:1px solid #30434c;border-radius:0}
+#visual-shot-chart>#heatmap-explorer h3{font-size:20px;margin:0 0 10px}
+#visual-shot-chart #heatmap-explorer .an-controls{grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+#visual-shot-chart #heatmap-explorer .hm-frame{max-width:760px}
+@media(max-width:1000px){#visual-shot-chart #heatmap-explorer .an-controls{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){#visual-shot-chart #heatmap-explorer .an-controls{grid-template-columns:repeat(2,minmax(0,1fr))}}
