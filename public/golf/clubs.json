@@ -69,15 +69,6 @@
       "note": null
     },
     {
-      "name": "4 Iron",
-      "category": "Irons",
-      "model": "TaylorMade SIM2",
-      "loft": null,
-      "shotLabel": "4 Iron",
-      "identification": "User-confirmed",
-      "note": null
-    },
-    {
       "name": "5 Iron",
       "category": "Irons",
       "model": "TaylorMade SIM2",
@@ -178,3 +169,4 @@
     }
   ]
 }
+
