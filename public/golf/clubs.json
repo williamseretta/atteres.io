@@ -1,6 +1,6 @@
 {
   "updatedOn": "2026-11-06",
-  "source": "Earlier golf equipment records and current user-confirmed wedge lofts",
+  "source": "Earlier equipment records, user-confirmed club models and wedge lofts",
   "wedges": [
     {
       "id": "wedge-52",
@@ -29,115 +29,115 @@
       "model": "TaylorMade M5",
       "loft": "10.5\u00b0",
       "shotLabel": "Driver",
-      "identification": "Identified in earlier photo discussion",
+      "identification": "User-confirmed",
       "note": "Loft shown is the recorded head marking; current sleeve and weight settings are not confirmed."
     },
     {
       "name": "3 Wood",
       "category": "Fairway woods",
-      "model": "TaylorMade M5 / M6 Titanium",
+      "model": "TaylorMade M5",
       "loft": "15\u00b0",
       "shotLabel": "3 Wood",
-      "identification": "M5 vs. M6 unresolved",
+      "identification": "User-confirmed",
       "note": null
     },
     {
       "name": "5 Wood",
       "category": "Fairway woods",
-      "model": "TaylorMade M5 / M6 Titanium",
+      "model": "TaylorMade M5",
       "loft": "19\u00b0",
       "shotLabel": "5 Wood",
-      "identification": "M5 vs. M6 unresolved",
+      "identification": "User-confirmed",
       "note": null
     },
     {
       "name": "3 Hybrid",
       "category": "Hybrids",
-      "model": "TaylorMade M6 Rescue",
+      "model": "TaylorMade M6",
       "loft": "19\u00b0",
       "shotLabel": "3 Hybrid",
-      "identification": "Previously recorded",
+      "identification": "User-confirmed",
       "note": null
     },
     {
       "name": "4 Hybrid",
       "category": "Hybrids",
-      "model": "TaylorMade M6 Rescue",
+      "model": "TaylorMade M6",
       "loft": "22\u00b0",
       "shotLabel": "4 Hybrid",
-      "identification": "Previously recorded",
+      "identification": "User-confirmed",
       "note": null
     },
     {
       "name": "4 Iron",
       "category": "Irons",
-      "model": "TaylorMade M5 / SIM",
+      "model": "TaylorMade SIM2",
       "loft": null,
       "shotLabel": "4 Iron",
-      "identification": "M5 vs. SIM unresolved",
+      "identification": "User-confirmed",
       "note": null
     },
     {
       "name": "5 Iron",
       "category": "Irons",
-      "model": "TaylorMade M5 / SIM",
+      "model": "TaylorMade SIM2",
       "loft": null,
       "shotLabel": "5 Iron",
-      "identification": "M5 vs. SIM unresolved",
+      "identification": "User-confirmed",
       "note": null
     },
     {
       "name": "6 Iron",
       "category": "Irons",
-      "model": "TaylorMade M5 / SIM",
+      "model": "TaylorMade SIM2",
       "loft": null,
       "shotLabel": "6 Iron",
-      "identification": "M5 vs. SIM unresolved",
+      "identification": "User-confirmed",
       "note": null
     },
     {
       "name": "7 Iron",
       "category": "Irons",
-      "model": "TaylorMade M5 / SIM",
+      "model": "TaylorMade SIM2",
       "loft": null,
       "shotLabel": "7 Iron",
-      "identification": "M5 vs. SIM unresolved",
+      "identification": "User-confirmed",
       "note": null
     },
     {
       "name": "8 Iron",
       "category": "Irons",
-      "model": "TaylorMade M5 / SIM",
+      "model": "TaylorMade SIM2",
       "loft": null,
       "shotLabel": "8 Iron",
-      "identification": "M5 vs. SIM unresolved",
+      "identification": "User-confirmed",
       "note": null
     },
     {
       "name": "9 Iron",
       "category": "Irons",
-      "model": "TaylorMade M5 / SIM",
+      "model": "TaylorMade SIM2",
       "loft": null,
       "shotLabel": "9 Iron",
-      "identification": "M5 vs. SIM unresolved",
+      "identification": "User-confirmed",
       "note": null
     },
     {
       "name": "Pitching Wedge",
       "category": "Irons",
-      "model": "TaylorMade M5 / SIM",
+      "model": "TaylorMade SIM2",
       "loft": null,
       "shotLabel": "Pitching Wedge",
-      "identification": "M5 vs. SIM unresolved",
+      "identification": "User-confirmed",
       "note": null
     },
     {
       "name": "Approach / 10 Iron",
       "category": "Irons",
-      "model": "TaylorMade M5 / SIM",
+      "model": "TaylorMade SIM2",
       "loft": null,
       "shotLabel": null,
-      "identification": "M5 vs. SIM unresolved",
+      "identification": "User-confirmed",
       "note": "Previously listed as approach / 10i; no matching club label in the current CSV."
     },
     {

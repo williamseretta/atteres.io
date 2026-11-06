@@ -5,7 +5,7 @@ const fmt=(v,u='')=>Number.isFinite(v)?v.toFixed(1)+u:'Not recorded';
 function detailList(entries){const dl=el('dl');for(const [k,v] of entries)dl.append(el('dt',k),el('dd',v));return dl}
 try{
  const responses=await Promise.all([fetch('/golf/clubs.json'),fetch('/golf/swingsync-data.json')]);if(responses.some(r=>!r.ok))throw Error();const [equipment,data]=await Promise.all(responses.map(r=>r.json()));
- host.replaceChildren(el('p','YOUR EQUIPMENT / FULL INVENTORY','eyebrow'),el('h2','Your entire bag.'),el('p','Equipment recovered from your earlier golf records, with your latest wedge lofts. Performance below uses all imported sessions; Carry map follows your selected filters.','caption'));
+ host.replaceChildren(el('p','YOUR EQUIPMENT / FULL INVENTORY','eyebrow'),el('h2','Your entire bag.'),el('p','Equipment recovered from your earlier golf records, with your confirmed models and wedge lofts. Performance below uses all imported sessions; Carry map follows your selected filters.','caption'));
  const summary=el('p',equipment.clubs.length+' clubs listed · '+data.shots.length.toLocaleString()+' imported shots','bag-summary');host.append(summary);
  const grid=el('div',undefined,'bag-club-grid');
  for(const club of equipment.clubs){
@@ -15,5 +15,5 @@ try{
   grid.append(card)
  }
  host.append(grid);
- const unmapped=data.shots.filter(s=>['Lob Wedge','Unspecified club'].includes(s.club));const note=el('details',undefined,'bag-unmapped');note.append(el('summary','Unassigned shot records'));for(const label of ['Lob Wedge','Unspecified club']){const rows=unmapped.filter(s=>s.club===label);note.append(el('p',label+': '+rows.length+' shots · '+fmt(mean(rows.map(s=>s.carry)),' yd')+' average carry. '+(label==='Lob Wedge'?'These records have no loft and cannot be assigned to your 52°, 56°, or 60° wedge.':'These records have no club identification.')))}host.append(note,el('p','Model alternatives are retained where the earlier identification was uncertain. Blank specifications have not been inferred. Inventory lists recorded equipment, including overlapping club options.','caption'));
+ const unmapped=data.shots.filter(s=>['Lob Wedge','Unspecified club'].includes(s.club));const note=el('details',undefined,'bag-unmapped');note.append(el('summary','Unassigned shot records'));for(const label of ['Lob Wedge','Unspecified club']){const rows=unmapped.filter(s=>s.club===label);note.append(el('p',label+': '+rows.length+' shots · '+fmt(mean(rows.map(s=>s.carry)),' yd')+' average carry. '+(label==='Lob Wedge'?'These records have no loft and cannot be assigned to your 52°, 56°, or 60° wedge.':'These records have no club identification.')))}host.append(note,el('p','Wedge model alternatives are retained where the earlier identification was uncertain. Blank specifications have not been inferred. Inventory lists recorded equipment, including overlapping club options.','caption'));
 }catch{host.replaceChildren(el('h2','Your bag'),el('p','Equipment could not load. Please reload.'))}
