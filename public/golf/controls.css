@@ -33,3 +33,5 @@ main select,.import-controls select,.trace-panel select,#visual-shot-chart #heat
 @media(max-width:600px){#visual-shot-chart #heatmap-explorer .an-controls{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
 #visual-shot-chart .trace-controls>label[hidden]{display:none!important}
+
+.dashboard-tabs{display:flex;gap:6px;overflow-x:auto;padding:6px;margin:22px 0;background:#17252f;border:1px solid #30434c;border-radius:12px}.dashboard-tabs button{flex:1;white-space:nowrap;background:transparent;color:#aabac4;border:1px solid transparent;border-radius:8px;padding:10px 16px;font-size:13px;cursor:pointer}.dashboard-tabs button[aria-selected=true]{background:#294d5b;border-color:#4d798b;color:#effaff}.dashboard-tabs button:focus-visible{outline:2px solid #69d9ff;outline-offset:2px}[role=tabpanel][hidden]{display:none!important}[role=tabpanel]{min-width:0}#panel-clubs #bag{margin-top:24px}.range-data-pair:empty{display:none}@media(max-width:600px){.dashboard-tabs button{flex:0 0 auto;padding:9px 12px}}
