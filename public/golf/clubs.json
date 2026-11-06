@@ -1,6 +1,6 @@
 {
-  "updatedOn": "2026-11-02",
-  "source": "User-confirmed wedge lofts",
+  "updatedOn": "2026-11-06",
+  "source": "Earlier golf equipment records and current user-confirmed wedge lofts",
   "wedges": [
     {
       "id": "wedge-52",
@@ -21,5 +21,160 @@
       "shotLabel": null
     }
   ],
-  "shotMappingNote": "Historical Lob Wedge shots have no recorded loft and are not assigned to an individual wedge."
+  "shotMappingNote": "Historical Lob Wedge shots have no recorded loft and are not assigned to an individual wedge.",
+  "clubs": [
+    {
+      "name": "Driver",
+      "category": "Driver",
+      "model": "TaylorMade M5",
+      "loft": "10.5\u00b0",
+      "shotLabel": "Driver",
+      "identification": "Identified in earlier photo discussion",
+      "note": "Loft shown is the recorded head marking; current sleeve and weight settings are not confirmed."
+    },
+    {
+      "name": "3 Wood",
+      "category": "Fairway woods",
+      "model": "TaylorMade M5 / M6 Titanium",
+      "loft": "15\u00b0",
+      "shotLabel": "3 Wood",
+      "identification": "M5 vs. M6 unresolved",
+      "note": null
+    },
+    {
+      "name": "5 Wood",
+      "category": "Fairway woods",
+      "model": "TaylorMade M5 / M6 Titanium",
+      "loft": "19\u00b0",
+      "shotLabel": "5 Wood",
+      "identification": "M5 vs. M6 unresolved",
+      "note": null
+    },
+    {
+      "name": "3 Hybrid",
+      "category": "Hybrids",
+      "model": "TaylorMade M6 Rescue",
+      "loft": "19\u00b0",
+      "shotLabel": "3 Hybrid",
+      "identification": "Previously recorded",
+      "note": null
+    },
+    {
+      "name": "4 Hybrid",
+      "category": "Hybrids",
+      "model": "TaylorMade M6 Rescue",
+      "loft": "22\u00b0",
+      "shotLabel": "4 Hybrid",
+      "identification": "Previously recorded",
+      "note": null
+    },
+    {
+      "name": "4 Iron",
+      "category": "Irons",
+      "model": "TaylorMade M5 / SIM",
+      "loft": null,
+      "shotLabel": "4 Iron",
+      "identification": "M5 vs. SIM unresolved",
+      "note": null
+    },
+    {
+      "name": "5 Iron",
+      "category": "Irons",
+      "model": "TaylorMade M5 / SIM",
+      "loft": null,
+      "shotLabel": "5 Iron",
+      "identification": "M5 vs. SIM unresolved",
+      "note": null
+    },
+    {
+      "name": "6 Iron",
+      "category": "Irons",
+      "model": "TaylorMade M5 / SIM",
+      "loft": null,
+      "shotLabel": "6 Iron",
+      "identification": "M5 vs. SIM unresolved",
+      "note": null
+    },
+    {
+      "name": "7 Iron",
+      "category": "Irons",
+      "model": "TaylorMade M5 / SIM",
+      "loft": null,
+      "shotLabel": "7 Iron",
+      "identification": "M5 vs. SIM unresolved",
+      "note": null
+    },
+    {
+      "name": "8 Iron",
+      "category": "Irons",
+      "model": "TaylorMade M5 / SIM",
+      "loft": null,
+      "shotLabel": "8 Iron",
+      "identification": "M5 vs. SIM unresolved",
+      "note": null
+    },
+    {
+      "name": "9 Iron",
+      "category": "Irons",
+      "model": "TaylorMade M5 / SIM",
+      "loft": null,
+      "shotLabel": "9 Iron",
+      "identification": "M5 vs. SIM unresolved",
+      "note": null
+    },
+    {
+      "name": "Pitching Wedge",
+      "category": "Irons",
+      "model": "TaylorMade M5 / SIM",
+      "loft": null,
+      "shotLabel": "Pitching Wedge",
+      "identification": "M5 vs. SIM unresolved",
+      "note": null
+    },
+    {
+      "name": "Approach / 10 Iron",
+      "category": "Irons",
+      "model": "TaylorMade M5 / SIM",
+      "loft": null,
+      "shotLabel": null,
+      "identification": "M5 vs. SIM unresolved",
+      "note": "Previously listed as approach / 10i; no matching club label in the current CSV."
+    },
+    {
+      "name": "52\u00b0 Wedge",
+      "category": "Wedges",
+      "model": "TaylorMade Hi-Toe / Milled Grind",
+      "loft": "52\u00b0",
+      "shotLabel": null,
+      "identification": "Loft user-confirmed; model unresolved",
+      "note": "Earlier records did not establish the model for each individual wedge."
+    },
+    {
+      "name": "56\u00b0 Wedge",
+      "category": "Wedges",
+      "model": "TaylorMade Hi-Toe / Milled Grind",
+      "loft": "56\u00b0",
+      "shotLabel": null,
+      "identification": "Loft user-confirmed; model unresolved",
+      "note": "Earlier records did not establish the model for each individual wedge."
+    },
+    {
+      "name": "60\u00b0 Wedge",
+      "category": "Wedges",
+      "model": "TaylorMade Hi-Toe / Milled Grind",
+      "loft": "60\u00b0",
+      "shotLabel": null,
+      "identification": "Loft user-confirmed; model unresolved",
+      "note": "Earlier records did not establish the model for each individual wedge."
+    },
+    {
+      "name": "Putter",
+      "category": "Putter",
+      "model": "Nike Method Core Drone BC 002",
+      "loft": null,
+      "shotLabel": null,
+      "identification": "Previously recorded",
+      "note": "Mallet putter."
+    }
+  ]
 }
