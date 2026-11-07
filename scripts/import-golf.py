@@ -16,3 +16,5 @@ for i,r in enumerate(rows):
 (out/'swingsync-data.json').write_text(json.dumps({'source':p.name,'distanceUnit':'yd','speedUnit':'mph','dateGrouping':'UTC date from source','shots':shots},separators=(',',':')))
 shutil.copyfile(p,out/'swingsync-shots.csv')
 print(f'Imported {len(shots)} shots across {len(set(s["date"] for s in shots))} dates')
+import runpy
+runpy.run_path(str(pathlib.Path(__file__).with_name('build-golf-performance.py')),run_name='__main__')

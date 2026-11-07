@@ -1,0 +1,143 @@
+{
+  "asOf": "2026-11-07",
+  "shots": 1454,
+  "sessions": 29,
+  "handicap": 24,
+  "accuracy": {
+    "onTarget": 20,
+    "zones": [
+      15,
+      9,
+      11,
+      7,
+      12,
+      8,
+      8,
+      10
+    ]
+  },
+  "patterns": [
+    [
+      "Driver",
+      "Baby Fade",
+      8,
+      "Pull",
+      11,
+      "Huge Slice",
+      13
+    ],
+    [
+      "Woods",
+      "Baby Fade",
+      6,
+      "Push",
+      10,
+      "Huge Hook",
+      10
+    ],
+    [
+      "Hybrids",
+      "Baby Draw",
+      8,
+      "Push",
+      7,
+      "Huge Hook",
+      15
+    ],
+    [
+      "Long Irons",
+      "Dead Straight",
+      17,
+      "Push",
+      17,
+      "Push Slice",
+      33
+    ],
+    [
+      "Short Irons",
+      "Dead Straight",
+      6,
+      "Push",
+      13,
+      "Huge Slice",
+      10
+    ],
+    [
+      "Wedges",
+      "Baby Draw",
+      5,
+      "Pull",
+      14,
+      "Push Slice",
+      5
+    ]
+  ],
+  "goodStreaks": [
+    [
+      "On target",
+      34,
+      12,
+      "Oct 29, shots 12\u201320",
+      "Nov 6, shot 39"
+    ],
+    [
+      "Good shots",
+      17,
+      6,
+      "Nov 4, shots 13\u201332",
+      "Nov 6, shot 39"
+    ],
+    [
+      "No mishits",
+      71,
+      34,
+      "Oct 29, shots 7\u201356",
+      "Nov 6, shot 14"
+    ],
+    [
+      "No tops",
+      571,
+      253,
+      "Oct 12, shot 50 \u2192 Oct 30, shot 49",
+      "Oct 30, shot 8"
+    ],
+    [
+      "No shanks",
+      542,
+      542,
+      "Oct 24, shot 36 \u2192 still active",
+      "Oct 24, shot 36"
+    ]
+  ],
+  "badStreaks": [
+    [
+      "No targets",
+      69,
+      39,
+      "Oct 29, shots 9\u201333",
+      "Nov 6, shot 14"
+    ],
+    [
+      "No good shots",
+      86,
+      45,
+      "Oct 29, shots 9\u201333",
+      "Nov 6, shot 14"
+    ],
+    [
+      "Mishits",
+      53,
+      17,
+      "Sep 6, shots 68\u201326",
+      "Nov 6, shot 20"
+    ],
+    [
+      "Tops",
+      6,
+      0,
+      "Sep 6, shots 5\u201336",
+      null
+    ]
+  ],
+  "mishitPercent": 36
+}
