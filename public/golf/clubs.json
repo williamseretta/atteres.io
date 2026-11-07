@@ -461,18 +461,20 @@
     {
       "name": "Putter",
       "category": "Putter",
-      "model": "Nike Method Core Drone BC 002",
+      "model": "Nike Blue Chip BC-002",
       "loft": null,
       "shotLabel": null,
       "identification": "Previously recorded",
-      "note": "Mallet putter.",
+      "note": "Blue face insert",
       "shaft": null,
       "flex": null,
       "length": null,
       "lie": null,
       "grip": "Golf Pride Pro Only Cord \u2014 Angled",
       "bounce": null,
-      "history": [],
+      "history": [
+        "Blue face insert clarified by user; earlier Method Core Drone identification corrected to BC-002 Blue Chip."
+      ],
       "sourceIds": [
         "inventory"
       ],
@@ -480,8 +482,8 @@
       "gripBrand": "Golf Pride",
       "gripModel": "Pro Only Cord",
       "gripShape": "Angled",
-      "image": "/golf/images/nike-drone.jpg",
-      "imageAlt": "Nike Method Core Drone putter",
+      "image": "/golf/images/nike-bc002.jpg",
+      "imageAlt": "Nike BC-002 putter with blue face insert",
       "imageCaption": "Representative model image"
     }
   ],
@@ -584,6 +586,7 @@
     "m6-hybrid": "TaylorMade M6 Rescue product imagery",
     "sim2-max": "TaylorMade SIM2 Max product imagery",
     "hi-toe": "TaylorMade Hi-Toe product imagery",
-    "nike-drone": "Rock Bottom Golf Nike Method Core Drone product imagery"
+    "nike-drone": "Rock Bottom Golf Nike Method Core Drone product imagery",
+    "nike-bc002": "SidelineSwap BC-002 product reference photograph"
   }
 }
