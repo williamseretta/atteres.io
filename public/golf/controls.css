@@ -41,3 +41,10 @@ main select,.import-controls select,.trace-panel select,#visual-shot-chart #heat
 /* Club inventory: one club per row at every screen size. */
 #my-clubs .bag-club-grid{grid-template-columns:minmax(0,1fr)}
 
+/* Prominent dashboard navigation. */
+.dashboard-tabs{gap:8px;padding:8px;margin:26px 0;background:#10212b;border:1px solid #547181;box-shadow:0 5px 18px #00000024}
+.dashboard-tabs button{font-size:15px;font-weight:750;letter-spacing:.02em;padding:14px 20px;color:#d9e8ef;background:#20333f;border-color:#385363;min-height:48px;transition:background .15s,border-color .15s,color .15s}
+.dashboard-tabs button:hover{background:#304f60;border-color:#70a7bc;color:#fff}
+.dashboard-tabs button[aria-selected=true]{background:#69d9ff;border-color:#9ce6ff;color:#10212b;box-shadow:0 2px 8px #00000022}
+@media(max-width:600px){.dashboard-tabs button{font-size:14px;padding:12px 16px}}
+
