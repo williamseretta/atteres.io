@@ -35,7 +35,7 @@
       "flex": null,
       "length": null,
       "lie": null,
-      "grip": "Golf Pride replacement grip \u2014 model / size unrecorded",
+      "grip": "Golf Pride MCC Plus4 Align Max \u2014 Midsize",
       "bounce": null,
       "history": [
         "10.5\u00b0 was identified as the head marking. Current effective loft, sleeve position and weight positions are unconfirmed.",
@@ -45,7 +45,10 @@
         "identification",
         "slice"
       ],
-      "gripStatus": "User-confirmed installation"
+      "gripStatus": "User-confirmed model, size and installation",
+      "gripBrand": "Golf Pride",
+      "gripModel": "MCC Plus4 Align Max",
+      "gripSize": "Midsize"
     },
     {
       "name": "3 Wood",
@@ -59,13 +62,16 @@
       "flex": null,
       "length": null,
       "lie": null,
-      "grip": "Golf Pride replacement grip \u2014 model / size unrecorded",
+      "grip": "Golf Pride MCC Plus4 Align Max \u2014 Midsize",
       "bounce": null,
       "history": [],
       "sourceIds": [
         "inventory"
       ],
-      "gripStatus": "User-confirmed installation"
+      "gripStatus": "User-confirmed model, size and installation",
+      "gripBrand": "Golf Pride",
+      "gripModel": "MCC Plus4 Align Max",
+      "gripSize": "Midsize"
     },
     {
       "name": "5 Wood",
@@ -79,7 +85,7 @@
       "flex": null,
       "length": null,
       "lie": null,
-      "grip": "Golf Pride replacement grip \u2014 model / size unrecorded",
+      "grip": "Golf Pride MCC Plus4 Align Max \u2014 Midsize",
       "bounce": null,
       "history": [
         "Earlier inventory left the second fairway loft as TBD. The retained 19\u00b0 value is a prior equipment-list entry, not a newly verified measurement."
@@ -87,7 +93,10 @@
       "sourceIds": [
         "inventory"
       ],
-      "gripStatus": "User-confirmed installation"
+      "gripStatus": "User-confirmed model, size and installation",
+      "gripBrand": "Golf Pride",
+      "gripModel": "MCC Plus4 Align Max",
+      "gripSize": "Midsize"
     },
     {
       "name": "3 Hybrid",
@@ -470,7 +479,7 @@
   "equipmentNotes": [
     {
       "title": "Grips",
-      "text": "User confirmed replacement grips are installed on Driver, 3 Wood and 5 Wood; all other clubs retain stock grips. Earlier photo discussion identified the replacements as Golf Pride. Exact replacement model, size and tape wraps are unrecorded.",
+      "text": "User-confirmed: Driver, 3 Wood and 5 Wood have Golf Pride MCC Plus4 Align Max grips in Midsize. All other clubs retain stock grips. Tape-wrap counts are unrecorded.",
       "sourceIds": [
         "grips"
       ]
