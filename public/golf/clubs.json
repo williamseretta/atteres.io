@@ -48,7 +48,10 @@
       "gripStatus": "User-confirmed model, size and installation",
       "gripBrand": "Golf Pride",
       "gripModel": "MCC Plus4 Align Max",
-      "gripSize": "Midsize"
+      "gripSize": "Midsize",
+      "image": "/golf/images/m5-driver.jpg",
+      "imageAlt": "TaylorMade M5 driver",
+      "imageCaption": "Representative model image"
     },
     {
       "name": "3 Wood",
@@ -71,7 +74,10 @@
       "gripStatus": "User-confirmed model, size and installation",
       "gripBrand": "Golf Pride",
       "gripModel": "MCC Plus4 Align Max",
-      "gripSize": "Midsize"
+      "gripSize": "Midsize",
+      "image": "/golf/images/m5-fairway.jpg",
+      "imageAlt": "TaylorMade M5 Titanium fairway wood",
+      "imageCaption": "Representative model image"
     },
     {
       "name": "5 Wood",
@@ -96,7 +102,10 @@
       "gripStatus": "User-confirmed model, size and installation",
       "gripBrand": "Golf Pride",
       "gripModel": "MCC Plus4 Align Max",
-      "gripSize": "Midsize"
+      "gripSize": "Midsize",
+      "image": "/golf/images/m5-fairway.jpg",
+      "imageAlt": "TaylorMade M5 Titanium fairway wood",
+      "imageCaption": "Representative model image"
     },
     {
       "name": "3 Hybrid",
@@ -116,7 +125,10 @@
       "sourceIds": [
         "inventory"
       ],
-      "gripStatus": "User-confirmed installation"
+      "gripStatus": "User-confirmed installation",
+      "image": "/golf/images/m6-hybrid.jpg",
+      "imageAlt": "TaylorMade M6 Rescue hybrid",
+      "imageCaption": "Representative model image"
     },
     {
       "name": "4 Hybrid",
@@ -136,7 +148,10 @@
       "sourceIds": [
         "inventory"
       ],
-      "gripStatus": "User-confirmed installation"
+      "gripStatus": "User-confirmed installation",
+      "image": "/golf/images/m6-hybrid.jpg",
+      "imageAlt": "TaylorMade M6 Rescue hybrid",
+      "imageCaption": "Representative model image"
     },
     {
       "name": "5 Iron",
@@ -165,7 +180,10 @@
       ],
       "gripStatus": "User-confirmed installation",
       "loftDegrees": 21.5,
-      "loftBasis": "TaylorMade published standard specification; not individually measured"
+      "loftBasis": "TaylorMade published standard specification; not individually measured",
+      "image": "/golf/images/sim2-max.jpg",
+      "imageAlt": "TaylorMade SIM2 Max iron",
+      "imageCaption": "Representative model image"
     },
     {
       "name": "6 Iron",
@@ -194,7 +212,10 @@
       ],
       "gripStatus": "User-confirmed installation",
       "loftDegrees": 25,
-      "loftBasis": "TaylorMade published standard specification; not individually measured"
+      "loftBasis": "TaylorMade published standard specification; not individually measured",
+      "image": "/golf/images/sim2-max.jpg",
+      "imageAlt": "TaylorMade SIM2 Max iron",
+      "imageCaption": "Representative model image"
     },
     {
       "name": "7 Iron",
@@ -223,7 +244,10 @@
       ],
       "gripStatus": "User-confirmed installation",
       "loftDegrees": 28.5,
-      "loftBasis": "TaylorMade published standard specification; not individually measured"
+      "loftBasis": "TaylorMade published standard specification; not individually measured",
+      "image": "/golf/images/sim2-max.jpg",
+      "imageAlt": "TaylorMade SIM2 Max iron",
+      "imageCaption": "Representative model image"
     },
     {
       "name": "8 Iron",
@@ -252,7 +276,10 @@
       ],
       "gripStatus": "User-confirmed installation",
       "loftDegrees": 32.5,
-      "loftBasis": "TaylorMade published standard specification; not individually measured"
+      "loftBasis": "TaylorMade published standard specification; not individually measured",
+      "image": "/golf/images/sim2-max.jpg",
+      "imageAlt": "TaylorMade SIM2 Max iron",
+      "imageCaption": "Representative model image"
     },
     {
       "name": "9 Iron",
@@ -281,7 +308,10 @@
       ],
       "gripStatus": "User-confirmed installation",
       "loftDegrees": 38,
-      "loftBasis": "TaylorMade published standard specification; not individually measured"
+      "loftBasis": "TaylorMade published standard specification; not individually measured",
+      "image": "/golf/images/sim2-max.jpg",
+      "imageAlt": "TaylorMade SIM2 Max iron",
+      "imageCaption": "Representative model image"
     },
     {
       "name": "Pitching Wedge",
@@ -310,7 +340,10 @@
       ],
       "gripStatus": "User-confirmed installation",
       "loftDegrees": 43.5,
-      "loftBasis": "TaylorMade published standard specification; not individually measured"
+      "loftBasis": "TaylorMade published standard specification; not individually measured",
+      "image": "/golf/images/sim2-max.jpg",
+      "imageAlt": "TaylorMade SIM2 Max iron",
+      "imageCaption": "Representative model image"
     },
     {
       "name": "Approach / 10 Iron",
@@ -339,7 +372,10 @@
       ],
       "gripStatus": "User-confirmed installation",
       "loftDegrees": 49,
-      "loftBasis": "TaylorMade published standard specification; not individually measured"
+      "loftBasis": "TaylorMade published standard specification; not individually measured",
+      "image": "/golf/images/sim2-max.jpg",
+      "imageAlt": "TaylorMade SIM2 Max iron",
+      "imageCaption": "Representative model image"
     },
     {
       "name": "52\u00b0 Wedge",
@@ -363,7 +399,10 @@
         "identification",
         "inventory"
       ],
-      "gripStatus": "User-confirmed installation"
+      "gripStatus": "User-confirmed installation",
+      "image": "/golf/images/hi-toe.jpg",
+      "imageAlt": "TaylorMade Hi-Toe wedge model reference",
+      "imageCaption": "Hi-Toe model reference"
     },
     {
       "name": "56\u00b0 Wedge",
@@ -387,7 +426,10 @@
         "identification",
         "inventory"
       ],
-      "gripStatus": "User-confirmed installation"
+      "gripStatus": "User-confirmed installation",
+      "image": "/golf/images/hi-toe.jpg",
+      "imageAlt": "TaylorMade Hi-Toe wedge model reference",
+      "imageCaption": "Hi-Toe model reference"
     },
     {
       "name": "60\u00b0 Wedge",
@@ -411,7 +453,10 @@
         "identification",
         "inventory"
       ],
-      "gripStatus": "User-confirmed installation"
+      "gripStatus": "User-confirmed installation",
+      "image": "/golf/images/hi-toe.jpg",
+      "imageAlt": "TaylorMade Hi-Toe wedge model reference",
+      "imageCaption": "Hi-Toe model reference"
     },
     {
       "name": "Putter",
@@ -434,7 +479,10 @@
       "gripStatus": "User-confirmed model and shape",
       "gripBrand": "Golf Pride",
       "gripModel": "Pro Only Cord",
-      "gripShape": "Angled"
+      "gripShape": "Angled",
+      "image": "/golf/images/nike-drone.jpg",
+      "imageAlt": "Nike Method Core Drone putter",
+      "imageCaption": "Representative model image"
     }
   ],
   "sources": [
@@ -529,6 +577,13 @@
       "text": "This review uses the conversation text available through chat history. Some original photo discussions are available only as excerpts. Missing shaft, grip, length and lie details remain unverified; factory defaults have not been substituted.",
       "sourceIds": []
     }
-  ]
+  ],
+  "imageCredits": {
+    "m5-driver": "TaylorMade M5 product imagery",
+    "m5-fairway": "TaylorMade M5 Titanium product imagery",
+    "m6-hybrid": "TaylorMade M6 Rescue product imagery",
+    "sim2-max": "TaylorMade SIM2 Max product imagery",
+    "hi-toe": "TaylorMade Hi-Toe product imagery",
+    "nike-drone": "Rock Bottom Golf Nike Method Core Drone product imagery"
+  }
 }
-
