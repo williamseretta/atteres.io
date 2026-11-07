@@ -1,5 +1,5 @@
 {
-  "updatedOn": "2026-11-06",
+  "updatedOn": "2026-11-07",
   "source": "Earlier equipment records, user-confirmed club models and wedge lofts",
   "wedges": [
     {
@@ -30,25 +30,61 @@
       "loft": "10.5\u00b0",
       "shotLabel": "Driver",
       "identification": "User-confirmed",
-      "note": "Loft shown is the recorded head marking; current sleeve and weight settings are not confirmed."
+      "note": "Loft shown is the recorded head marking; current sleeve and weight settings are not confirmed.",
+      "shaft": null,
+      "flex": null,
+      "length": null,
+      "lie": null,
+      "grip": null,
+      "bounce": null,
+      "history": [
+        "10.5\u00b0 was identified as the head marking. Current effective loft, sleeve position and weight positions are unconfirmed.",
+        "Earlier slice discussion recommended DRAW / HIGH weighting and trying a higher sleeve setting. These were recommendations, not confirmed changes."
+      ],
+      "sourceIds": [
+        "identification",
+        "slice"
+      ]
     },
     {
       "name": "3 Wood",
       "category": "Fairway woods",
-      "model": "TaylorMade M5",
+      "model": "TaylorMade M5 Titanium",
       "loft": "15\u00b0",
       "shotLabel": "3 Wood",
       "identification": "User-confirmed",
-      "note": null
+      "note": null,
+      "shaft": null,
+      "flex": null,
+      "length": null,
+      "lie": null,
+      "grip": null,
+      "bounce": null,
+      "history": [],
+      "sourceIds": [
+        "inventory"
+      ]
     },
     {
       "name": "5 Wood",
       "category": "Fairway woods",
-      "model": "TaylorMade M5",
+      "model": "TaylorMade M5 Titanium",
       "loft": "19\u00b0",
       "shotLabel": "5 Wood",
       "identification": "User-confirmed",
-      "note": null
+      "note": null,
+      "shaft": null,
+      "flex": null,
+      "length": null,
+      "lie": null,
+      "grip": null,
+      "bounce": null,
+      "history": [
+        "Earlier inventory left the second fairway loft as TBD. The retained 19\u00b0 value is a prior equipment-list entry, not a newly verified measurement."
+      ],
+      "sourceIds": [
+        "inventory"
+      ]
     },
     {
       "name": "3 Hybrid",
@@ -57,7 +93,17 @@
       "loft": "19\u00b0",
       "shotLabel": "3 Hybrid",
       "identification": "User-confirmed",
-      "note": null
+      "note": null,
+      "shaft": null,
+      "flex": null,
+      "length": null,
+      "lie": null,
+      "grip": null,
+      "bounce": null,
+      "history": [],
+      "sourceIds": [
+        "inventory"
+      ]
     },
     {
       "name": "4 Hybrid",
@@ -66,7 +112,17 @@
       "loft": "22\u00b0",
       "shotLabel": "4 Hybrid",
       "identification": "User-confirmed",
-      "note": null
+      "note": null,
+      "shaft": null,
+      "flex": null,
+      "length": null,
+      "lie": null,
+      "grip": null,
+      "bounce": null,
+      "history": [],
+      "sourceIds": [
+        "inventory"
+      ]
     },
     {
       "name": "5 Iron",
@@ -75,7 +131,22 @@
       "loft": null,
       "shotLabel": "5 Iron",
       "identification": "User-confirmed",
-      "note": null
+      "note": null,
+      "shaft": "KBS MAX MT 85 \u2014 recorded in earlier iron-set photo discussion",
+      "flex": "Regular (R) \u2014 historical photo record",
+      "length": null,
+      "lie": null,
+      "grip": null,
+      "bounce": null,
+      "history": [
+        "Earlier chats called the heads SIM Max or M5. Your latest confirmation identifies them as SIM2.",
+        "Earlier shaft identification was KBS MAX MT 85 R. Current per-club shaft installation has not been rechecked.",
+        "Earlier M5-labeled loft: 22.5\u00b0. This is a historical value, not a verified SIM2 loft."
+      ],
+      "sourceIds": [
+        "identification",
+        "inventory"
+      ]
     },
     {
       "name": "6 Iron",
@@ -84,7 +155,22 @@
       "loft": null,
       "shotLabel": "6 Iron",
       "identification": "User-confirmed",
-      "note": null
+      "note": null,
+      "shaft": "KBS MAX MT 85 \u2014 recorded in earlier iron-set photo discussion",
+      "flex": "Regular (R) \u2014 historical photo record",
+      "length": null,
+      "lie": null,
+      "grip": null,
+      "bounce": null,
+      "history": [
+        "Earlier chats called the heads SIM Max or M5. Your latest confirmation identifies them as SIM2.",
+        "Earlier shaft identification was KBS MAX MT 85 R. Current per-club shaft installation has not been rechecked.",
+        "Earlier M5-labeled loft: 26\u00b0. This is a historical value, not a verified SIM2 loft."
+      ],
+      "sourceIds": [
+        "identification",
+        "inventory"
+      ]
     },
     {
       "name": "7 Iron",
@@ -93,7 +179,22 @@
       "loft": null,
       "shotLabel": "7 Iron",
       "identification": "User-confirmed",
-      "note": null
+      "note": null,
+      "shaft": "KBS MAX MT 85 \u2014 recorded in earlier iron-set photo discussion",
+      "flex": "Regular (R) \u2014 historical photo record",
+      "length": null,
+      "lie": null,
+      "grip": null,
+      "bounce": null,
+      "history": [
+        "Earlier chats called the heads SIM Max or M5. Your latest confirmation identifies them as SIM2.",
+        "Earlier shaft identification was KBS MAX MT 85 R. Current per-club shaft installation has not been rechecked.",
+        "Earlier M5-labeled loft: 30\u00b0. This is a historical value, not a verified SIM2 loft."
+      ],
+      "sourceIds": [
+        "identification",
+        "inventory"
+      ]
     },
     {
       "name": "8 Iron",
@@ -102,7 +203,22 @@
       "loft": null,
       "shotLabel": "8 Iron",
       "identification": "User-confirmed",
-      "note": null
+      "note": null,
+      "shaft": "KBS MAX MT 85 \u2014 recorded in earlier iron-set photo discussion",
+      "flex": "Regular (R) \u2014 historical photo record",
+      "length": null,
+      "lie": null,
+      "grip": null,
+      "bounce": null,
+      "history": [
+        "Earlier chats called the heads SIM Max or M5. Your latest confirmation identifies them as SIM2.",
+        "Earlier shaft identification was KBS MAX MT 85 R. Current per-club shaft installation has not been rechecked.",
+        "Earlier M5-labeled loft: 34.5\u00b0. This is a historical value, not a verified SIM2 loft."
+      ],
+      "sourceIds": [
+        "identification",
+        "inventory"
+      ]
     },
     {
       "name": "9 Iron",
@@ -111,7 +227,22 @@
       "loft": null,
       "shotLabel": "9 Iron",
       "identification": "User-confirmed",
-      "note": null
+      "note": null,
+      "shaft": "KBS MAX MT 85 \u2014 recorded in earlier iron-set photo discussion",
+      "flex": "Regular (R) \u2014 historical photo record",
+      "length": null,
+      "lie": null,
+      "grip": null,
+      "bounce": null,
+      "history": [
+        "Earlier chats called the heads SIM Max or M5. Your latest confirmation identifies them as SIM2.",
+        "Earlier shaft identification was KBS MAX MT 85 R. Current per-club shaft installation has not been rechecked.",
+        "Earlier M5-labeled loft: 39.5\u00b0. This is a historical value, not a verified SIM2 loft."
+      ],
+      "sourceIds": [
+        "identification",
+        "inventory"
+      ]
     },
     {
       "name": "Pitching Wedge",
@@ -120,7 +251,22 @@
       "loft": null,
       "shotLabel": "Pitching Wedge",
       "identification": "User-confirmed",
-      "note": null
+      "note": null,
+      "shaft": "KBS MAX MT 85 \u2014 recorded in earlier iron-set photo discussion",
+      "flex": "Regular (R) \u2014 historical photo record",
+      "length": null,
+      "lie": null,
+      "grip": null,
+      "bounce": null,
+      "history": [
+        "Earlier chats called the heads SIM Max or M5. Your latest confirmation identifies them as SIM2.",
+        "Earlier shaft identification was KBS MAX MT 85 R. Current per-club shaft installation has not been rechecked.",
+        "Earlier M5-labeled loft: 45\u00b0. This is a historical value, not a verified SIM2 loft."
+      ],
+      "sourceIds": [
+        "identification",
+        "inventory"
+      ]
     },
     {
       "name": "Approach / 10 Iron",
@@ -129,7 +275,22 @@
       "loft": null,
       "shotLabel": null,
       "identification": "User-confirmed",
-      "note": "Previously listed as approach / 10i; no matching club label in the current CSV."
+      "note": "Previously listed as approach / 10i; no matching club label in the current CSV.",
+      "shaft": "KBS MAX MT 85 \u2014 recorded in earlier iron-set photo discussion",
+      "flex": "Regular (R) \u2014 historical photo record",
+      "length": null,
+      "lie": null,
+      "grip": null,
+      "bounce": null,
+      "history": [
+        "Earlier chats called the heads SIM Max or M5. Your latest confirmation identifies them as SIM2.",
+        "Earlier shaft identification was KBS MAX MT 85 R. Current per-club shaft installation has not been rechecked.",
+        "Earlier M5-labeled loft: 50\u00b0. This is a historical value, not a verified SIM2 loft."
+      ],
+      "sourceIds": [
+        "identification",
+        "inventory"
+      ]
     },
     {
       "name": "52\u00b0 Wedge",
@@ -138,7 +299,21 @@
       "loft": "52\u00b0",
       "shotLabel": null,
       "identification": "Loft user-confirmed; model unresolved",
-      "note": "Earlier records did not establish the model for each individual wedge."
+      "note": "Earlier records did not establish the model for each individual wedge.",
+      "shaft": null,
+      "flex": null,
+      "length": null,
+      "lie": null,
+      "grip": null,
+      "bounce": null,
+      "history": [
+        "An earlier photo discussion identified Hi-Toe 52\u00b0. Another later inventory called all three wedges Hi-Toe. Individual model identification remains unresolved.",
+        "A later historical table listed a 50\u00b0 / 9\u00b0 wedge. Your explicit 52\u00b0 correction takes precedence; the 9\u00b0 bounce is not assigned to this club."
+      ],
+      "sourceIds": [
+        "identification",
+        "inventory"
+      ]
     },
     {
       "name": "56\u00b0 Wedge",
@@ -147,7 +322,21 @@
       "loft": "56\u00b0",
       "shotLabel": null,
       "identification": "Loft user-confirmed; model unresolved",
-      "note": "Earlier records did not establish the model for each individual wedge."
+      "note": "Earlier records did not establish the model for each individual wedge.",
+      "shaft": null,
+      "flex": null,
+      "length": null,
+      "lie": null,
+      "grip": null,
+      "bounce": "10\u00b0 \u2014 historical inventory; unverified",
+      "history": [
+        "An earlier photo discussion identified Milled Grind 56\u00b0. Another later inventory called all three wedges Hi-Toe. Individual model identification remains unresolved.",
+        "Historical inventory listed 10\u00b0 bounce; this has not been independently verified on the current wedge."
+      ],
+      "sourceIds": [
+        "identification",
+        "inventory"
+      ]
     },
     {
       "name": "60\u00b0 Wedge",
@@ -156,7 +345,21 @@
       "loft": "60\u00b0",
       "shotLabel": null,
       "identification": "Loft user-confirmed; model unresolved",
-      "note": "Earlier records did not establish the model for each individual wedge."
+      "note": "Earlier records did not establish the model for each individual wedge.",
+      "shaft": null,
+      "flex": null,
+      "length": null,
+      "lie": null,
+      "grip": null,
+      "bounce": "10\u00b0 \u2014 historical inventory; unverified",
+      "history": [
+        "An earlier photo discussion identified Hi-Toe 60\u00b0. Another later inventory called all three wedges Hi-Toe. Individual model identification remains unresolved.",
+        "Historical inventory listed 10\u00b0 bounce; this has not been independently verified on the current wedge."
+      ],
+      "sourceIds": [
+        "identification",
+        "inventory"
+      ]
     },
     {
       "name": "Putter",
@@ -165,8 +368,105 @@
       "loft": null,
       "shotLabel": null,
       "identification": "Previously recorded",
-      "note": "Mallet putter."
+      "note": "Mallet putter.",
+      "shaft": null,
+      "flex": null,
+      "length": null,
+      "lie": null,
+      "grip": null,
+      "bounce": null,
+      "history": [],
+      "sourceIds": [
+        "inventory"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "identification",
+      "title": "Identify TaylorMade Clubs",
+      "url": "https://chatgpt.com/c/6a9cd625-3b74-83ea-a8aa-f282c2d0a1c6"
+    },
+    {
+      "id": "inventory",
+      "title": "Identify TaylorMade M5",
+      "url": "https://chatgpt.com/c/6aa26fa4-0c28-83ea-9666-39a04907a8c0"
+    },
+    {
+      "id": "grips",
+      "title": "Replace Golf Grips",
+      "url": "https://chatgpt.com/c/6aded188-9da8-83ea-9d3c-8f0444d1b91b"
+    },
+    {
+      "id": "wraps",
+      "title": "Replace Golf Grips \u2014 overgrips",
+      "url": "https://chatgpt.com/c/6ac562e0-4a58-83ea-93d0-d3856d2dd4b2"
+    },
+    {
+      "id": "slice",
+      "title": "Adjust Slice Settings",
+      "url": "https://chatgpt.com/c/6aeb5e18-4c6c-83ea-8256-83b21d89bbe8"
+    },
+    {
+      "id": "brush",
+      "title": "Using A Golf Club Brush",
+      "url": "https://chatgpt.com/c/6acb2071-de74-83ea-917c-071548916e28"
+    },
+    {
+      "id": "wrench",
+      "title": "Buy TaylorMade Wrench",
+      "url": "https://chatgpt.com/c/6aeb605d-de60-83ea-93d9-fd6e8b55e734"
+    }
+  ],
+  "equipmentNotes": [
+    {
+      "title": "Grips",
+      "text": "Golf Pride replacement grips were identified in your grip-replacement photo. The available text does not establish their model, size, tape wraps, which clubs received them, or whether installation was completed.",
+      "sourceIds": [
+        "grips"
+      ]
+    },
+    {
+      "title": "Grip work discussed",
+      "text": "Replacement grips and overgrip tape over existing grips were discussed in separate chats. Neither discussion confirms the final installed grip configuration.",
+      "sourceIds": [
+        "grips",
+        "wraps"
+      ]
+    },
+    {
+      "title": "Bag and headcovers",
+      "text": "Bag Boy IDS (Individual Divider System) bag, rain hood, and TaylorMade M5/M6 headcovers were recorded. An early TaylorMade-bag identification was corrected to Bag Boy.",
+      "sourceIds": [
+        "identification",
+        "inventory"
+      ]
+    },
+    {
+      "title": "Cleaning accessory",
+      "text": "Grooveit Wet Club Scrub water-reservoir brush was identified in an earlier photo discussion.",
+      "sourceIds": [
+        "brush"
+      ]
+    },
+    {
+      "title": "Adjustment tools",
+      "text": "A pictured tool was identified as a Titleist SureFit wrench. A TaylorMade FCT torque wrench was discussed as the TaylorMade alternative; purchase was not confirmed.",
+      "sourceIds": [
+        "wrench"
+      ]
+    },
+    {
+      "title": "Other recorded accessories",
+      "text": "An earlier inventory mentioned a Nike glove, loose golf balls, and boxed balls. Specific models and quantities were not established.",
+      "sourceIds": [
+        "inventory"
+      ]
+    },
+    {
+      "title": "Review limits",
+      "text": "This review uses the conversation text available through chat history. Some original photo discussions are available only as excerpts. Missing shaft, grip, length and lie details remain unverified; factory defaults have not been substituted.",
+      "sourceIds": []
     }
   ]
 }
-
