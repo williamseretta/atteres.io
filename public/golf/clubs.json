@@ -425,13 +425,16 @@
       "flex": null,
       "length": null,
       "lie": null,
-      "grip": "Stock grip \u2014 user-confirmed",
+      "grip": "Golf Pride Pro Only Cord \u2014 Angled",
       "bounce": null,
       "history": [],
       "sourceIds": [
         "inventory"
       ],
-      "gripStatus": "User-confirmed installation"
+      "gripStatus": "User-confirmed model and shape",
+      "gripBrand": "Golf Pride",
+      "gripModel": "Pro Only Cord",
+      "gripShape": "Angled"
     }
   ],
   "sources": [
@@ -479,14 +482,14 @@
   "equipmentNotes": [
     {
       "title": "Grips",
-      "text": "User-confirmed: Driver, 3 Wood and 5 Wood have Golf Pride MCC Plus4 Align Max grips in Midsize. All other clubs retain stock grips. Tape-wrap counts are unrecorded.",
+      "text": "User-confirmed: Driver, 3 Wood and 5 Wood have Golf Pride MCC Plus4 Align Max grips in Midsize. Putter has a Golf Pride Pro Only Cord grip, Angled. All other clubs retain stock grips. Tape-wrap counts are unrecorded.",
       "sourceIds": [
         "grips"
       ]
     },
     {
       "title": "Grip work discussed",
-      "text": "Replacement and overgrip methods were discussed historically. Current confirmed configuration: replacement grips on Driver, 3 Wood and 5 Wood; stock grips elsewhere.",
+      "text": "Replacement and overgrip methods were discussed historically. Current confirmed configuration: replacement grips on Driver, 3 Wood, 5 Wood and Putter; stock grips elsewhere.",
       "sourceIds": [
         "grips",
         "wraps"
