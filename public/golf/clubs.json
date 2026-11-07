@@ -35,7 +35,7 @@
       "flex": null,
       "length": null,
       "lie": null,
-      "grip": null,
+      "grip": "Golf Pride replacement grip \u2014 model / size unrecorded",
       "bounce": null,
       "history": [
         "10.5\u00b0 was identified as the head marking. Current effective loft, sleeve position and weight positions are unconfirmed.",
@@ -44,7 +44,8 @@
       "sourceIds": [
         "identification",
         "slice"
-      ]
+      ],
+      "gripStatus": "User-confirmed installation"
     },
     {
       "name": "3 Wood",
@@ -58,12 +59,13 @@
       "flex": null,
       "length": null,
       "lie": null,
-      "grip": null,
+      "grip": "Golf Pride replacement grip \u2014 model / size unrecorded",
       "bounce": null,
       "history": [],
       "sourceIds": [
         "inventory"
-      ]
+      ],
+      "gripStatus": "User-confirmed installation"
     },
     {
       "name": "5 Wood",
@@ -77,14 +79,15 @@
       "flex": null,
       "length": null,
       "lie": null,
-      "grip": null,
+      "grip": "Golf Pride replacement grip \u2014 model / size unrecorded",
       "bounce": null,
       "history": [
         "Earlier inventory left the second fairway loft as TBD. The retained 19\u00b0 value is a prior equipment-list entry, not a newly verified measurement."
       ],
       "sourceIds": [
         "inventory"
-      ]
+      ],
+      "gripStatus": "User-confirmed installation"
     },
     {
       "name": "3 Hybrid",
@@ -98,12 +101,13 @@
       "flex": null,
       "length": null,
       "lie": null,
-      "grip": null,
+      "grip": "Stock grip \u2014 user-confirmed",
       "bounce": null,
       "history": [],
       "sourceIds": [
         "inventory"
-      ]
+      ],
+      "gripStatus": "User-confirmed installation"
     },
     {
       "name": "4 Hybrid",
@@ -117,18 +121,19 @@
       "flex": null,
       "length": null,
       "lie": null,
-      "grip": null,
+      "grip": "Stock grip \u2014 user-confirmed",
       "bounce": null,
       "history": [],
       "sourceIds": [
         "inventory"
-      ]
+      ],
+      "gripStatus": "User-confirmed installation"
     },
     {
       "name": "5 Iron",
       "category": "Irons",
-      "model": "TaylorMade SIM2",
-      "loft": null,
+      "model": "TaylorMade SIM2 Max",
+      "loft": "21.5\u00b0",
       "shotLabel": "5 Iron",
       "identification": "User-confirmed",
       "note": null,
@@ -136,23 +141,28 @@
       "flex": "Regular (R) \u2014 historical photo record",
       "length": null,
       "lie": null,
-      "grip": null,
+      "grip": "Stock grip \u2014 user-confirmed",
       "bounce": null,
       "history": [
         "Earlier chats called the heads SIM Max or M5. Your latest confirmation identifies them as SIM2.",
         "Earlier shaft identification was KBS MAX MT 85 R. Current per-club shaft installation has not been rechecked.",
-        "Earlier M5-labeled loft: 22.5\u00b0. This is a historical value, not a verified SIM2 loft."
+        "Earlier M5-labeled loft: 22.5\u00b0. This is a historical value, not a verified SIM2 loft.",
+        "SIM2 Max variant user-confirmed. Displayed loft uses TaylorMade factory specifications; any custom bending is unrecorded."
       ],
       "sourceIds": [
         "identification",
-        "inventory"
-      ]
+        "inventory",
+        "sim2-max-specs"
+      ],
+      "gripStatus": "User-confirmed installation",
+      "loftDegrees": 21.5,
+      "loftBasis": "TaylorMade published standard specification; not individually measured"
     },
     {
       "name": "6 Iron",
       "category": "Irons",
-      "model": "TaylorMade SIM2",
-      "loft": null,
+      "model": "TaylorMade SIM2 Max",
+      "loft": "25\u00b0",
       "shotLabel": "6 Iron",
       "identification": "User-confirmed",
       "note": null,
@@ -160,23 +170,28 @@
       "flex": "Regular (R) \u2014 historical photo record",
       "length": null,
       "lie": null,
-      "grip": null,
+      "grip": "Stock grip \u2014 user-confirmed",
       "bounce": null,
       "history": [
         "Earlier chats called the heads SIM Max or M5. Your latest confirmation identifies them as SIM2.",
         "Earlier shaft identification was KBS MAX MT 85 R. Current per-club shaft installation has not been rechecked.",
-        "Earlier M5-labeled loft: 26\u00b0. This is a historical value, not a verified SIM2 loft."
+        "Earlier M5-labeled loft: 26\u00b0. This is a historical value, not a verified SIM2 loft.",
+        "SIM2 Max variant user-confirmed. Displayed loft uses TaylorMade factory specifications; any custom bending is unrecorded."
       ],
       "sourceIds": [
         "identification",
-        "inventory"
-      ]
+        "inventory",
+        "sim2-max-specs"
+      ],
+      "gripStatus": "User-confirmed installation",
+      "loftDegrees": 25,
+      "loftBasis": "TaylorMade published standard specification; not individually measured"
     },
     {
       "name": "7 Iron",
       "category": "Irons",
-      "model": "TaylorMade SIM2",
-      "loft": null,
+      "model": "TaylorMade SIM2 Max",
+      "loft": "28.5\u00b0",
       "shotLabel": "7 Iron",
       "identification": "User-confirmed",
       "note": null,
@@ -184,23 +199,28 @@
       "flex": "Regular (R) \u2014 historical photo record",
       "length": null,
       "lie": null,
-      "grip": null,
+      "grip": "Stock grip \u2014 user-confirmed",
       "bounce": null,
       "history": [
         "Earlier chats called the heads SIM Max or M5. Your latest confirmation identifies them as SIM2.",
         "Earlier shaft identification was KBS MAX MT 85 R. Current per-club shaft installation has not been rechecked.",
-        "Earlier M5-labeled loft: 30\u00b0. This is a historical value, not a verified SIM2 loft."
+        "Earlier M5-labeled loft: 30\u00b0. This is a historical value, not a verified SIM2 loft.",
+        "SIM2 Max variant user-confirmed. Displayed loft uses TaylorMade factory specifications; any custom bending is unrecorded."
       ],
       "sourceIds": [
         "identification",
-        "inventory"
-      ]
+        "inventory",
+        "sim2-max-specs"
+      ],
+      "gripStatus": "User-confirmed installation",
+      "loftDegrees": 28.5,
+      "loftBasis": "TaylorMade published standard specification; not individually measured"
     },
     {
       "name": "8 Iron",
       "category": "Irons",
-      "model": "TaylorMade SIM2",
-      "loft": null,
+      "model": "TaylorMade SIM2 Max",
+      "loft": "32.5\u00b0",
       "shotLabel": "8 Iron",
       "identification": "User-confirmed",
       "note": null,
@@ -208,23 +228,28 @@
       "flex": "Regular (R) \u2014 historical photo record",
       "length": null,
       "lie": null,
-      "grip": null,
+      "grip": "Stock grip \u2014 user-confirmed",
       "bounce": null,
       "history": [
         "Earlier chats called the heads SIM Max or M5. Your latest confirmation identifies them as SIM2.",
         "Earlier shaft identification was KBS MAX MT 85 R. Current per-club shaft installation has not been rechecked.",
-        "Earlier M5-labeled loft: 34.5\u00b0. This is a historical value, not a verified SIM2 loft."
+        "Earlier M5-labeled loft: 34.5\u00b0. This is a historical value, not a verified SIM2 loft.",
+        "SIM2 Max variant user-confirmed. Displayed loft uses TaylorMade factory specifications; any custom bending is unrecorded."
       ],
       "sourceIds": [
         "identification",
-        "inventory"
-      ]
+        "inventory",
+        "sim2-max-specs"
+      ],
+      "gripStatus": "User-confirmed installation",
+      "loftDegrees": 32.5,
+      "loftBasis": "TaylorMade published standard specification; not individually measured"
     },
     {
       "name": "9 Iron",
       "category": "Irons",
-      "model": "TaylorMade SIM2",
-      "loft": null,
+      "model": "TaylorMade SIM2 Max",
+      "loft": "38\u00b0",
       "shotLabel": "9 Iron",
       "identification": "User-confirmed",
       "note": null,
@@ -232,23 +257,28 @@
       "flex": "Regular (R) \u2014 historical photo record",
       "length": null,
       "lie": null,
-      "grip": null,
+      "grip": "Stock grip \u2014 user-confirmed",
       "bounce": null,
       "history": [
         "Earlier chats called the heads SIM Max or M5. Your latest confirmation identifies them as SIM2.",
         "Earlier shaft identification was KBS MAX MT 85 R. Current per-club shaft installation has not been rechecked.",
-        "Earlier M5-labeled loft: 39.5\u00b0. This is a historical value, not a verified SIM2 loft."
+        "Earlier M5-labeled loft: 39.5\u00b0. This is a historical value, not a verified SIM2 loft.",
+        "SIM2 Max variant user-confirmed. Displayed loft uses TaylorMade factory specifications; any custom bending is unrecorded."
       ],
       "sourceIds": [
         "identification",
-        "inventory"
-      ]
+        "inventory",
+        "sim2-max-specs"
+      ],
+      "gripStatus": "User-confirmed installation",
+      "loftDegrees": 38,
+      "loftBasis": "TaylorMade published standard specification; not individually measured"
     },
     {
       "name": "Pitching Wedge",
       "category": "Irons",
-      "model": "TaylorMade SIM2",
-      "loft": null,
+      "model": "TaylorMade SIM2 Max",
+      "loft": "43.5\u00b0",
       "shotLabel": "Pitching Wedge",
       "identification": "User-confirmed",
       "note": null,
@@ -256,23 +286,28 @@
       "flex": "Regular (R) \u2014 historical photo record",
       "length": null,
       "lie": null,
-      "grip": null,
+      "grip": "Stock grip \u2014 user-confirmed",
       "bounce": null,
       "history": [
         "Earlier chats called the heads SIM Max or M5. Your latest confirmation identifies them as SIM2.",
         "Earlier shaft identification was KBS MAX MT 85 R. Current per-club shaft installation has not been rechecked.",
-        "Earlier M5-labeled loft: 45\u00b0. This is a historical value, not a verified SIM2 loft."
+        "Earlier M5-labeled loft: 45\u00b0. This is a historical value, not a verified SIM2 loft.",
+        "SIM2 Max variant user-confirmed. Displayed loft uses TaylorMade factory specifications; any custom bending is unrecorded."
       ],
       "sourceIds": [
         "identification",
-        "inventory"
-      ]
+        "inventory",
+        "sim2-max-specs"
+      ],
+      "gripStatus": "User-confirmed installation",
+      "loftDegrees": 43.5,
+      "loftBasis": "TaylorMade published standard specification; not individually measured"
     },
     {
       "name": "Approach / 10 Iron",
       "category": "Irons",
-      "model": "TaylorMade SIM2",
-      "loft": null,
+      "model": "TaylorMade SIM2 Max",
+      "loft": "49\u00b0",
       "shotLabel": null,
       "identification": "User-confirmed",
       "note": "Previously listed as approach / 10i; no matching club label in the current CSV.",
@@ -280,17 +315,22 @@
       "flex": "Regular (R) \u2014 historical photo record",
       "length": null,
       "lie": null,
-      "grip": null,
+      "grip": "Stock grip \u2014 user-confirmed",
       "bounce": null,
       "history": [
         "Earlier chats called the heads SIM Max or M5. Your latest confirmation identifies them as SIM2.",
         "Earlier shaft identification was KBS MAX MT 85 R. Current per-club shaft installation has not been rechecked.",
-        "Earlier M5-labeled loft: 50\u00b0. This is a historical value, not a verified SIM2 loft."
+        "Earlier M5-labeled loft: 50\u00b0. This is a historical value, not a verified SIM2 loft.",
+        "SIM2 Max variant user-confirmed. Displayed loft uses TaylorMade factory specifications; any custom bending is unrecorded."
       ],
       "sourceIds": [
         "identification",
-        "inventory"
-      ]
+        "inventory",
+        "sim2-max-specs"
+      ],
+      "gripStatus": "User-confirmed installation",
+      "loftDegrees": 49,
+      "loftBasis": "TaylorMade published standard specification; not individually measured"
     },
     {
       "name": "52\u00b0 Wedge",
@@ -304,7 +344,7 @@
       "flex": null,
       "length": null,
       "lie": null,
-      "grip": null,
+      "grip": "Stock grip \u2014 user-confirmed",
       "bounce": null,
       "history": [
         "An earlier photo discussion identified Hi-Toe 52\u00b0. Another later inventory called all three wedges Hi-Toe. Individual model identification remains unresolved.",
@@ -313,7 +353,8 @@
       "sourceIds": [
         "identification",
         "inventory"
-      ]
+      ],
+      "gripStatus": "User-confirmed installation"
     },
     {
       "name": "56\u00b0 Wedge",
@@ -327,7 +368,7 @@
       "flex": null,
       "length": null,
       "lie": null,
-      "grip": null,
+      "grip": "Stock grip \u2014 user-confirmed",
       "bounce": "10\u00b0 \u2014 historical inventory; unverified",
       "history": [
         "An earlier photo discussion identified Milled Grind 56\u00b0. Another later inventory called all three wedges Hi-Toe. Individual model identification remains unresolved.",
@@ -336,7 +377,8 @@
       "sourceIds": [
         "identification",
         "inventory"
-      ]
+      ],
+      "gripStatus": "User-confirmed installation"
     },
     {
       "name": "60\u00b0 Wedge",
@@ -350,7 +392,7 @@
       "flex": null,
       "length": null,
       "lie": null,
-      "grip": null,
+      "grip": "Stock grip \u2014 user-confirmed",
       "bounce": "10\u00b0 \u2014 historical inventory; unverified",
       "history": [
         "An earlier photo discussion identified Hi-Toe 60\u00b0. Another later inventory called all three wedges Hi-Toe. Individual model identification remains unresolved.",
@@ -359,7 +401,8 @@
       "sourceIds": [
         "identification",
         "inventory"
-      ]
+      ],
+      "gripStatus": "User-confirmed installation"
     },
     {
       "name": "Putter",
@@ -373,12 +416,13 @@
       "flex": null,
       "length": null,
       "lie": null,
-      "grip": null,
+      "grip": "Stock grip \u2014 user-confirmed",
       "bounce": null,
       "history": [],
       "sourceIds": [
         "inventory"
-      ]
+      ],
+      "gripStatus": "User-confirmed installation"
     }
   ],
   "sources": [
@@ -416,19 +460,24 @@
       "id": "wrench",
       "title": "Buy TaylorMade Wrench",
       "url": "https://chatgpt.com/c/6aeb605d-de60-83ea-93d9-fd6e8b55e734"
+    },
+    {
+      "id": "sim2-max-specs",
+      "title": "TaylorMade SIM2 Max factory specifications",
+      "url": "https://www.taylormadegolf.com/SIM2-Max-Irons/N6978109.html?lang=default"
     }
   ],
   "equipmentNotes": [
     {
       "title": "Grips",
-      "text": "Golf Pride replacement grips were identified in your grip-replacement photo. The available text does not establish their model, size, tape wraps, which clubs received them, or whether installation was completed.",
+      "text": "User confirmed replacement grips are installed on Driver, 3 Wood and 5 Wood; all other clubs retain stock grips. Earlier photo discussion identified the replacements as Golf Pride. Exact replacement model, size and tape wraps are unrecorded.",
       "sourceIds": [
         "grips"
       ]
     },
     {
       "title": "Grip work discussed",
-      "text": "Replacement grips and overgrip tape over existing grips were discussed in separate chats. Neither discussion confirms the final installed grip configuration.",
+      "text": "Replacement and overgrip methods were discussed historically. Current confirmed configuration: replacement grips on Driver, 3 Wood and 5 Wood; stock grips elsewhere.",
       "sourceIds": [
         "grips",
         "wraps"
@@ -470,3 +519,4 @@
     }
   ]
 }
+
