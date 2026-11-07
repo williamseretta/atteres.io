@@ -17,5 +17,17 @@ for i,s in enumerate(scored):
 dates=collections.defaultdict(list)
 for s in scored:dates[s['Date'][:10]].append(num(s,'Total score'))
 result={'shots':len(rows),'scoredShots':len(scored),'clubs':clubs,'cumulative':points,'sessions':[{'date':d,'shots':len(v),'score':round(statistics.mean(v),2)} for d,v in dates.items()]}
+dimensions=['Direction score','Shape score','Target score','Launch score','Club score']
+ratings=collections.defaultdict(list)
+for row in rows:
+ for date in [row['Date'][:10],'all']:
+  ratings[(date,row['Club type'] or 'Unspecified club')].append(row)
+result['ratings']=[]
+for (date,club),items in ratings.items():
+ values={}
+ for metric in dimensions:
+  valid=[num(s,metric) for s in items if num(s,metric) is not None]
+  values[metric]=round(statistics.mean(valid),3) if valid else None
+ result['ratings'].append({'date':date,'club':club,'shots':len(items),'values':values})
 (root/'public/golf/performance-data.json').write_text(json.dumps(result,separators=(',',':')))
 print('Built performance scores for',len(scored),'shots')
