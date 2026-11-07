@@ -1,13 +1,12 @@
 function setupTabs(){
 const main=document.querySelector('main');
-const groups=[['performance','Performance',['session-visuals','performance-overview']],['range','Range View',['visual-shot-chart']],['analysis','Analysis',['practice-overview','golf-analysis']],['clubs','Clubs',['my-clubs','bag']],['history','Shots & history',['shot-details','golf-history']],['scorecard','Scorecard',[]]];
+const groups=[['performance','Performance',['session-visuals','performance-overview']],['range','Range View',['visual-shot-chart']],['analysis','Analysis',['practice-overview','golf-analysis']],['clubs','Clubs',['my-clubs','bag']],['history','Shots & history',['shot-details','golf-history']]];
 const bar=document.createElement('div');bar.className='dashboard-tabs';bar.setAttribute('role','tablist');bar.setAttribute('aria-label','Golf dashboard sections');
 const panels=[];
 for(const [id,label,ids] of groups){
  const tab=document.createElement('button');tab.type='button';tab.id='tab-'+id;tab.textContent=label;tab.setAttribute('role','tab');tab.setAttribute('aria-controls','panel-'+id);bar.append(tab);
  const panel=document.createElement('div');panel.id='panel-'+id;panel.setAttribute('role','tabpanel');panel.setAttribute('aria-labelledby',tab.id);panel.tabIndex=0;
  for(const section of ids){const content=document.getElementById(section);if(content)panel.append(content)}
- if(id==='scorecard')panel.append(document.querySelector('.scorecard'));
  panels.push({id,tab,panel});
  tab.onclick=()=>activate(id,true);
  tab.onkeydown=e=>{let i=panels.findIndex(p=>p.id===id);if(e.key==='ArrowRight')i=(i+1)%panels.length;else if(e.key==='ArrowLeft')i=(i+panels.length-1)%panels.length;else if(e.key==='Home')i=0;else if(e.key==='End')i=panels.length-1;else return;e.preventDefault();activate(panels[i].id,true);panels[i].tab.focus()};
