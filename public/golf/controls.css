@@ -68,3 +68,22 @@ main select,.import-controls select,.trace-panel select,#visual-shot-chart #heat
 @media(max-width:800px){.performance-charts{grid-template-columns:minmax(0,1fr)}.performance-charts svg{height:auto;max-height:300px}.performance-charts>.performance-section>.caption{min-height:0}}
 
 .performance-charts svg{margin:0}.performance-charts details{margin-top:12px}.performance-charts summary{cursor:pointer;font-size:12px;color:#aabac4}
+
+/* Compact vertical club inventory. */
+#my-clubs .bag-club-grid{gap:10px;margin:18px 0}
+#my-clubs .bag-club-card.has-club-image{grid-template-columns:110px minmax(0,1fr);gap:18px;padding:14px 16px}
+#my-clubs .bag-club-image img{width:110px;height:110px;padding:7px}
+#my-clubs .bag-club-image figcaption{font-size:9px;margin-top:5px}
+#my-clubs .bag-club-content{display:grid;grid-template-columns:minmax(160px,.8fr) minmax(240px,1.4fr) auto;column-gap:20px;align-items:start}
+#my-clubs .bag-club-content>.eyebrow{grid-column:1;font-size:9px;margin:0 0 3px}
+#my-clubs .bag-club-content>h3{grid-column:1;font-size:19px;margin:0 0 4px}
+#my-clubs .bag-club-content>.bag-model{grid-column:1;font-size:12px;margin:0;min-height:0}
+#my-clubs .bag-club-content>dl{grid-column:2;grid-row:1 / span 4;margin:0;font-size:11px;gap:6px 12px;grid-template-columns:44px minmax(0,1fr);max-width:none}
+#my-clubs .bag-carry{grid-column:3;grid-row:1 / span 2;font-size:23px;margin:0;white-space:nowrap}
+#my-clubs .bag-club-content>span.caption{grid-column:3;grid-row:3 / span 2;font-size:10px;max-width:150px;margin:0}
+#my-clubs .bag-club-content>details{grid-column:1 / -1;margin-top:10px;padding-top:8px}
+#my-clubs .bag-club-content>details summary{font-size:11px}
+#my-clubs .bag-club-content>p.caption{grid-column:3;grid-row:1 / span 4;margin:0;font-size:10px;max-width:150px}
+@media(max-width:1000px){#my-clubs .bag-club-content{grid-template-columns:minmax(120px,.8fr) minmax(160px,1.3fr)}#my-clubs .bag-carry{grid-column:1;grid-row:auto;margin-top:8px}#my-clubs .bag-club-content>span.caption,#my-clubs .bag-club-content>p.caption{grid-column:1;grid-row:auto;max-width:none}#my-clubs .bag-club-content>dl{grid-row:1 / span 6}}
+@media(max-width:600px){#my-clubs .bag-club-card.has-club-image{grid-template-columns:76px minmax(0,1fr);gap:12px;padding:12px}#my-clubs .bag-club-image img{width:76px;height:76px;padding:5px}#my-clubs .bag-club-content{display:block}#my-clubs .bag-club-content>dl{margin:10px 0;grid-template-columns:36px minmax(0,1fr);gap:5px 8px;font-size:10px}#my-clubs .bag-club-content dd{margin-bottom:0}#my-clubs .bag-club-content h3{font-size:18px}#my-clubs .bag-carry{font-size:21px}}
+
