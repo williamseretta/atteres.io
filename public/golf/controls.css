@@ -92,20 +92,20 @@ main select,.import-controls select,.trace-panel select,#visual-shot-chart #heat
 .performance-streak-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px;align-items:stretch}.performance-streak-row>article{min-width:0;padding:16px;border:1px solid #30434c;border-radius:12px;background:#17252f}.performance-streak-row h4{margin:0 0 14px;color:#dcecf3}.performance-streak-row>article:first-child h4{color:#67e6ad}.performance-streak-row>article:last-child h4{color:#ff7798}.performance-streak-row th,.performance-streak-row td{padding:10px 8px;font-size:12px}.performance-streak-row td .caption{font-size:10px;margin:5px 0 0}.performance-streak-row td:first-child{font-weight:650}.performance-streak-row td{vertical-align:top}@media(max-width:800px){.performance-streak-row{grid-template-columns:minmax(0,1fr)}}
 
 /* Shared orange accent across the dashboard. */
-:root{--accent:#ffab63;--accent-soft:#382a21;--control-border:#65503f}
-.dashboard-tabs button[aria-selected=true]{background:#ffab63;border-color:#ffd1a5;color:#201810;box-shadow:0 2px 12px #ff943322}
-.dashboard-tabs button:hover{border-color:#d3894d;background:#3a2d24;color:#fff1e5}
-.dashboard-tabs button[aria-selected=true]:hover{background:#ffbb81;color:#201810}
-.dashboard-tabs button:focus-visible,main select:focus-visible,main button:focus-visible{outline:2px solid #ffab63;outline-offset:3px}
-main select:hover{border-color:#d3894d}main select:focus{border-color:#ffab63}
-.eyebrow,.trace-kicker,.footer-brand,.bag-carry,.bag-summary,.performance-cards strong,.simple-session-stats strong{color:#ffab63!important}
-.intro h1 span,.stat-grid article>strong{color:#ffb577}
-.intro>.session{border-color:#b77948;background:#30271f}.intro>.session label{color:#ffd1a5}.intro>.session #header-session{border-color:#b77948;background-color:#241f1b}
-.trace-overlay-control button[aria-pressed=true]{background:#513622;border-color:#bc7b47;color:#ffe1c5}
-main details>summary:hover,main a:hover{color:#ffb577}
-.bag-club-card,.performance-cards article{border-top-color:#a56d40}
-#performance-overview>h2,#session-visuals>h2,#my-clubs>h2,#golf-analysis>h2{border-left:3px solid #ffab63;padding-left:14px}
-.bar-fill{background:linear-gradient(90deg,#bd652e,#ffb16e)}
+:root{--accent:#f5d9bf;--accent-soft:#382a21;--control-border:#65503f}
+.dashboard-tabs button[aria-selected=true]{background:#f5d9bf;border-color:#f8e8d9;color:#201810;box-shadow:0 2px 12px #ff943322}
+.dashboard-tabs button:hover{border-color:#c6a98f;background:#3a2d24;color:#fff1e5}
+.dashboard-tabs button[aria-selected=true]:hover{background:#fae7d5;color:#201810}
+.dashboard-tabs button:focus-visible,main select:focus-visible,main button:focus-visible{outline:2px solid #f5d9bf;outline-offset:3px}
+main select:hover{border-color:#c6a98f}main select:focus{border-color:#f5d9bf}
+.eyebrow,.trace-kicker,.footer-brand,.bag-carry,.bag-summary,.performance-cards strong,.simple-session-stats strong{color:#f5d9bf!important}
+.intro h1 span,.stat-grid article>strong{color:#f7e2ce}
+.intro>.session{border-color:#b99b82;background:#30271f}.intro>.session label{color:#f8e8d9}.intro>.session #header-session{border-color:#b99b82;background-color:#241f1b}
+.trace-overlay-control button[aria-pressed=true]{background:#513622;border-color:#b99b82;color:#f9ecdf}
+main details>summary:hover,main a:hover{color:#f7e2ce}
+.bag-club-card,.performance-cards article{border-top-color:#b99b82}
+#performance-overview>h2,#session-visuals>h2,#my-clubs>h2,#golf-analysis>h2{border-left:3px solid #f5d9bf;padding-left:14px}
+.bar-fill{background:linear-gradient(90deg,#b18b6c,#f5d9bf)}
 
 /* Compact Range View vertical rhythm. */
 #visual-shot-chart{padding:20px;margin:20px 0 28px}
@@ -162,4 +162,5 @@ main details>summary:hover,main a:hover{color:#ffb577}
 /* Equal-height spray chart and carry map. */
 @media(min-width:1101px){#visual-shot-chart .spray-carry-row{align-items:stretch}#visual-shot-chart .spray-carry-row>.trace-layout,#visual-shot-chart .spray-carry-row>#bag{align-self:stretch;box-sizing:border-box}#visual-shot-chart .spray-carry-row>#bag{display:flex;flex-direction:column}#visual-shot-chart .spray-carry-row #bag .carry-chart{flex:1}#visual-shot-chart .spray-carry-row>.trace-layout>.trace-field{display:flex;flex-direction:column}#visual-shot-chart .spray-carry-row .trace-field>svg{flex:1;min-height:360px;max-height:none}#visual-shot-chart .spray-carry-row .trace-field-caption{margin-top:auto}}
 
-.intro>.session .header-club-label{margin-top:12px}.intro>.session #header-club{width:100%;min-height:38px;font-size:15px;font-weight:700;color:#fff;border-color:#b77948;background-color:#241f1b;padding:7px 36px 7px 12px}
+.intro>.session .header-club-label{margin-top:12px}.intro>.session #header-club{width:100%;min-height:38px;font-size:15px;font-weight:700;color:#fff;border-color:#b99b82;background-color:#241f1b;padding:7px 36px 7px 12px}
+
