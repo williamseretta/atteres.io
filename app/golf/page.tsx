@@ -15,7 +15,16 @@ const oct29=[
  {club:'10i / Approach',carry:'97–113',total:'99–115',speed:'78–88',best:'tight 103–106 carry cluster'},
  {club:'LW',carry:'68–107',total:'69–108',speed:'64–84',best:'32–46° visible launch window'}
 ]
-const equipment=[['Driver','TaylorMade M5','10.5°'],['3W','TaylorMade M5/M6 Titanium','15°'],['5W','TaylorMade M5/M6 Titanium','19°'],['3H','TaylorMade M6 Rescue','19°'],['4H','TaylorMade M6 Rescue','22°'],['Irons','TaylorMade M5 / SIM identification conflict','4i–PW + approach'],['Wedges','TaylorMade Hi-Toe / Milled Grind','50° / 56° / 60°'],['Putter','Nike Method Core Drone BC 002','Mallet']]
+const equipment=[
+ ['Driver','TaylorMade M5','10.5°','Mitsubishi Chemical CK Series 60','Regular (R)'],
+ ['3W','TaylorMade M5 Titanium','15°','Mitsubishi Chemical CK Series 65','Regular (R)'],
+ ['5W','TaylorMade M5/M6 Titanium — head model to confirm','19°','Mitsubishi Chemical CK Series 65','Regular (R)'],
+ ['3H','TaylorMade M6 Rescue — photo confirmed','19°','Fujikura, marked “7”; exact model / weight unconfirmed','Stiff (S)'],
+ ['4H','TaylorMade M6 Rescue — prior record; head photo pending','22° — prior record','Fujikura, marked “7”; exact model / weight unconfirmed','Stiff (S)'],
+ ['Irons','TaylorMade M5 / SIM identification conflict','4i–PW + approach','Not recorded','Not recorded'],
+ ['Wedges','TaylorMade Hi-Toe / Milled Grind','50° / 56° / 60°','Not recorded','Not recorded'],
+ ['Putter','Nike Method Core Drone BC 002','Mallet','Not recorded','—']
+]
 const blue='#3b82f6',border='#262b33',muted='#9299a6',panel='#101318',soft='#151922'
 const card={padding:20,border:`1px solid ${border}`,borderRadius:16,background:panel}
 const tabs=['Overview','Bag','Sessions','Analysis'] as const
@@ -47,7 +56,7 @@ export default function GolfPage(){
   {tab==='Bag'&&<div style={{display:'grid',gap:18}}>
    <Panel title="Bag distance map" sub="October 28 measured carry baseline"><div style={{display:'grid',gap:12}}>{[...oct28].reverse().map(c=><div key={c.club} style={{display:'grid',gridTemplateColumns:'110px 1fr 80px',gap:12,alignItems:'center'}}><b>{c.club}</b><div style={{height:24,borderRadius:99,background:soft,overflow:'hidden'}}><div style={{height:'100%',width:`${c.carry/max*100}%`,background:blue}}/></div><span><b style={{color:blue}}>{c.carry}</b> yd</span></div>)}</div></Panel>
    <Panel title="Gapping analysis" sub="Large jumps are easy to spot; near-overlaps identify clubs that may need more data or fitting review."><div style={{overflowX:'auto'}}><table style={{width:'100%',borderCollapse:'collapse'}}><thead><tr style={{color:blue}}><th align="left">Club</th><th>Shots</th><th>Avg carry</th><th>Gap</th></tr></thead><tbody>{gaps.map(c=><tr key={c.club} style={{borderTop:`1px solid ${border}`}}><td style={{padding:12}}><b>{c.club}</b></td><td align="center">{c.shots}</td><td align="center">{c.carry} yd</td><td align="center" style={{color:c.gap!==null&&Math.abs(c.gap)>=20?'#f2b96b':'inherit'}}>{c.gap===null?'—':`${c.gap>=0?'+':''}${c.gap} yd`}</td></tr>)}</tbody></table></div></Panel>
-   <Panel title="Equipment"><div style={{overflowX:'auto'}}><table style={{width:'100%',borderCollapse:'collapse',minWidth:650}}><tbody>{equipment.map((r,i)=><tr key={i} style={{borderTop:i?`1px solid ${border}`:'none'}}>{r.map((x,j)=><td key={j} style={{padding:13,fontWeight:j===0?700:400,color:j===0?'#fff':'#c5cad3'}}>{x}</td>)}</tr>)}</tbody></table></div></Panel>
+   <Panel title="Equipment" sub="Club and shaft details updated November 9, 2026 from equipment photos. Shaft numbers 60 and 65 are nominal weight classes; the hybrid marking is 7 S-FLEX, not a confirmed 75 g."><div style={{overflowX:'auto'}}><table style={{width:'100%',borderCollapse:'collapse',minWidth:1000}}><thead><tr style={{color:blue}}>{['Club','Model','Loft / set','Shaft','Flex'].map(label=><th key={label} align="left" style={{padding:13}}>{label}</th>)}</tr></thead><tbody>{equipment.map((r,i)=><tr key={i} style={{borderTop:i?`1px solid ${border}`:'none'}}>{r.map((x,j)=><td key={j} style={{padding:13,fontWeight:j===0?700:400,color:j===0?'#fff':'#c5cad3'}}>{x}</td>)}</tr>)}</tbody></table></div></Panel>
   </div>}
 
   {tab==='Sessions'&&<div style={{display:'grid',gap:18}}>
@@ -71,6 +80,6 @@ export default function GolfPage(){
    <Panel title="Improvement over time" sub="Carry · speed · offline · dispersion · launch · apex · consistency"><EmptyViz>Longitudinal trend lines will grow as additional dated sessions are added.</EmptyViz></Panel>
    <Panel title="Individual shots" sub="Kept collapsed to preserve the clean dashboard layout"><button onClick={()=>setShowShots(!showShots)} style={{background:soft,color:'#fff',border:`1px solid ${border}`,borderRadius:9,padding:'10px 14px',cursor:'pointer',fontWeight:700}}>{showShots?'Hide shots':'Show shots'}</button>{showShots&&<div style={{marginTop:14,color:muted}}>Shot-level rows will appear here as exact Toptracer readings are added. Current recovered data is stored as ranges and summaries, so no individual readings are fabricated.</div>}</Panel>
   </div>}
-  <p style={{marginTop:44,color:muted,fontSize:14}}>Canonical golf performance record · Analytics expansion added November 1, 2026 · Unavailable shot-level values are intentionally left unfilled.</p>
+  <p style={{marginTop:44,color:muted,fontSize:14}}>Canonical golf performance record · Equipment updated November 9, 2026 · Range data through October 29, 2026 · Unavailable shot-level values are intentionally left unfilled.</p>
  </div></main>
 }
