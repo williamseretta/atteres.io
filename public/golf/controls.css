@@ -90,3 +90,20 @@ main select,.import-controls select,.trace-panel select,#visual-shot-chart #heat
 .intro>.session label{display:block;color:#c8e8f5;font-size:12px;font-weight:750;letter-spacing:.1em;line-height:1.5;margin-bottom:7px}.intro>.session #header-session{width:100%;min-width:230px;min-height:44px;font-size:18px;font-weight:800;color:#fff;border-color:#628fa3;background-color:#19313f;padding:9px 36px 9px 12px}.intro>.session{max-width:100%;box-sizing:border-box}@media(max-width:600px){.intro>.session #header-session{min-width:0;font-size:16px}}
 
 .performance-streak-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px;align-items:stretch}.performance-streak-row>article{min-width:0;padding:16px;border:1px solid #30434c;border-radius:12px;background:#17252f}.performance-streak-row h4{margin:0 0 14px;color:#dcecf3}.performance-streak-row>article:first-child h4{color:#67e6ad}.performance-streak-row>article:last-child h4{color:#ff7798}.performance-streak-row th,.performance-streak-row td{padding:10px 8px;font-size:12px}.performance-streak-row td .caption{font-size:10px;margin:5px 0 0}.performance-streak-row td:first-child{font-weight:650}.performance-streak-row td{vertical-align:top}@media(max-width:800px){.performance-streak-row{grid-template-columns:minmax(0,1fr)}}
+
+/* Shared orange accent across the dashboard. */
+:root{--accent:#ffab63;--accent-soft:#382a21;--control-border:#65503f}
+.dashboard-tabs button[aria-selected=true]{background:#ffab63;border-color:#ffd1a5;color:#201810;box-shadow:0 2px 12px #ff943322}
+.dashboard-tabs button:hover{border-color:#d3894d;background:#3a2d24;color:#fff1e5}
+.dashboard-tabs button[aria-selected=true]:hover{background:#ffbb81;color:#201810}
+.dashboard-tabs button:focus-visible,main select:focus-visible,main button:focus-visible{outline:2px solid #ffab63;outline-offset:3px}
+main select:hover{border-color:#d3894d}main select:focus{border-color:#ffab63}
+.eyebrow,.trace-kicker,.footer-brand,.bag-carry,.bag-summary,.performance-cards strong,.simple-session-stats strong{color:#ffab63!important}
+.intro h1 span,.stat-grid article>strong{color:#ffb577}
+.intro>.session{border-color:#b77948;background:#30271f}.intro>.session label{color:#ffd1a5}.intro>.session #header-session{border-color:#b77948;background-color:#241f1b}
+.trace-overlay-control button[aria-pressed=true]{background:#513622;border-color:#bc7b47;color:#ffe1c5}
+main details>summary:hover,main a:hover{color:#ffb577}
+.bag-club-card,.performance-cards article{border-top-color:#a56d40}
+#performance-overview>h2,#session-visuals>h2,#my-clubs>h2,#golf-analysis>h2{border-left:3px solid #ffab63;padding-left:14px}
+.bar-fill{background:linear-gradient(90deg,#bd652e,#ffb16e)}
+
