@@ -162,3 +162,4 @@ main details>summary:hover,main a:hover{color:#ffb577}
 /* Equal-height spray chart and carry map. */
 @media(min-width:1101px){#visual-shot-chart .spray-carry-row{align-items:stretch}#visual-shot-chart .spray-carry-row>.trace-layout,#visual-shot-chart .spray-carry-row>#bag{align-self:stretch;box-sizing:border-box}#visual-shot-chart .spray-carry-row>#bag{display:flex;flex-direction:column}#visual-shot-chart .spray-carry-row #bag .carry-chart{flex:1}#visual-shot-chart .spray-carry-row>.trace-layout>.trace-field{display:flex;flex-direction:column}#visual-shot-chart .spray-carry-row .trace-field>svg{flex:1;min-height:360px;max-height:none}#visual-shot-chart .spray-carry-row .trace-field-caption{margin-top:auto}}
 
+.intro>.session .header-club-label{margin-top:12px}.intro>.session #header-club{width:100%;min-height:38px;font-size:15px;font-weight:700;color:#fff;border-color:#b77948;background-color:#241f1b;padding:7px 36px 7px 12px}
