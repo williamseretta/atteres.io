@@ -145,3 +145,16 @@ main details>summary:hover,main a:hover{color:#ffb577}
 #visual-shot-chart .flight-distribution-row>#flight-profile,#visual-shot-chart .flight-distribution-row>#trace-distribution{align-self:stretch;box-sizing:border-box}
 @media(min-width:1001px){#visual-shot-chart .flight-distribution-row>#trace-distribution{display:flex;flex-direction:column}#visual-shot-chart .flight-distribution-row>#trace-distribution>.trace-distribution-grid{flex:1;align-content:center}}
 
+/* Main spray chart and carry map share the first row. */
+#visual-shot-chart .spray-carry-row{display:grid;grid-template-columns:minmax(0,1.9fr) minmax(280px,1fr);gap:16px;align-items:start;margin:0 0 12px}
+#visual-shot-chart .spray-carry-row>.trace-layout{min-width:0;grid-template-columns:minmax(0,1fr) 170px}
+#visual-shot-chart .spray-carry-row .trace-field>svg{height:360px;max-height:360px;width:100%}
+#visual-shot-chart .spray-carry-row>.trace-layout>.trace-aside{padding:12px}
+#visual-shot-chart .spray-carry-row .trace-metrics>div{padding:8px 0}
+#visual-shot-chart .spray-carry-row>#bag{padding:14px;min-width:0}
+#visual-shot-chart .spray-carry-row #bag h2{font-size:21px;margin:0}
+#visual-shot-chart .spray-carry-row #bag .bar-row{grid-template-columns:78px minmax(0,1fr) 42px;padding:6px 0;font-size:11px}
+#visual-shot-chart .spray-carry-row #bag .carry-chart{margin-top:12px}
+#visual-shot-chart .spray-carry-row #bag .table-scroll{max-width:100%;overflow:auto}
+@media(max-width:1100px){#visual-shot-chart .spray-carry-row{grid-template-columns:minmax(0,1fr)}#visual-shot-chart .spray-carry-row>.trace-layout{grid-template-columns:minmax(0,1fr) 220px}}
+@media(max-width:750px){#visual-shot-chart .spray-carry-row>.trace-layout{grid-template-columns:minmax(0,1fr)}#visual-shot-chart .spray-carry-row .trace-field>svg{height:auto;max-height:320px}}
