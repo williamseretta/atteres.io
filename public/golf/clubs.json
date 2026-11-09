@@ -1,22 +1,22 @@
 {
-  "updatedOn": "2026-11-08",
-  "source": "Earlier equipment records, user-confirmed club models and wedge lofts",
+  "updatedOn": "2026-11-09",
+  "source": "Earlier equipment records plus November 9, 2026 shaft photos and user confirmation",
   "wedges": [
     {
       "id": "wedge-52",
-      "name": "52\u00b0 wedge",
+      "name": "52° wedge",
       "loftDegrees": 52,
       "shotLabel": null
     },
     {
       "id": "wedge-56",
-      "name": "56\u00b0 wedge",
+      "name": "56° wedge",
       "loftDegrees": 56,
       "shotLabel": null
     },
     {
       "id": "wedge-60",
-      "name": "60\u00b0 wedge",
+      "name": "60° wedge",
       "loftDegrees": 60,
       "shotLabel": null
     }
@@ -27,19 +27,20 @@
       "name": "Driver",
       "category": "Driver",
       "model": "TaylorMade M5",
-      "loft": "10.5\u00b0",
+      "loft": "10.5°",
       "shotLabel": "Driver",
       "identification": "User-confirmed",
       "note": "Loft shown is the recorded head marking; current sleeve and weight settings are not confirmed.",
-      "shaft": null,
-      "flex": null,
+      "shaft": "Mitsubishi Chemical CK Series 60",
+      "flex": "Regular (R)",
       "length": null,
       "lie": null,
-      "grip": "Golf Pride MCC Plus4 Align Max \u2014 Midsize",
+      "grip": "Golf Pride MCC Plus4 Align Max — Midsize",
       "bounce": null,
       "history": [
-        "10.5\u00b0 was identified as the head marking. Current effective loft, sleeve position and weight positions are unconfirmed.",
-        "Earlier slice discussion recommended DRAW / HIGH weighting and trying a higher sleeve setting. These were recommendations, not confirmed changes."
+        "10.5° was identified as the head marking. Current effective loft, sleeve position and weight positions are unconfirmed.",
+        "Earlier slice discussion recommended DRAW / HIGH weighting and trying a higher sleeve setting. These were recommendations, not confirmed changes.",
+        "November 9, 2026: shaft series and regular flex confirmed from user photos / confirmation. 60 and 65 are nominal weight classes."
       ],
       "sourceIds": [
         "identification",
@@ -57,17 +58,19 @@
       "name": "3 Wood",
       "category": "Fairway woods",
       "model": "TaylorMade M5 Titanium",
-      "loft": "15\u00b0",
+      "loft": "15°",
       "shotLabel": "3 Wood",
       "identification": "User-confirmed",
       "note": null,
-      "shaft": null,
-      "flex": null,
+      "shaft": "Mitsubishi Chemical CK Series 65",
+      "flex": "Regular (R)",
       "length": null,
       "lie": null,
-      "grip": "Golf Pride MCC Plus4 Align Max \u2014 Midsize",
+      "grip": "Golf Pride MCC Plus4 Align Max — Midsize",
       "bounce": null,
-      "history": [],
+      "history": [
+        "November 9, 2026: shaft series and regular flex confirmed from user photos / confirmation. 60 and 65 are nominal weight classes."
+      ],
       "sourceIds": [
         "inventory"
       ],
@@ -83,18 +86,19 @@
       "name": "5 Wood",
       "category": "Fairway woods",
       "model": "TaylorMade M5 Titanium",
-      "loft": "19\u00b0",
+      "loft": "19°",
       "shotLabel": "5 Wood",
       "identification": "User-confirmed",
       "note": null,
-      "shaft": null,
-      "flex": null,
+      "shaft": "Mitsubishi Chemical CK Series 65",
+      "flex": "Regular (R)",
       "length": null,
       "lie": null,
-      "grip": "Golf Pride MCC Plus4 Align Max \u2014 Midsize",
+      "grip": "Golf Pride MCC Plus4 Align Max — Midsize",
       "bounce": null,
       "history": [
-        "Earlier inventory left the second fairway loft as TBD. The retained 19\u00b0 value is a prior equipment-list entry, not a newly verified measurement."
+        "Earlier inventory left the second fairway loft as TBD. The retained 19° value is a prior equipment-list entry, not a newly verified measurement.",
+        "November 9, 2026: shaft series and regular flex confirmed from user photos / confirmation. 60 and 65 are nominal weight classes."
       ],
       "sourceIds": [
         "inventory"
@@ -111,17 +115,19 @@
       "name": "3 Hybrid",
       "category": "Hybrids",
       "model": "TaylorMade M6",
-      "loft": "19\u00b0",
+      "loft": "19°",
       "shotLabel": "3 Hybrid",
       "identification": "User-confirmed",
       "note": null,
-      "shaft": null,
-      "flex": null,
+      "shaft": "Fujikura (marked 7)",
+      "flex": "Stiff (S)",
       "length": null,
       "lie": null,
-      "grip": "Golf Pride MCC ALIGN MAX \u2014 Midsize",
+      "grip": "Golf Pride MCC ALIGN MAX — Midsize",
       "bounce": null,
-      "history": [],
+      "history": [
+        "November 9, 2026: shaft marked 7 S-FLEX confirmed from photos. Exact model and gram weight unconfirmed; previous 75 g reading was corrected."
+      ],
       "sourceIds": [
         "inventory"
       ],
@@ -137,17 +143,19 @@
       "name": "4 Hybrid",
       "category": "Hybrids",
       "model": "TaylorMade M6",
-      "loft": "22\u00b0",
+      "loft": "22°",
       "shotLabel": "4 Hybrid",
       "identification": "User-confirmed",
       "note": null,
-      "shaft": null,
-      "flex": null,
+      "shaft": "Fujikura (marked 7)",
+      "flex": "Stiff (S)",
       "length": null,
       "lie": null,
-      "grip": "Golf Pride MCC ALIGN MAX \u2014 Midsize",
+      "grip": "Golf Pride MCC ALIGN MAX — Midsize",
       "bounce": null,
-      "history": [],
+      "history": [
+        "November 9, 2026: shaft marked 7 S-FLEX confirmed from photos. Exact model and gram weight unconfirmed; previous 75 g reading was corrected."
+      ],
       "sourceIds": [
         "inventory"
       ],
@@ -163,20 +171,20 @@
       "name": "5 Iron",
       "category": "Irons",
       "model": "TaylorMade SIM2 Max",
-      "loft": "21.5\u00b0",
+      "loft": "21.5°",
       "shotLabel": "5 Iron",
       "identification": "User-confirmed",
       "note": null,
-      "shaft": "KBS MAX MT 85 \u2014 recorded in earlier iron-set photo discussion",
-      "flex": "Regular (R) \u2014 historical photo record",
+      "shaft": "KBS MAX MT 85 — recorded in earlier iron-set photo discussion",
+      "flex": "Regular (R) — historical photo record",
       "length": null,
       "lie": null,
-      "grip": "Golf Pride MCC ALIGN MAX \u2014 Midsize",
+      "grip": "Golf Pride MCC ALIGN MAX — Midsize",
       "bounce": null,
       "history": [
         "Earlier chats called the heads SIM Max or M5. Your latest confirmation identifies them as SIM2.",
         "Earlier shaft identification was KBS MAX MT 85 R. Current per-club shaft installation has not been rechecked.",
-        "Earlier M5-labeled loft: 22.5\u00b0. This is a historical value, not a verified SIM2 loft.",
+        "Earlier M5-labeled loft: 22.5°. This is a historical value, not a verified SIM2 loft.",
         "SIM2 Max variant user-confirmed. Displayed loft uses TaylorMade factory specifications; any custom bending is unrecorded."
       ],
       "sourceIds": [
@@ -198,20 +206,20 @@
       "name": "6 Iron",
       "category": "Irons",
       "model": "TaylorMade SIM2 Max",
-      "loft": "25\u00b0",
+      "loft": "25°",
       "shotLabel": "6 Iron",
       "identification": "User-confirmed",
       "note": null,
-      "shaft": "KBS MAX MT 85 \u2014 recorded in earlier iron-set photo discussion",
-      "flex": "Regular (R) \u2014 historical photo record",
+      "shaft": "KBS MAX MT 85 — recorded in earlier iron-set photo discussion",
+      "flex": "Regular (R) — historical photo record",
       "length": null,
       "lie": null,
-      "grip": "Golf Pride MCC ALIGN MAX \u2014 Midsize",
+      "grip": "Golf Pride MCC ALIGN MAX — Midsize",
       "bounce": null,
       "history": [
         "Earlier chats called the heads SIM Max or M5. Your latest confirmation identifies them as SIM2.",
         "Earlier shaft identification was KBS MAX MT 85 R. Current per-club shaft installation has not been rechecked.",
-        "Earlier M5-labeled loft: 26\u00b0. This is a historical value, not a verified SIM2 loft.",
+        "Earlier M5-labeled loft: 26°. This is a historical value, not a verified SIM2 loft.",
         "SIM2 Max variant user-confirmed. Displayed loft uses TaylorMade factory specifications; any custom bending is unrecorded."
       ],
       "sourceIds": [
@@ -233,20 +241,20 @@
       "name": "7 Iron",
       "category": "Irons",
       "model": "TaylorMade SIM2 Max",
-      "loft": "28.5\u00b0",
+      "loft": "28.5°",
       "shotLabel": "7 Iron",
       "identification": "User-confirmed",
       "note": null,
-      "shaft": "KBS MAX MT 85 \u2014 recorded in earlier iron-set photo discussion",
-      "flex": "Regular (R) \u2014 historical photo record",
+      "shaft": "KBS MAX MT 85 — recorded in earlier iron-set photo discussion",
+      "flex": "Regular (R) — historical photo record",
       "length": null,
       "lie": null,
-      "grip": "Golf Pride MCC ALIGN MAX \u2014 Midsize",
+      "grip": "Golf Pride MCC ALIGN MAX — Midsize",
       "bounce": null,
       "history": [
         "Earlier chats called the heads SIM Max or M5. Your latest confirmation identifies them as SIM2.",
         "Earlier shaft identification was KBS MAX MT 85 R. Current per-club shaft installation has not been rechecked.",
-        "Earlier M5-labeled loft: 30\u00b0. This is a historical value, not a verified SIM2 loft.",
+        "Earlier M5-labeled loft: 30°. This is a historical value, not a verified SIM2 loft.",
         "SIM2 Max variant user-confirmed. Displayed loft uses TaylorMade factory specifications; any custom bending is unrecorded."
       ],
       "sourceIds": [
@@ -268,20 +276,20 @@
       "name": "8 Iron",
       "category": "Irons",
       "model": "TaylorMade SIM2 Max",
-      "loft": "32.5\u00b0",
+      "loft": "32.5°",
       "shotLabel": "8 Iron",
       "identification": "User-confirmed",
       "note": null,
-      "shaft": "KBS MAX MT 85 \u2014 recorded in earlier iron-set photo discussion",
-      "flex": "Regular (R) \u2014 historical photo record",
+      "shaft": "KBS MAX MT 85 — recorded in earlier iron-set photo discussion",
+      "flex": "Regular (R) — historical photo record",
       "length": null,
       "lie": null,
-      "grip": "Golf Pride MCC ALIGN MAX \u2014 Midsize",
+      "grip": "Golf Pride MCC ALIGN MAX — Midsize",
       "bounce": null,
       "history": [
         "Earlier chats called the heads SIM Max or M5. Your latest confirmation identifies them as SIM2.",
         "Earlier shaft identification was KBS MAX MT 85 R. Current per-club shaft installation has not been rechecked.",
-        "Earlier M5-labeled loft: 34.5\u00b0. This is a historical value, not a verified SIM2 loft.",
+        "Earlier M5-labeled loft: 34.5°. This is a historical value, not a verified SIM2 loft.",
         "SIM2 Max variant user-confirmed. Displayed loft uses TaylorMade factory specifications; any custom bending is unrecorded."
       ],
       "sourceIds": [
@@ -303,20 +311,20 @@
       "name": "9 Iron",
       "category": "Irons",
       "model": "TaylorMade SIM2 Max",
-      "loft": "38\u00b0",
+      "loft": "38°",
       "shotLabel": "9 Iron",
       "identification": "User-confirmed",
       "note": null,
-      "shaft": "KBS MAX MT 85 \u2014 recorded in earlier iron-set photo discussion",
-      "flex": "Regular (R) \u2014 historical photo record",
+      "shaft": "KBS MAX MT 85 — recorded in earlier iron-set photo discussion",
+      "flex": "Regular (R) — historical photo record",
       "length": null,
       "lie": null,
-      "grip": "Golf Pride MCC ALIGN MAX \u2014 Midsize",
+      "grip": "Golf Pride MCC ALIGN MAX — Midsize",
       "bounce": null,
       "history": [
         "Earlier chats called the heads SIM Max or M5. Your latest confirmation identifies them as SIM2.",
         "Earlier shaft identification was KBS MAX MT 85 R. Current per-club shaft installation has not been rechecked.",
-        "Earlier M5-labeled loft: 39.5\u00b0. This is a historical value, not a verified SIM2 loft.",
+        "Earlier M5-labeled loft: 39.5°. This is a historical value, not a verified SIM2 loft.",
         "SIM2 Max variant user-confirmed. Displayed loft uses TaylorMade factory specifications; any custom bending is unrecorded."
       ],
       "sourceIds": [
@@ -338,20 +346,20 @@
       "name": "Pitching Wedge",
       "category": "Irons",
       "model": "TaylorMade SIM2 Max",
-      "loft": "43.5\u00b0",
+      "loft": "43.5°",
       "shotLabel": "Pitching Wedge",
       "identification": "User-confirmed",
       "note": null,
-      "shaft": "KBS MAX MT 85 \u2014 recorded in earlier iron-set photo discussion",
-      "flex": "Regular (R) \u2014 historical photo record",
+      "shaft": "KBS MAX MT 85 — recorded in earlier iron-set photo discussion",
+      "flex": "Regular (R) — historical photo record",
       "length": null,
       "lie": null,
-      "grip": "Golf Pride MCC ALIGN MAX \u2014 Midsize",
+      "grip": "Golf Pride MCC ALIGN MAX — Midsize",
       "bounce": null,
       "history": [
         "Earlier chats called the heads SIM Max or M5. Your latest confirmation identifies them as SIM2.",
         "Earlier shaft identification was KBS MAX MT 85 R. Current per-club shaft installation has not been rechecked.",
-        "Earlier M5-labeled loft: 45\u00b0. This is a historical value, not a verified SIM2 loft.",
+        "Earlier M5-labeled loft: 45°. This is a historical value, not a verified SIM2 loft.",
         "SIM2 Max variant user-confirmed. Displayed loft uses TaylorMade factory specifications; any custom bending is unrecorded."
       ],
       "sourceIds": [
@@ -373,20 +381,20 @@
       "name": "Approach / 10 Iron",
       "category": "Irons",
       "model": "TaylorMade SIM2 Max",
-      "loft": "49\u00b0",
+      "loft": "49°",
       "shotLabel": null,
       "identification": "User-confirmed",
       "note": "Previously listed as approach / 10i; no matching club label in the current CSV.",
-      "shaft": "KBS MAX MT 85 \u2014 recorded in earlier iron-set photo discussion",
-      "flex": "Regular (R) \u2014 historical photo record",
+      "shaft": "KBS MAX MT 85 — recorded in earlier iron-set photo discussion",
+      "flex": "Regular (R) — historical photo record",
       "length": null,
       "lie": null,
-      "grip": "Golf Pride MCC ALIGN MAX \u2014 Midsize",
+      "grip": "Golf Pride MCC ALIGN MAX — Midsize",
       "bounce": null,
       "history": [
         "Earlier chats called the heads SIM Max or M5. Your latest confirmation identifies them as SIM2.",
         "Earlier shaft identification was KBS MAX MT 85 R. Current per-club shaft installation has not been rechecked.",
-        "Earlier M5-labeled loft: 50\u00b0. This is a historical value, not a verified SIM2 loft.",
+        "Earlier M5-labeled loft: 50°. This is a historical value, not a verified SIM2 loft.",
         "SIM2 Max variant user-confirmed. Displayed loft uses TaylorMade factory specifications; any custom bending is unrecorded."
       ],
       "sourceIds": [
@@ -405,10 +413,10 @@
       "gripSize": "Midsize"
     },
     {
-      "name": "52\u00b0 Wedge",
+      "name": "52° Wedge",
       "category": "Wedges",
       "model": "TaylorMade Hi-Toe / Milled Grind",
-      "loft": "52\u00b0",
+      "loft": "52°",
       "shotLabel": null,
       "identification": "Loft user-confirmed; model unresolved",
       "note": "Earlier records did not establish the model for each individual wedge.",
@@ -416,11 +424,11 @@
       "flex": null,
       "length": null,
       "lie": null,
-      "grip": "Stock grip \u2014 user-confirmed",
+      "grip": "Stock grip — user-confirmed",
       "bounce": null,
       "history": [
-        "An earlier photo discussion identified Hi-Toe 52\u00b0. Another later inventory called all three wedges Hi-Toe. Individual model identification remains unresolved.",
-        "A later historical table listed a 50\u00b0 / 9\u00b0 wedge. Your explicit 52\u00b0 correction takes precedence; the 9\u00b0 bounce is not assigned to this club."
+        "An earlier photo discussion identified Hi-Toe 52°. Another later inventory called all three wedges Hi-Toe. Individual model identification remains unresolved.",
+        "A later historical table listed a 50° / 9° wedge. Your explicit 52° correction takes precedence; the 9° bounce is not assigned to this club."
       ],
       "sourceIds": [
         "identification",
@@ -432,10 +440,10 @@
       "imageCaption": "Hi-Toe model reference"
     },
     {
-      "name": "56\u00b0 Wedge",
+      "name": "56° Wedge",
       "category": "Wedges",
       "model": "TaylorMade Hi-Toe / Milled Grind",
-      "loft": "56\u00b0",
+      "loft": "56°",
       "shotLabel": null,
       "identification": "Loft user-confirmed; model unresolved",
       "note": "Earlier records did not establish the model for each individual wedge.",
@@ -443,11 +451,11 @@
       "flex": null,
       "length": null,
       "lie": null,
-      "grip": "Stock grip \u2014 user-confirmed",
-      "bounce": "10\u00b0 \u2014 historical inventory; unverified",
+      "grip": "Stock grip — user-confirmed",
+      "bounce": "10° — historical inventory; unverified",
       "history": [
-        "An earlier photo discussion identified Milled Grind 56\u00b0. Another later inventory called all three wedges Hi-Toe. Individual model identification remains unresolved.",
-        "Historical inventory listed 10\u00b0 bounce; this has not been independently verified on the current wedge."
+        "An earlier photo discussion identified Milled Grind 56°. Another later inventory called all three wedges Hi-Toe. Individual model identification remains unresolved.",
+        "Historical inventory listed 10° bounce; this has not been independently verified on the current wedge."
       ],
       "sourceIds": [
         "identification",
@@ -459,10 +467,10 @@
       "imageCaption": "Hi-Toe model reference"
     },
     {
-      "name": "60\u00b0 Wedge",
+      "name": "60° Wedge",
       "category": "Wedges",
       "model": "TaylorMade Hi-Toe / Milled Grind",
-      "loft": "60\u00b0",
+      "loft": "60°",
       "shotLabel": null,
       "identification": "Loft user-confirmed; model unresolved",
       "note": "Earlier records did not establish the model for each individual wedge.",
@@ -470,11 +478,11 @@
       "flex": null,
       "length": null,
       "lie": null,
-      "grip": "Stock grip \u2014 user-confirmed",
-      "bounce": "10\u00b0 \u2014 historical inventory; unverified",
+      "grip": "Stock grip — user-confirmed",
+      "bounce": "10° — historical inventory; unverified",
       "history": [
-        "An earlier photo discussion identified Hi-Toe 60\u00b0. Another later inventory called all three wedges Hi-Toe. Individual model identification remains unresolved.",
-        "Historical inventory listed 10\u00b0 bounce; this has not been independently verified on the current wedge."
+        "An earlier photo discussion identified Hi-Toe 60°. Another later inventory called all three wedges Hi-Toe. Individual model identification remains unresolved.",
+        "Historical inventory listed 10° bounce; this has not been independently verified on the current wedge."
       ],
       "sourceIds": [
         "identification",
@@ -497,7 +505,7 @@
       "flex": null,
       "length": null,
       "lie": null,
-      "grip": "Golf Pride Pro Only Cord \u2014 Angled",
+      "grip": "Golf Pride Pro Only Cord — Angled",
       "bounce": null,
       "history": [
         "Blue face insert clarified by user; earlier Method Core Drone identification corrected to BC-002 Blue Chip."
@@ -532,7 +540,7 @@
     },
     {
       "id": "wraps",
-      "title": "Replace Golf Grips \u2014 overgrips",
+      "title": "Replace Golf Grips — overgrips",
       "url": "https://chatgpt.com/c/6ac562e0-4a58-83ea-93d0-d3856d2dd4b2"
     },
     {
@@ -617,4 +625,3 @@
     "nike-bc002": "SidelineSwap BC-002 product reference photograph"
   }
 }
-
