@@ -107,3 +107,36 @@ main details>summary:hover,main a:hover{color:#ffb577}
 #performance-overview>h2,#session-visuals>h2,#my-clubs>h2,#golf-analysis>h2{border-left:3px solid #ffab63;padding-left:14px}
 .bar-fill{background:linear-gradient(90deg,#bd652e,#ffb16e)}
 
+/* Compact Range View vertical rhythm. */
+#visual-shot-chart{padding:20px;margin:20px 0 28px}
+#visual-shot-chart .trace-heading{margin-bottom:12px;gap:12px}
+#visual-shot-chart .trace-heading h2{margin:4px 0;font-size:27px}
+#visual-shot-chart>.trace-controls{margin-bottom:10px;gap:10px}
+#visual-shot-chart .trace-controls label{gap:4px}
+#visual-shot-chart .trace-overlay-control{gap:6px;margin-bottom:10px}
+#visual-shot-chart .trace-overlay-control button{padding:6px 10px}
+#visual-shot-chart>.trace-layout>#trace-svg,#visual-shot-chart>.trace-layout .trace-field>svg{height:360px;max-height:360px}
+#visual-shot-chart .trace-field-caption{padding:8px 12px}
+#visual-shot-chart>.trace-layout>.trace-aside{padding:14px 16px}
+#visual-shot-chart .trace-main-stat strong{font-size:44px;line-height:1.15}
+#visual-shot-chart>.trace-layout .trace-metrics>div{padding:9px 0}
+#visual-shot-chart .trace-metrics strong{font-size:20px;margin-top:3px}
+#visual-shot-chart .trace-aside>p{margin:8px 0;line-height:1.45}
+#visual-shot-chart .flight-distribution-row{margin:12px 0;gap:12px}
+#visual-shot-chart #flight-profile,#visual-shot-chart #trace-distribution{padding:12px}
+#visual-shot-chart #flight-profile>p{margin:5px 0;font-size:10px}
+#visual-shot-chart #flight-profile .flight-controls{margin:8px 0;gap:10px}
+#visual-shot-chart #trace-flight-stats{padding:12px}
+#visual-shot-chart #trace-flight-stats .trace-main-stat strong{font-size:38px}
+#visual-shot-chart #trace-flight-stats .trace-metrics>div{padding:7px 0}
+#visual-shot-chart #trace-flight-stats .trace-metrics strong{font-size:18px}
+#visual-shot-chart>#heatmap-explorer{margin:12px 0;padding-top:14px}
+#visual-shot-chart #heatmap-explorer .hm-frame{margin:14px auto}
+#visual-shot-chart .range-data-pair{margin:12px 0}
+#visual-shot-chart .trace-target-result{padding-top:8px}
+#visual-shot-chart .trace-comparison:empty{display:none}
+#visual-shot-chart .trace-legend{padding:10px 0 6px;gap:12px}
+#visual-shot-chart .trace-shot-picker{margin:4px 0 10px}
+#visual-shot-chart .trace-note{margin:5px 0;line-height:1.45}
+@media(max-width:750px){#visual-shot-chart{padding:14px}#visual-shot-chart .trace-heading h2{font-size:23px}#visual-shot-chart>.trace-layout .trace-field>svg{height:auto;max-height:320px}#visual-shot-chart>.trace-layout .trace-metrics{gap:10px}#visual-shot-chart>.trace-layout .trace-metrics>div{min-width:85px}}
+
