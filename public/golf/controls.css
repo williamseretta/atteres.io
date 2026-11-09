@@ -164,3 +164,9 @@ main details>summary:hover,main a:hover{color:#f7e2ce}
 
 .intro>.session .header-club-label{margin-top:12px}.intro>.session #header-club{width:100%;min-height:38px;font-size:15px;font-weight:700;color:#fff;border-color:#b99b82;background-color:#241f1b;padding:7px 36px 7px 12px}
 
+/* Manrope headings with Inter UI and aligned numeric data. */
+body,input,select,button,textarea{font-family:'Inter',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+h1,h2,h3,h4,.brand,.dashboard-tabs button{font-family:'Manrope','Inter',system-ui,sans-serif}
+h1,h2,h3,h4{font-weight:700}.dashboard-tabs button{font-weight:800}
+table,.stat-grid strong,.trace-main-stat strong,.trace-metrics strong,.bag-carry,.performance-cards strong,.simple-session-stats strong,#header-session{font-variant-numeric:tabular-nums lining-nums}
+svg text{font-family:'Inter',system-ui,sans-serif;font-variant-numeric:tabular-nums}
