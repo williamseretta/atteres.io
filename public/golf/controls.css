@@ -140,3 +140,8 @@ main details>summary:hover,main a:hover{color:#ffb577}
 #visual-shot-chart .trace-note{margin:5px 0;line-height:1.45}
 @media(max-width:750px){#visual-shot-chart{padding:14px}#visual-shot-chart .trace-heading h2{font-size:23px}#visual-shot-chart>.trace-layout .trace-field>svg{height:auto;max-height:320px}#visual-shot-chart>.trace-layout .trace-metrics{gap:10px}#visual-shot-chart>.trace-layout .trace-metrics>div{min-width:85px}}
 
+/* Match distribution and flight panel heights in their shared row. */
+#visual-shot-chart .flight-distribution-row{align-items:stretch}
+#visual-shot-chart .flight-distribution-row>#flight-profile,#visual-shot-chart .flight-distribution-row>#trace-distribution{align-self:stretch;box-sizing:border-box}
+@media(min-width:1001px){#visual-shot-chart .flight-distribution-row>#trace-distribution{display:flex;flex-direction:column}#visual-shot-chart .flight-distribution-row>#trace-distribution>.trace-distribution-grid{flex:1;align-content:center}}
+
