@@ -1,6 +1,6 @@
 function setupTabs(){
 const main=document.querySelector('main');
-const groups=[['range','Range View',['visual-shot-chart']],['performance','Performance',['session-visuals','performance-overview']],['analysis','Analysis',['practice-overview','golf-analysis']],['clubs','Clubs',['my-clubs']],['history','Shots & history',['shot-details','golf-history']]];
+const groups=[['range','Range View',['visual-shot-chart']],['performance','Performance',['session-visuals','performance-overview']],['analysis','Analysis',['golf-analysis']],['clubs','Clubs',['my-clubs']],['history','Shots & history',['shot-details','golf-history']]];
 const bar=document.createElement('div');bar.className='dashboard-tabs';bar.setAttribute('role','tablist');bar.setAttribute('aria-label','Golf dashboard sections');
 const panels=[];
 for(const [id,label,ids] of groups){
