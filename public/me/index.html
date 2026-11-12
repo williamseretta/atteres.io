@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="William Seretta’s personal homepage, with links to Atteres and William’s golf dashboard.">
+<title>William Seretta</title>
+<style>
+:root{color-scheme:light;--paper:#f4f0e7;--ink:#222822;--muted:#555c50;--rule:#bebfb1;--green:#395644}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.55 system-ui,sans-serif}
+main,header,footer{width:min(64rem,calc(100% - 3rem));margin-inline:auto}
+header{display:flex;align-items:center;justify-content:space-between;padding-block:1.4rem;border-bottom:1px solid var(--rule)}
+header a{font-weight:650}
+a{color:inherit;text-underline-offset:.25em}
+a:focus-visible{outline:2px solid var(--green);outline-offset:5px}
+.hero{padding-block:clamp(4rem,12vw,9rem)}
+h1,h2,p{margin:0}
+h1{font:400 clamp(3.4rem,11vw,8.5rem)/.94 Georgia,serif;letter-spacing:-.075em}
+.hero p{margin-top:1.6rem;font-size:1.15rem;color:var(--muted)}
+.projects{border-top:1px solid var(--rule);padding-block:2rem 4rem;display:grid;grid-template-columns:1fr 2fr;gap:1.5rem}
+h2{font:400 1.85rem Georgia,serif}
+ul{list-style:none;margin:0;padding:0}
+li+li{border-top:1px solid var(--rule);margin-top:1rem;padding-top:1rem}
+li a{font-size:1.2rem;font-weight:650;color:var(--green)}
+li p{color:var(--muted);margin-top:.2rem}
+footer{padding-block:1.25rem;border-top:1px solid var(--rule);color:var(--muted);font-size:.9rem}
+@media(max-width:36rem){.projects{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><strong>WS</strong><a href="#projects">Projects</a></header>
+<main>
+<section class="hero" aria-labelledby="name">
+<h1 id="name">William<br>Seretta</h1>
+<p>A home for my projects and interests.</p>
+</section>
+<section class="projects" id="projects" aria-labelledby="projects-title">
+<h2 id="projects-title">Projects</h2>
+<ul>
+<li><a href="https://www.atteres.io/">Atteres</a></li>
+<li><a href="https://golf.atteres.io/golf">William’s strokes</a><p>My golf practice dashboard, with shot charts and session analysis.</p></li>
+</ul>
+</section>
+</main>
+<footer>William Seretta</footer>
+</body>
+</html>
