@@ -173,6 +173,8 @@ svg text{font-family:'Inter',system-ui,sans-serif;font-variant-numeric:tabular-n
 
 /* Match the dashboard navigation to the range overlay controls. */
 .dashboard-tabs {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 8px;
   padding: 5px;
   margin-inline: -5px;
@@ -181,15 +183,17 @@ svg text{font-family:'Inter',system-ui,sans-serif;font-variant-numeric:tabular-n
   box-shadow: none;
 }
 .dashboard-tabs button {
-  flex: 0 0 auto;
-  min-height: 40px;
-  padding: 8px 14px;
+  min-width: 0;
+  min-height: 52px;
+  padding: 9px clamp(3px, 1vw, 16px);
+  white-space: normal;
+  line-height: 1.2;
   border: 1px solid #30434c;
   border-radius: 999px;
   background: #17252f;
   color: #e5edf2;
   font-family: 'Inter', system-ui, sans-serif;
-  font-size: 14px;
+  font-size: clamp(11px, 2.2vw, 17px);
   font-weight: 650;
   letter-spacing: normal;
 }
