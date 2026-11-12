@@ -29,3 +29,9 @@ section > h2 { scroll-margin-top: 1rem; }
 .pdf-contents li a { display: flex; align-items: baseline; justify-content: space-between; gap: .75rem; padding: .55rem .75rem; border: 1px solid var(--line); border-radius: .5rem; text-decoration: none; }
 .pdf-contents li a:hover { border-color: var(--accent); }
 .pdf-contents li span { color: var(--muted); white-space: nowrap; font-size: .85rem; }
+.pdf-contents li button, #results button { display: flex; justify-content: space-between; gap: .75rem; width: 100%; text-align: left; color: var(--accent); }
+.pdf-contents li button:hover, #results button:hover { border-color: var(--accent); }
+#results button { flex-direction: column; gap: .25rem; }
+#results button span { color: var(--muted); }
+#record h3 { color: var(--accent); border-top: 1px solid var(--line); padding-top: .8rem; }
+#record pre { margin-block: .8rem; }
