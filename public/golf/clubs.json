@@ -424,7 +424,10 @@
       "flex": null,
       "length": null,
       "lie": null,
-      "grip": "Stock grip — user-confirmed",
+      "grip": "Golf Pride MCC ALIGN MAX — Midsize",
+      "gripBrand": "Golf Pride",
+      "gripModel": "MCC ALIGN MAX",
+      "gripSize": "Midsize",
       "bounce": null,
       "history": [
         "An earlier photo discussion identified Hi-Toe 52°. Another later inventory called all three wedges Hi-Toe. Individual model identification remains unresolved.",
@@ -451,7 +454,10 @@
       "flex": null,
       "length": null,
       "lie": null,
-      "grip": "Stock grip — user-confirmed",
+      "grip": "Golf Pride MCC ALIGN MAX — Midsize",
+      "gripBrand": "Golf Pride",
+      "gripModel": "MCC ALIGN MAX",
+      "gripSize": "Midsize",
       "bounce": "10° — historical inventory; unverified",
       "history": [
         "An earlier photo discussion identified Milled Grind 56°. Another later inventory called all three wedges Hi-Toe. Individual model identification remains unresolved.",
@@ -478,7 +484,10 @@
       "flex": null,
       "length": null,
       "lie": null,
-      "grip": "Stock grip — user-confirmed",
+      "grip": "Golf Pride MCC ALIGN MAX — Midsize",
+      "gripBrand": "Golf Pride",
+      "gripModel": "MCC ALIGN MAX",
+      "gripSize": "Midsize",
       "bounce": "10° — historical inventory; unverified",
       "history": [
         "An earlier photo discussion identified Hi-Toe 60°. Another later inventory called all three wedges Hi-Toe. Individual model identification remains unresolved.",
@@ -567,14 +576,14 @@
   "equipmentNotes": [
     {
       "title": "Grips",
-      "text": "Hybrids and irons: Golf Pride MCC ALIGN MAX, Midsize. Driver, 3 Wood and 5 Wood: Golf Pride MCC Plus4 Align Max, Midsize. Putter: Golf Pride Pro Only Cord, Angled. Wedges retain stock grips. All assignments are user-confirmed; tape-wrap counts are unrecorded.",
+      "text": "Hybrids, irons and wedges: Golf Pride MCC ALIGN MAX, Midsize. Driver, 3 Wood and 5 Wood: Golf Pride MCC Plus4 Align Max, Midsize. Putter: Golf Pride Pro Only Cord, Angled. All assignments are user-confirmed; tape-wrap counts are unrecorded.",
       "sourceIds": [
         "grips"
       ]
     },
     {
       "title": "Grip work discussed",
-      "text": "Current configuration: MCC ALIGN MAX Midsize on hybrids and irons; MCC Plus4 Align Max Midsize on Driver, 3 Wood and 5 Wood; Pro Only Cord Angled on Putter; stock grips on wedges.",
+      "text": "Current configuration: MCC ALIGN MAX Midsize on hybrids, irons and wedges; MCC Plus4 Align Max Midsize on Driver, 3 Wood and 5 Wood; Pro Only Cord Angled on Putter.",
       "sourceIds": [
         "grips",
         "wraps"
