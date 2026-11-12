@@ -35,3 +35,12 @@ section > h2 { scroll-margin-top: 1rem; }
 #results button span { color: var(--muted); }
 #record h3 { color: var(--accent); border-top: 1px solid var(--line); padding-top: .8rem; }
 #record pre { margin-block: .8rem; }
+.summary-header { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: .6rem 1rem; }
+.summary-header h2 { margin-bottom: .25rem; }
+.summary-header p { margin: 0; }
+.summary-download { display: inline-flex; align-items: center; gap: .65rem; border-radius: .5rem; padding: .5rem .75rem; background: var(--accent); color: var(--paper); text-decoration: none; font-weight: 700; }
+.summary-download span { font-size: .75rem; font-weight: 500; }
+.summary-controls { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr); margin-block: .9rem; }
+#record { border-top: 1px solid var(--line); }
+#record pre { line-height: 1.65; }
+@media (max-width: 32rem) { .summary-controls { grid-template-columns: 1fr; } }
