@@ -58,7 +58,10 @@ function show() {
   heading.textContent = part.label + ' · Page ' + number.toLocaleString() + ' of ' + doc.pages.length.toLocaleString();
   const pdfPage = part.first ? part.first + number - 1 : null;
   source.hidden = pdfPage === null;
-  if (pdfPage !== null) source.href = pdf + '#page=' + pdfPage;
+  if (pdfPage !== null) {
+    source.href = pdf + '#page=' + pdfPage;
+    source.textContent = 'Open PDF page ' + pdfPage.toLocaleString();
+  }
   else source.removeAttribute('href');
   renderText(doc.pages[number - 1].text || 'This page has no extractable text.');
   get('prev').disabled = number === 1;
