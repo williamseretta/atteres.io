@@ -27,7 +27,7 @@
 .health-main { --orange: #f5a764; }
 .health-main h1 > span, .archive-label, .record-results summary::marker { color: var(--orange); }
 #record-archive { margin-top: 16px; }
-.archive-tools { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 12px; margin-top: 18px; }
+.archive-tools { display: grid; grid-template-columns: minmax(0, 2fr) repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 18px; }
 .archive-tools label { display: grid; gap: 5px; color: var(--muted); }
 .archive-tools input, .archive-tools select, .archive-more {
   min-width: 0; padding: 9px 12px; border: 1px solid var(--line);
@@ -36,7 +36,7 @@
 .archive-tools :focus-visible, .record-results summary:focus-visible, .archive-more:focus-visible {
   outline: 2px solid var(--orange); outline-offset: 3px;
 }
-.archive-status { color: var(--muted); font-size: 13px; }
+.archive-guide, .archive-status { color: var(--muted); font-size: 13px; }
 .record-results details { border-top: 1px solid var(--line); padding-block: 10px; }
 .record-results summary { cursor: pointer; }
 .record-results details[open] summary, .archive-more { color: var(--orange); }
@@ -89,14 +89,22 @@
 <h2 id="record-archive-title">Full health records</h2>
 <div class="archive-tools">
 <label>Search all text <input type="search" placeholder="Search by keyword or date" disabled></label>
-<label>Pages <select disabled>
+<label>Pages <select id="archive-range" disabled>
 <option value="">All pages</option>
 <option value="1-1">Cover and contents</option>
 <option value="2-1341">Part 1 · Pages 2–1,341</option>
 <option value="1342-2359">Part 2 · Pages 1,342–2,359</option>
 <option value="2360-3058">Part 3 · Pages 2,360–3,058</option>
 </select></label>
+<label>Note category <select id="archive-category" disabled>
+<option value="">All records</option>
+<option value="clinical">Clinical, progress, and consult notes</option>
+<option value="meetings">Meetings and care coordination</option>
+<option value="calls">Calls and messages</option>
+<option value="discharge">Discharge and patient instructions</option>
+</select></label>
 </div>
+<p class="archive-guide">Categories match terms in the record text. A page can appear in more than one category.</p>
 <p class="archive-status" role="status">Loading records…</p>
 <div class="record-results"></div>
 <button class="archive-more" type="button" hidden>Show more pages</button>

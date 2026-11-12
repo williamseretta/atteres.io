@@ -1,6 +1,14 @@
 const archive = document.querySelector('#record-archive');
 const search = archive.querySelector('input[type="search"]');
-const range = archive.querySelector('select');
+const range = archive.querySelector('#archive-range');
+const category = archive.querySelector('#archive-category');
+const categories = {
+  clinical: /\b(?:progress notes?|clinical notes?|consult(?:ation)? notes?|office visit notes?|h&p notes?|history and physical)\b/i,
+  meetings: /\b(?:meeting notes?|(?:family|care team|treatment team|multidisciplinary|discharge planning|team) meetings?|care coordination)\b/i,
+  calls: /\b(?:telephone encounter|telephone notes?|phone notes?|telephone call|patient message)\b/i,
+  discharge: /\b(?:discharge summary|discharge instructions|after visit summary|patient instructions)\b/i,
+};
+
 const status = archive.querySelector('[role="status"]');
 const list = archive.querySelector('.record-results');
 const more = archive.querySelector('button');
@@ -37,6 +45,7 @@ function filterPages() {
   const terms = search.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
   const [first, last] = range.value.split('-').map(Number);
   matches = pages.filter(page =>
+    (!category.value || categories[category.value].test(page.text)) &&
     (!range.value || (page.number >= first && page.number <= last)) &&
     terms.every(term => page.searchable.includes(term))
   );
@@ -58,6 +67,7 @@ async function loadArchive() {
     });
     search.disabled = false;
     range.disabled = false;
+    category.disabled = false;
     filterPages();
   } catch {
     status.textContent = 'The archive could not load. Reload the page to try again.';
@@ -69,5 +79,6 @@ search.addEventListener('input', () => {
   debounce = setTimeout(filterPages, 180);
 });
 range.addEventListener('change', filterPages);
+category.addEventListener('change', filterPages);
 more.addEventListener('click', appendResults);
 loadArchive();
