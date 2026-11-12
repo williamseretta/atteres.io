@@ -1,0 +1,477 @@
+{
+  "metrics": [
+    {
+      "type": "AllergyIntolerance",
+      "count": 5,
+      "first": "",
+      "last": "",
+      "units": []
+    },
+    {
+      "type": "Condition",
+      "count": 9,
+      "first": "",
+      "last": "",
+      "units": []
+    },
+    {
+      "type": "DiagnosticReport",
+      "count": 84,
+      "first": "",
+      "last": "",
+      "units": []
+    },
+    {
+      "type": "DocumentReference",
+      "count": 520,
+      "first": "",
+      "last": "",
+      "units": []
+    },
+    {
+      "type": "HKCategoryTypeIdentifierAppleStandHour",
+      "count": 12411,
+      "first": "2025-05-03",
+      "last": "2026-11-11",
+      "units": []
+    },
+    {
+      "type": "HKCategoryTypeIdentifierAudioExposureEvent",
+      "count": 163,
+      "first": "2025-05-03",
+      "last": "2026-11-07",
+      "units": []
+    },
+    {
+      "type": "HKCategoryTypeIdentifierLowHeartRateEvent",
+      "count": 81,
+      "first": "2026-08-20",
+      "last": "2026-09-01",
+      "units": []
+    },
+    {
+      "type": "HKCategoryTypeIdentifierMindfulSession",
+      "count": 12,
+      "first": "2025-05-22",
+      "last": "2026-04-22",
+      "units": []
+    },
+    {
+      "type": "HKCategoryTypeIdentifierSleepAnalysis",
+      "count": 15672,
+      "first": "2025-05-09",
+      "last": "2026-11-11",
+      "units": []
+    },
+    {
+      "type": "HKDataTypeSleepDurationGoal",
+      "count": 1,
+      "first": "2025-05-03",
+      "last": "2025-05-03",
+      "units": [
+        "hr"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierActiveEnergyBurned",
+      "count": 149078,
+      "first": "2022-11-20",
+      "last": "2026-11-11",
+      "units": [
+        "Cal"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierAppleExerciseTime",
+      "count": 9665,
+      "first": "2025-05-03",
+      "last": "2026-11-11",
+      "units": [
+        "min"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierAppleSleepingBreathingDisturbances",
+      "count": 486,
+      "first": "2025-05-10",
+      "last": "2026-11-11",
+      "units": [
+        "count"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierAppleSleepingWristTemperature",
+      "count": 3,
+      "first": "2025-05-17",
+      "last": "2025-05-20",
+      "units": [
+        "degF"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierAppleStandTime",
+      "count": 32022,
+      "first": "2025-05-03",
+      "last": "2026-11-11",
+      "units": [
+        "min"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierAppleWalkingSteadiness",
+      "count": 245,
+      "first": "2022-01-04",
+      "last": "2026-11-03",
+      "units": [
+        "%"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierBasalEnergyBurned",
+      "count": 173131,
+      "first": "2022-11-20",
+      "last": "2026-11-11",
+      "units": [
+        "Cal"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierBodyMass",
+      "count": 11,
+      "first": "2018-11-29",
+      "last": "2026-05-22",
+      "units": [
+        "lb"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierDietaryBiotin",
+      "count": 1,
+      "first": "2025-06-16",
+      "last": "2025-06-16",
+      "units": [
+        "mcg"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierDietaryCaffeine",
+      "count": 1,
+      "first": "2025-06-16",
+      "last": "2025-06-16",
+      "units": [
+        "mg"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierDietaryWater",
+      "count": 13,
+      "first": "2026-01-29",
+      "last": "2026-02-15",
+      "units": [
+        "mL"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierDistanceCycling",
+      "count": 7588,
+      "first": "2026-05-08",
+      "last": "2026-11-02",
+      "units": [
+        "mi"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierDistanceWalkingRunning",
+      "count": 162672,
+      "first": "2016-08-23",
+      "last": "2026-11-11",
+      "units": [
+        "mi"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierEnvironmentalAudioExposure",
+      "count": 27900,
+      "first": "2025-05-03",
+      "last": "2026-11-11",
+      "units": [
+        "dBASPL"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierEnvironmentalSoundReduction",
+      "count": 19,
+      "first": "2026-10-12",
+      "last": "2026-11-09",
+      "units": [
+        "dBASPL"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierEstimatedWorkoutEffortScore",
+      "count": 7,
+      "first": "2025-05-03",
+      "last": "2026-11-02",
+      "units": [
+        "appleEffortScore"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierFlightsClimbed",
+      "count": 21126,
+      "first": "2017-12-19",
+      "last": "2026-11-11",
+      "units": [
+        "count"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierHeadphoneAudioExposure",
+      "count": 8079,
+      "first": "2020-09-17",
+      "last": "2026-11-09",
+      "units": [
+        "dBASPL"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierHeartRate",
+      "count": 141337,
+      "first": "2025-05-03",
+      "last": "2026-11-11",
+      "units": [
+        "count/min"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierHeartRateVariabilitySDNN",
+      "count": 2374,
+      "first": "2025-05-04",
+      "last": "2026-11-11",
+      "units": [
+        "ms"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierHeight",
+      "count": 2,
+      "first": "2018-11-29",
+      "last": "2026-05-22",
+      "units": [
+        "ft"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierOxygenSaturation",
+      "count": 5637,
+      "first": "2025-08-18",
+      "last": "2026-11-11",
+      "units": [
+        "%"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierPhysicalEffort",
+      "count": 417504,
+      "first": "2025-05-03",
+      "last": "2026-11-11",
+      "units": [
+        "kcal/hr\u00b7kg"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierRespiratoryRate",
+      "count": 23328,
+      "first": "2025-05-09",
+      "last": "2026-11-11",
+      "units": [
+        "count/min"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierRestingHeartRate",
+      "count": 553,
+      "first": "2025-05-03",
+      "last": "2026-11-11",
+      "units": [
+        "count/min"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierSixMinuteWalkTestDistance",
+      "count": 76,
+      "first": "2025-05-20",
+      "last": "2026-11-09",
+      "units": [
+        "m"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierStairAscentSpeed",
+      "count": 3410,
+      "first": "2025-05-03",
+      "last": "2026-11-11",
+      "units": [
+        "ft/s"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierStairDescentSpeed",
+      "count": 2864,
+      "first": "2025-05-04",
+      "last": "2026-11-11",
+      "units": [
+        "ft/s"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierStepCount",
+      "count": 133186,
+      "first": "2016-08-23",
+      "last": "2026-11-11",
+      "units": [
+        "count"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierTimeInDaylight",
+      "count": 7851,
+      "first": "2025-05-05",
+      "last": "2026-11-11",
+      "units": [
+        "min"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierVO2Max",
+      "count": 2,
+      "first": "2026-04-29",
+      "last": "2026-05-10",
+      "units": [
+        "mL/min\u00b7kg"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierWalkingAsymmetryPercentage",
+      "count": 4461,
+      "first": "2020-09-29",
+      "last": "2026-11-11",
+      "units": [
+        "%"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierWalkingDoubleSupportPercentage",
+      "count": 19727,
+      "first": "2020-09-27",
+      "last": "2026-11-11",
+      "units": [
+        "%"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierWalkingHeartRateAverage",
+      "count": 494,
+      "first": "2025-05-03",
+      "last": "2026-11-11",
+      "units": [
+        "count/min"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierWalkingSpeed",
+      "count": 25383,
+      "first": "2020-09-26",
+      "last": "2026-11-11",
+      "units": [
+        "mi/hr"
+      ]
+    },
+    {
+      "type": "HKQuantityTypeIdentifierWalkingStepLength",
+      "count": 25383,
+      "first": "2020-09-26",
+      "last": "2026-11-11",
+      "units": [
+        "in"
+      ]
+    },
+    {
+      "type": "HKWorkoutActivityTypeCoreTraining",
+      "count": 1,
+      "first": "2025-05-07",
+      "last": "2025-05-07",
+      "units": []
+    },
+    {
+      "type": "HKWorkoutActivityTypeCycling",
+      "count": 9,
+      "first": "2026-05-08",
+      "last": "2026-11-02",
+      "units": []
+    },
+    {
+      "type": "HKWorkoutActivityTypeWalking",
+      "count": 1,
+      "first": "2025-05-03",
+      "last": "2025-05-03",
+      "units": []
+    },
+    {
+      "type": "Immunization",
+      "count": 16,
+      "first": "",
+      "last": "",
+      "units": []
+    },
+    {
+      "type": "MedicationRequest",
+      "count": 427,
+      "first": "",
+      "last": "",
+      "units": []
+    },
+    {
+      "type": "Observation",
+      "count": 1588,
+      "first": "",
+      "last": "",
+      "units": []
+    },
+    {
+      "type": "Patient",
+      "count": 1,
+      "first": "",
+      "last": "",
+      "units": []
+    },
+    {
+      "type": "Procedure",
+      "count": 36,
+      "first": "",
+      "last": "",
+      "units": []
+    }
+  ],
+  "entries": {
+    "ExportDate": 1,
+    "Me": 1,
+    "Record": 1433959,
+    "Workout": 11,
+    "ActivitySummary": 1303,
+    "ClinicalRecord": 2686
+  },
+  "clinical": {
+    "Observation": 1588,
+    "MedicationRequest": 427,
+    "DocumentReference": 520,
+    "DiagnosticReport": 84,
+    "Procedure": 36,
+    "Immunization": 16,
+    "Condition": 9,
+    "AllergyIntolerance": 5,
+    "Patient": 1
+  },
+  "routes": 7,
+  "ecgs": 1
+}

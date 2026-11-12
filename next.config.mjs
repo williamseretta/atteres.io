@@ -5,6 +5,8 @@ const nextConfig = {
   },
   async rewrites() {
     return { beforeFiles: [
+      { source: "/health/:path*", has: [{ type: "host", value: "me.atteres.io" }], destination: "/me/health/:path*" },
+      { source: "/me/health", destination: "/me/health/index.html" },
       { source: "/", has: [{ type: "host", value: "me.atteres.io" }], destination: "/me/index.html" },
       { source: "/me", destination: "/me/index.html" },
       { source: "/", has: [{ type: "host", value: "mailliw.atteres.io" }], destination: "/mailliw/index.html" },
