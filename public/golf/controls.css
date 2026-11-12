@@ -170,3 +170,38 @@ h1,h2,h3,h4,.brand,.dashboard-tabs button{font-family:'Manrope','Inter',system-u
 h1,h2,h3,h4{font-weight:700}.dashboard-tabs button{font-weight:800}
 table,.stat-grid strong,.trace-main-stat strong,.trace-metrics strong,.bag-carry,.performance-cards strong,.simple-session-stats strong,#header-session{font-variant-numeric:tabular-nums lining-nums}
 svg text{font-family:'Inter',system-ui,sans-serif;font-variant-numeric:tabular-nums}
+
+/* Match the dashboard navigation to the range overlay controls. */
+.dashboard-tabs {
+  gap: 8px;
+  padding: 5px;
+  margin-inline: -5px;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+.dashboard-tabs button {
+  flex: 0 0 auto;
+  min-height: 40px;
+  padding: 8px 14px;
+  border: 1px solid #30434c;
+  border-radius: 999px;
+  background: #17252f;
+  color: #e5edf2;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 650;
+  letter-spacing: normal;
+}
+.dashboard-tabs button:hover {
+  background: #20333f;
+  border-color: #547181;
+  color: #fff;
+}
+.dashboard-tabs button[aria-selected=true],
+.dashboard-tabs button[aria-selected=true]:hover {
+  background: #513622;
+  border-color: #b99b82;
+  color: #f9ecdf;
+  box-shadow: none;
+}
