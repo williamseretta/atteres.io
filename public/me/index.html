@@ -24,6 +24,25 @@
   .summary { grid-template-columns: minmax(0, 1fr); }
   #vitals ul { columns: 1; }
 }
+.health-main { --orange: #f5a764; }
+.health-main h1 > span, .archive-label, .record-results summary::marker { color: var(--orange); }
+#record-archive { margin-top: 16px; }
+.archive-tools { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 12px; margin-top: 18px; }
+.archive-tools label { display: grid; gap: 5px; color: var(--muted); }
+.archive-tools input, .archive-tools select, .archive-more {
+  min-width: 0; padding: 9px 12px; border: 1px solid var(--line);
+  border-radius: 7px; background: var(--paper); color: var(--ink);
+}
+.archive-tools :focus-visible, .record-results summary:focus-visible, .archive-more:focus-visible {
+  outline: 2px solid var(--orange); outline-offset: 3px;
+}
+.archive-status { color: var(--muted); font-size: 13px; }
+.record-results details { border-top: 1px solid var(--line); padding-block: 10px; }
+.record-results summary { cursor: pointer; }
+.record-results details[open] summary, .archive-more { color: var(--orange); }
+.record-results pre { white-space: pre-wrap; overflow-wrap: anywhere; font: inherit; color: var(--muted); }
+.archive-more { margin-top: 12px; }
+@media (max-width: 42rem) { .archive-tools { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
@@ -31,7 +50,7 @@
 <a href="#allergies">Allergies</a>
 <a href="#active-problems">Active problems</a>
 <a href="#medications">Medications</a>
-<a href="#resolved-problems">Resolved problems</a></nav></header>
+<a href="#resolved-problems">Resolved problems</a><a href="#record-archive">Full records</a></nav></header>
 <main class="health-main">
 <div class="intro"><div>
 <h1>Health summary<span>.</span></h1>
@@ -44,6 +63,24 @@
 <section class="panel" id="medications" aria-labelledby="medications-title"><h2 id="medications-title">Medications</h2><ul><li>Simponi 50 mg/0.5 mL<span>every 30 days Unk dose, monthly, for Lyme flare-up, last 10 days ago.</span></li><li>omeprazole (PriLOSEC) 20 mg<span>Take 30 mg by mouth daily</span></li><li>amphetamine-dextroamphetamine (Adderall) 20 mg<span>Take 20 mg by mouth daily 1-2 tabs daily as needed</span></li><li>levoTHYROxine (Synthroid, Levoxyl) 50 mcg<span>Take 50 mcg by mouth every morning.</span></li><li>lisinopril 10 mg<span>Take 10 mg by mouth daily.</span></li><li>Vraylar<span>3.0 mg daily</span></li><li>lamoTRIgine (LaMICtal) 200 mg<span>Take 1 Tablet (200 mg total) by mouth daily.</span></li><li>traZODone (Desyrel) 50 mg<span>Take 1 Tablet (50 mg total) by mouth nightly as needed for Insomnia.</span></li><li>guanFACINE (Intuniv) 1 mg<span>Take 1 Tablet (1 mg total) by mouth nightly.</span></li><li>hydrOXYzine Pamoate (VISTARIL) 25 mg<span>TAKE ONE TO TWO CAPSULES BY MOUTH DAILY AS NEEDED FOR ANXIETY OR ITCHING</span></li></ul></section>
 <section class="panel" id="resolved-problems" aria-labelledby="resolved-problems-title"><h2 id="resolved-problems-title">Resolved problems</h2><ul><li>Major depression, recurrent, chronic · Noted Feb 28, 2020 · Resolved Apr 21, 2022</li><li>Bipolar disorder · Apr 21, 2022 (date field unclear in the text export)</li></ul></section>
 </div>
+<section class="panel" id="record-archive" aria-labelledby="record-archive-title">
+<p class="eyebrow archive-label">MAINEHEALTH EXPORT</p>
+<h2 id="record-archive-title">Full health records</h2>
+<div class="archive-tools">
+<label>Search all text <input type="search" placeholder="Search by keyword or date" disabled></label>
+<label>Pages <select disabled>
+<option value="">All pages</option>
+<option value="1-1">Cover and contents</option>
+<option value="2-1341">Part 1 · Pages 2–1,341</option>
+<option value="1342-2359">Part 2 · Pages 1,342–2,359</option>
+<option value="2360-3058">Part 3 · Pages 2,360–3,058</option>
+</select></label>
+</div>
+<p class="archive-status" role="status">Loading records…</p>
+<div class="record-results"></div>
+<button class="archive-more" type="button" hidden>Show more pages</button>
+</section>
 </main>
+<script type="module" src="/me/health-archive.js"></script>
 </body>
 </html>
