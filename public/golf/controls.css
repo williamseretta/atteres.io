@@ -189,7 +189,7 @@ svg text{font-family:'Inter',system-ui,sans-serif;font-variant-numeric:tabular-n
   white-space: normal;
   line-height: 1.2;
   border: 1px solid #30434c;
-  border-radius: 999px;
+  border-radius: 6px;
   background: #17252f;
   color: #e5edf2;
   font-family: 'Inter', system-ui, sans-serif;
@@ -221,7 +221,7 @@ svg text{font-family:'Inter',system-ui,sans-serif;font-variant-numeric:tabular-n
  flex: 1 0 auto;
  padding: 10px 16px;
  border: 1px solid #30434c;
- border-radius: 999px;
+ border-radius: 6px;
  background: #17252f;
  color: #e5edf2;
  text-align: center;
