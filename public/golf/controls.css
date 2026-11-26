@@ -209,3 +209,32 @@ svg text{font-family:'Inter',system-ui,sans-serif;font-variant-numeric:tabular-n
   color: #f9ecdf;
   box-shadow: none;
 }
+
+.section-tabs {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 8px;
+ margin: 0 0 20px;
+ padding: 0;
+}
+.section-tabs a {
+ flex: 1 0 auto;
+ padding: 10px 16px;
+ border: 1px solid #30434c;
+ border-radius: 999px;
+ background: #17252f;
+ color: #e5edf2;
+ text-align: center;
+ text-decoration: none;
+ font-weight: 650;
+ font-size: 14px;
+}
+.section-tabs a:hover,
+.section-tabs a[aria-current=location] {
+ background: #513622;
+ border-color: #b99b82;
+ color: #f9ecdf;
+}
+.section-tabs a:focus-visible { outline: 2px solid #f5d9bf; outline-offset: 3px; }
+#panel-analysis .an-jump { display: none; }
+#panel-performance [id^=performance-section-] { scroll-margin-top: 24px; }

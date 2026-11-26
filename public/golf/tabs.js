@@ -21,3 +21,43 @@ revealHash();
 
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setupTabs,{once:true});else setupTabs();
+
+// Build section navigation as asynchronous charts finish loading.
+function setupSectionNavigation() {
+ const definitions = [
+  { id: 'performance', selector: '#session-visuals h2, #performance-overview h3' },
+  { id: 'analysis', selector: '#golf-analysis .an-card > h3, #an-detail-heading' },
+ ];
+ for (const definition of definitions) {
+  const panel = document.getElementById('panel-' + definition.id);
+  if (!panel) continue;
+  const nav = document.createElement('nav');
+  nav.className = 'section-tabs';
+  nav.setAttribute('aria-label', definition.id === 'performance' ? 'Performance sections' : 'Analysis sections');
+  panel.prepend(nav);
+  const update = () => {
+   const headings = [...panel.querySelectorAll(definition.selector)];
+   nav.replaceChildren(...headings.map((heading, index) => {
+    const target = heading.parentElement;
+    if (!target.id) target.id = definition.id + '-section-' + index;
+    const link = document.createElement('a');
+    link.href = '#' + target.id;
+    link.textContent = heading.textContent;
+    if (location.hash === link.hash) link.setAttribute('aria-current', 'location');
+    link.onclick = () => {
+     for (const item of nav.children) item.removeAttribute('aria-current');
+     link.setAttribute('aria-current', 'location');
+    };
+    return link;
+   }));
+  };
+  const observer = new MutationObserver(records => {
+   if (records.some(record => !nav.contains(record.target))) update();
+  });
+  observer.observe(panel, { childList: true, subtree: true });
+  window.addEventListener('hashchange', update);
+  update();
+ }
+}
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', setupSectionNavigation, { once: true });
+else setupSectionNavigation();
