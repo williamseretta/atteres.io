@@ -1,6 +1,6 @@
 function setupTabs(){
 const main=document.querySelector('main');
-const groups=[['range','Range View',['visual-shot-chart']],['performance','Performance',['session-visuals','performance-overview']],['analysis','Analysis',['golf-analysis']],['heatmaps','Heatmaps',['heatmap-explorer']],['clubs','Clubs',['my-clubs']],['history','Shots & history',['shot-details','golf-history']]];
+const groups=[['range','Range View',['visual-shot-chart']],['performance','Performance',['session-visuals','performance-overview']],['analysis','Analysis',['golf-analysis']],['heatmaps','Heatmaps',['heatmap-explorer']],['clubs','Clubs',['my-clubs','shot-details','golf-history']]];
 const bar=document.createElement('div');bar.className='dashboard-tabs';bar.setAttribute('role','tablist');bar.setAttribute('aria-label','Golf dashboard sections');
 const panels=[];
 for(const [id,label,ids] of groups){
@@ -13,7 +13,7 @@ for(const [id,label,ids] of groups){
 }
 main.querySelector('.stat-grid').after(bar);bar.after(...panels.map(p=>p.panel));
 function activate(id,update=false){for(const p of panels){const selected=p.id===id;p.panel.hidden=!selected;p.tab.setAttribute('aria-selected',String(selected));p.tab.tabIndex=selected?0:-1}if(update)history.replaceState(null,'','#'+id)}
-function revealHash(){const id=decodeURIComponent(location.hash.slice(1));const target=document.getElementById(id);const match=panels.find(p=>p.id===id||p.panel.contains(target));if(match)activate(match.id);else activate('range')}
+function revealHash(){const id=decodeURIComponent(location.hash.slice(1));const target=document.getElementById(id);const match=panels.find(p=>p.id===id||(id==='history'&&p.id==='clubs')||p.panel.contains(target));if(match)activate(match.id);else activate('range')}
 window.addEventListener('hashchange',revealHash);
 document.addEventListener('click',e=>{const link=e.target.closest('a[href^="#"]');if(!link)return;const target=document.getElementById(link.hash.slice(1));const match=panels.find(p=>p.panel.contains(target));if(match)activate(match.id)});
 document.addEventListener('golf-inspect-shots',()=>activate('analysis'),true);
