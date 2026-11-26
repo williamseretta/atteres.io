@@ -245,3 +245,36 @@ svg text{font-family:'Inter',system-ui,sans-serif;font-variant-numeric:tabular-n
 #panel-heatmaps #heatmap-explorer .hm-shared-filter { display: flex !important; flex-direction: column; }
 #panel-heatmaps .an-controls { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
 #panel-heatmaps .an-controls input { width: 100%; }
+
+.chart-fullscreen {
+ display: block;
+ margin: 0 0 10px auto;
+ padding: 7px 12px;
+ border: 1px solid #65503f;
+ border-radius: 6px;
+ background: #30271f;
+ color: #f5d9bf;
+ font: 600 12px Inter, system-ui, sans-serif;
+ cursor: pointer;
+}
+.has-expanded-chart { overflow: hidden; }
+.chart-expanded,
+.chart-expanded:fullscreen {
+ position: fixed !important;
+ inset: 0 !important;
+ z-index: 10000;
+ width: 100vw !important;
+ height: 100dvh !important;
+ max-width: none !important;
+ max-height: none !important;
+ margin: 0 !important;
+ padding: 24px !important;
+ overflow: auto !important;
+ border: 0 !important;
+ border-radius: 0 !important;
+ background: #101c24 !important;
+ box-sizing: border-box;
+}
+.chart-expanded > .chart-fullscreen { position: sticky; top: 0; z-index: 2; }
+.chart-expanded svg { width: 100%; max-height: calc(100dvh - 140px); }
+.chart-expanded .hm-frame { max-width: min(100%, 1000px); margin-inline: auto; }

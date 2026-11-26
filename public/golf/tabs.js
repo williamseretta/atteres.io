@@ -61,3 +61,5 @@ function setupSectionNavigation() {
 }
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', setupSectionNavigation, { once: true });
 else setupSectionNavigation();
+
+import './fullscreen.js';
